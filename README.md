@@ -8,6 +8,7 @@ Exploring if semantic properties proposed by AI agents can be transformed into e
 For a given program 
 
 ```python
+
 def normalize(xs):
     if len(xs) == 0:
         return xs
@@ -17,7 +18,7 @@ def normalize(xs):
 
 we want to do the following:
 
-## 1. Semantic Property Extraction
+## Semantic Property Extraction
 
 ### 1. Identify relevant structural elements of a program.
 
@@ -28,7 +29,7 @@ Some examples of structural elements to identify:
     - Loops
     - API call boundaries 
 
-for the `noramlize` program identifying code structure would have the following output:
+for the `noramlize` program identifying code structure:
 
 - Function `normalize(xs)`
 - Branch 1: `len(xs) == 0`
@@ -70,8 +71,8 @@ for the `noramlize` program extracting structure-aligned semantic properties pro
 
 ---
 
-## 2. Property Based Test/Code Generation and Execution
+## Property Based Test/Code Generation and Execution
 
-## 3. Validation and Critical Analysis
+## Validation and Critical Analysis
 
 [Notes](Notes.md)
