@@ -9,8 +9,9 @@ A semantic property is about the meaning or behavior of a program, not its synta
 python-programs: `/Users/nickocruzm/Developer/CS206/semantic_prop_project/python_programs`
 
 
-1. Prepare files to be sent via API to model.
-2. 
+parameters used for ollama models:
+- num_predict = maximum number of tokens the model is allowed to generate in the response.
+
 
 
 
