@@ -1,4 +1,5 @@
 # Semantic Property Testing AI
+
 AI Assisted Semantic Property Discovery for Testing
 
 ## Overview
