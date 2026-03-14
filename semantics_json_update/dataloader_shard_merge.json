@@ -1,0 +1,13 @@
+{
+  "file": "dataloader_shard_merge.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "dataloader_shard_merge",
+      "property": "defines_function",
+      "element": "dataloader_shard_merge",
+      "formal": "dataloader_shard_merge(left_ids, right_ids) is defined"
+    }
+  ],
+  "error": null
+}

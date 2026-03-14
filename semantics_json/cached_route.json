@@ -1,0 +1,14 @@
+{
+  "file": "cached_route.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "cached_route",
+      "property": "defines_function",
+      "element": "cached_route",
+      "formal": "cached_route(entries, key, now) is defined",
+      "file": "cached_route.py"
+    }
+  ],
+  "error": null
+}

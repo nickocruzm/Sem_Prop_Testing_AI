@@ -1,0 +1,23 @@
+{
+  "file": "gain_trendline.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "gain_trendline",
+      "property": "defines_function",
+      "element": "gain_trendline",
+      "formal": "gain_trendline(x0, y0, x1, y1, x) is defined",
+      "file": "gain_trendline.py"
+    },
+    {
+      "scope": "branch",
+      "function": "gain_trendline",
+      "element": "gain_trendline",
+      "condition": "x1 == x0",
+      "property": "raises_on_condition",
+      "formal": "if x1 == x0 then raises ValueError(\"degenerate segment\")",
+      "file": "gain_trendline.py"
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,13 @@
+{
+  "file": "config_expiry.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "config_expiry",
+      "property": "defines_function",
+      "element": "config_expiry",
+      "formal": "config_expiry(entries, key, now) is defined"
+    }
+  ],
+  "error": null
+}

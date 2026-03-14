@@ -1,0 +1,13 @@
+{
+  "file": "cacheline_expiry.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "cacheline_expiry",
+      "property": "defines_function",
+      "element": "cacheline_expiry",
+      "formal": "cacheline_expiry(cache, key, now) is defined"
+    }
+  ],
+  "error": null
+}

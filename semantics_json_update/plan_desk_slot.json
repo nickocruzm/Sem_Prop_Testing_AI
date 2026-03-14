@@ -1,0 +1,37 @@
+{
+  "file": "plan_desk_slot.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "plan_desk_slot",
+      "property": "defines_function",
+      "element": "plan_desk_slot",
+      "formal": "plan_desk_slot(existing, interval) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "plan_desk_slot",
+      "element": "plan_desk_slot",
+      "condition": "start >= end",
+      "property": "raises_on_condition",
+      "formal": "if start >= end then raises ValueError(\"invalid interval\")"
+    },
+    {
+      "scope": "function",
+      "function": "plan_desk_slot",
+      "element": "plan_desk_slot",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "plan_desk_slot(...) returns (True, updated)"
+    },
+    {
+      "scope": "branch",
+      "function": "plan_desk_slot",
+      "element": "plan_desk_slot",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "plan_desk_slot(...) returns (False, existing)"
+    }
+  ],
+  "error": null
+}

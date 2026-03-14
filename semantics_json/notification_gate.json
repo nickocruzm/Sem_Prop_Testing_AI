@@ -1,0 +1,32 @@
+{
+  "file": "notification_gate.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "notification_gate",
+      "property": "defines_function",
+      "element": "notification_gate",
+      "formal": "notification_gate(timestamps, now) is defined",
+      "file": "notification_gate.py"
+    },
+    {
+      "scope": "function",
+      "function": "notification_gate",
+      "element": "notification_gate",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "notification_gate(...) returns (True, limit - len(recent))",
+      "file": "notification_gate.py"
+    },
+    {
+      "scope": "branch",
+      "function": "notification_gate",
+      "element": "notification_gate",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "notification_gate(...) returns (False, 0)",
+      "file": "notification_gate.py"
+    }
+  ],
+  "error": null
+}

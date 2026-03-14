@@ -1,0 +1,14 @@
+{
+  "file": "blend_levels.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "blend_levels",
+      "property": "defines_function",
+      "element": "blend_levels",
+      "formal": "blend_levels(left, right) is defined",
+      "file": "blend_levels.py"
+    }
+  ],
+  "error": null
+}

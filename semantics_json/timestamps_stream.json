@@ -1,0 +1,14 @@
+{
+  "file": "timestamps_stream.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "timestamps_stream",
+      "property": "defines_function",
+      "element": "timestamps_stream",
+      "formal": "timestamps_stream(left, right) is defined",
+      "file": "timestamps_stream.py"
+    }
+  ],
+  "error": null
+}

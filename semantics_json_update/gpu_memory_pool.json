@@ -1,0 +1,37 @@
+{
+  "file": "gpu_memory_pool.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "gpu_memory_pool",
+      "property": "defines_function",
+      "element": "gpu_memory_pool",
+      "formal": "gpu_memory_pool(allocations, request) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "gpu_memory_pool",
+      "element": "gpu_memory_pool",
+      "condition": "capacity <= 0",
+      "property": "raises_on_condition",
+      "formal": "if capacity <= 0 then raises ValueError(\"capacity must be positive\")"
+    },
+    {
+      "scope": "branch",
+      "function": "gpu_memory_pool",
+      "element": "gpu_memory_pool",
+      "condition": "request < 0",
+      "property": "raises_on_condition",
+      "formal": "if request < 0 then raises ValueError(\"request must be non-negative\")"
+    },
+    {
+      "scope": "branch",
+      "function": "gpu_memory_pool",
+      "element": "gpu_memory_pool",
+      "condition": "used + request > capacity",
+      "property": "returns_constant",
+      "formal": "if used + request > capacity then gpu_memory_pool(...) == False"
+    }
+  ],
+  "error": null
+}

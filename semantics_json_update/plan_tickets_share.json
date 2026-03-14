@@ -1,0 +1,53 @@
+{
+  "file": "plan_tickets_share.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "plan_tickets_share",
+      "property": "defines_function",
+      "element": "plan_tickets_share",
+      "formal": "plan_tickets_share(total, weights) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "plan_tickets_share",
+      "element": "plan_tickets_share",
+      "condition": "len(weights) == 0",
+      "property": "raises_on_condition",
+      "formal": "if len(weights) == 0 then raises ValueError(\"weights required\")"
+    },
+    {
+      "scope": "branch",
+      "function": "plan_tickets_share",
+      "element": "plan_tickets_share",
+      "condition": "total < 0",
+      "property": "raises_on_condition",
+      "formal": "if total < 0 then raises ValueError(\"negative total\")"
+    },
+    {
+      "scope": "branch",
+      "function": "plan_tickets_share",
+      "element": "plan_tickets_share",
+      "condition": "minimum < 0",
+      "property": "raises_on_condition",
+      "formal": "if minimum < 0 then raises ValueError(\"negative minimum\")"
+    },
+    {
+      "scope": "branch",
+      "function": "plan_tickets_share",
+      "element": "plan_tickets_share",
+      "condition": "sum(weights) == 0",
+      "property": "raises_on_condition",
+      "formal": "if sum(weights) == 0 then raises ValueError(\"zero total weight\")"
+    },
+    {
+      "scope": "function",
+      "function": "plan_tickets_share",
+      "element": "plan_tickets_share",
+      "property": "length_preserving_listcomp",
+      "precondition": null,
+      "formal": "len(plan_tickets_share(...)) == len(shares)"
+    }
+  ],
+  "error": null
+}

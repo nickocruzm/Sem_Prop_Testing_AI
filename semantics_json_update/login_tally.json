@@ -1,0 +1,13 @@
+{
+  "file": "login_tally.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "login_tally",
+      "property": "defines_function",
+      "element": "login_tally",
+      "formal": "login_tally(counters, key) is defined"
+    }
+  ],
+  "error": null
+}

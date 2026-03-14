@@ -1,0 +1,14 @@
+{
+  "file": "prices_stream.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "prices_stream",
+      "property": "defines_function",
+      "element": "prices_stream",
+      "formal": "prices_stream(left, right) is defined",
+      "file": "prices_stream.py"
+    }
+  ],
+  "error": null
+}

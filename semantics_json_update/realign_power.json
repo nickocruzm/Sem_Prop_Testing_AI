@@ -1,0 +1,29 @@
+{
+  "file": "realign_power.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "realign_power",
+      "property": "defines_function",
+      "element": "realign_power",
+      "formal": "realign_power(current, target) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "realign_power",
+      "element": "realign_power",
+      "condition": "len(current) != len(target)",
+      "property": "raises_on_condition",
+      "formal": "if len(current) != len(target) then raises ValueError(\"shape mismatch\")"
+    },
+    {
+      "scope": "branch",
+      "function": "realign_power",
+      "element": "realign_power",
+      "condition": "not current",
+      "property": "raises_on_condition",
+      "formal": "if not current then raises ValueError(\"empty allocation\")"
+    }
+  ],
+  "error": null
+}

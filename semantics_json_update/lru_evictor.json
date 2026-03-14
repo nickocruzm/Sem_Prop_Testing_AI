@@ -1,0 +1,21 @@
+{
+  "file": "lru_evictor.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "lru_evictor",
+      "property": "defines_function",
+      "element": "lru_evictor",
+      "formal": "lru_evictor(order) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "lru_evictor",
+      "element": "lru_evictor",
+      "condition": "capacity < 0",
+      "property": "raises_on_condition",
+      "formal": "if capacity < 0 then raises ValueError(\"capacity must be non-negative\")"
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,13 @@
+{
+  "file": "catalog_cache.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "catalog_cache",
+      "property": "defines_function",
+      "element": "catalog_cache",
+      "formal": "catalog_cache(entries, key, now) is defined"
+    }
+  ],
+  "error": null
+}

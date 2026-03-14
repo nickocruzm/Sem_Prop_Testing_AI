@@ -1,0 +1,13 @@
+{
+  "file": "track_api.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "track_api",
+      "property": "defines_function",
+      "element": "track_api",
+      "formal": "track_api(counts, key) is defined"
+    }
+  ],
+  "error": null
+}

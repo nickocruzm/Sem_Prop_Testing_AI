@@ -1,0 +1,32 @@
+{
+  "file": "optimizer_step_guard.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "optimizer_step_guard",
+      "property": "defines_function",
+      "element": "optimizer_step_guard",
+      "formal": "optimizer_step_guard(loss_value) is defined",
+      "file": "optimizer_step_guard.py"
+    },
+    {
+      "scope": "branch",
+      "function": "optimizer_step_guard",
+      "element": "optimizer_step_guard",
+      "condition": "loss_value < 0",
+      "property": "raises_on_condition",
+      "formal": "if loss_value < 0 then raises ValueError(\"loss must be non-negative\")",
+      "file": "optimizer_step_guard.py"
+    },
+    {
+      "scope": "branch",
+      "function": "optimizer_step_guard",
+      "element": "optimizer_step_guard",
+      "condition": "loss_value == loss_value and loss_value > max_loss",
+      "property": "returns_constant",
+      "formal": "if loss_value == loss_value and loss_value > max_loss then optimizer_step_guard(...) == False",
+      "file": "optimizer_step_guard.py"
+    }
+  ],
+  "error": null
+}

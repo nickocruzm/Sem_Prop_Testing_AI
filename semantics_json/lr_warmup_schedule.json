@@ -1,0 +1,32 @@
+{
+  "file": "lr_warmup_schedule.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "lr_warmup_schedule",
+      "property": "defines_function",
+      "element": "lr_warmup_schedule",
+      "formal": "lr_warmup_schedule(step) is defined",
+      "file": "lr_warmup_schedule.py"
+    },
+    {
+      "scope": "branch",
+      "function": "lr_warmup_schedule",
+      "element": "lr_warmup_schedule",
+      "condition": "warmup_steps <= 0",
+      "property": "raises_on_condition",
+      "formal": "if warmup_steps <= 0 then raises ValueError(\"warmup_steps must be positive\")",
+      "file": "lr_warmup_schedule.py"
+    },
+    {
+      "scope": "branch",
+      "function": "lr_warmup_schedule",
+      "element": "lr_warmup_schedule",
+      "condition": "step < 0",
+      "property": "raises_on_condition",
+      "formal": "if step < 0 then raises ValueError(\"step must be non-negative\")",
+      "file": "lr_warmup_schedule.py"
+    }
+  ],
+  "error": null
+}

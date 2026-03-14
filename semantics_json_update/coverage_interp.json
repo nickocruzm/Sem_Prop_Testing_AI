@@ -1,0 +1,21 @@
+{
+  "file": "coverage_interp.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "coverage_interp",
+      "property": "defines_function",
+      "element": "coverage_interp",
+      "formal": "coverage_interp(x0, y0, x1, y1, x) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "coverage_interp",
+      "element": "coverage_interp",
+      "condition": "x1 == x0",
+      "property": "raises_on_condition",
+      "formal": "if x1 == x0 then raises ValueError(\"degenerate segment\")"
+    }
+  ],
+  "error": null
+}

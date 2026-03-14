@@ -1,0 +1,29 @@
+{
+  "file": "upload_gate.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "upload_gate",
+      "property": "defines_function",
+      "element": "upload_gate",
+      "formal": "upload_gate(timestamps, now) is defined"
+    },
+    {
+      "scope": "function",
+      "function": "upload_gate",
+      "element": "upload_gate",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "upload_gate(...) returns (True, limit - len(active))"
+    },
+    {
+      "scope": "branch",
+      "function": "upload_gate",
+      "element": "upload_gate",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "upload_gate(...) returns (False, 0)"
+    }
+  ],
+  "error": null
+}

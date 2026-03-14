@@ -1,0 +1,77 @@
+{
+  "file": "payment_payout.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "payment_payout",
+      "property": "defines_function",
+      "element": "payment_payout",
+      "formal": "payment_payout(amount, ratios) is defined",
+      "file": "payment_payout.py"
+    },
+    {
+      "scope": "branch",
+      "function": "payment_payout",
+      "element": "payment_payout",
+      "condition": "not ratios",
+      "property": "raises_on_condition",
+      "formal": "if not ratios then raises ValueError(\"ratios required\")",
+      "file": "payment_payout.py"
+    },
+    {
+      "scope": "branch",
+      "function": "payment_payout",
+      "element": "payment_payout",
+      "condition": "amount < 0",
+      "property": "raises_on_condition",
+      "formal": "if amount < 0 then raises ValueError(\"negative amount\")",
+      "file": "payment_payout.py"
+    },
+    {
+      "scope": "branch",
+      "function": "payment_payout",
+      "element": "payment_payout",
+      "condition": "total_ratio <= 0",
+      "property": "raises_on_condition",
+      "formal": "if total_ratio <= 0 then raises ValueError(\"invalid ratios\")",
+      "file": "payment_payout.py"
+    },
+    {
+      "scope": "function",
+      "function": "payment_payout",
+      "element": "payment_payout",
+      "property": "length_preserving_listcomp",
+      "precondition": null,
+      "formal": "len(payment_payout(...)) == len(shares)",
+      "file": "payment_payout.py"
+    },
+    {
+      "scope": "function",
+      "function": "payment_payout",
+      "element": "payment_payout",
+      "property": "allocation_length_matches_ratios",
+      "precondition": null,
+      "formal": "len(shares) == len(ratios)",
+      "file": "payment_payout.py"
+    },
+    {
+      "scope": "function",
+      "function": "payment_payout",
+      "element": "payment_payout",
+      "property": "ratio_allocation_sum_preserved_pre_fee",
+      "precondition": "sum(ratios) != 0",
+      "formal": "sum(shares) == amount",
+      "file": "payment_payout.py"
+    },
+    {
+      "scope": "function",
+      "function": "payment_payout",
+      "element": "payment_payout",
+      "property": "fee_shifts_total_by_n_times_fee",
+      "precondition": null,
+      "formal": "sum(payment_payout(...)) == amount - fee * len(ratios)",
+      "file": "payment_payout.py"
+    }
+  ],
+  "error": null
+}

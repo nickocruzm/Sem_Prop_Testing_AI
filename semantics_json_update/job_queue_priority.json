@@ -1,0 +1,29 @@
+{
+  "file": "job_queue_priority.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "job_queue_priority",
+      "property": "defines_function",
+      "element": "job_queue_priority",
+      "formal": "job_queue_priority(jobs) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "job_queue_priority",
+      "element": "job_queue_priority",
+      "condition": "max_jobs < 0",
+      "property": "raises_on_condition",
+      "formal": "if max_jobs < 0 then raises ValueError(\"max_jobs must be non-negative\")"
+    },
+    {
+      "scope": "branch",
+      "function": "job_queue_priority",
+      "element": "job_queue_priority",
+      "condition": "len(jobs) > max_jobs",
+      "property": "returns_constant",
+      "formal": "if len(jobs) > max_jobs then job_queue_priority(...) == False"
+    }
+  ],
+  "error": null
+}

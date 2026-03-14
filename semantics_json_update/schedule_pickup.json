@@ -1,0 +1,37 @@
+{
+  "file": "schedule_pickup.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "schedule_pickup",
+      "property": "defines_function",
+      "element": "schedule_pickup",
+      "formal": "schedule_pickup(timeline, window) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "schedule_pickup",
+      "element": "schedule_pickup",
+      "condition": "a >= b",
+      "property": "raises_on_condition",
+      "formal": "if a >= b then raises ValueError(\"empty window\")"
+    },
+    {
+      "scope": "function",
+      "function": "schedule_pickup",
+      "element": "schedule_pickup",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "schedule_pickup(...) returns (True, result)"
+    },
+    {
+      "scope": "branch",
+      "function": "schedule_pickup",
+      "element": "schedule_pickup",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "schedule_pickup(...) returns (False, timeline)"
+    }
+  ],
+  "error": null
+}

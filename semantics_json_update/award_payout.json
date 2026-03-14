@@ -1,0 +1,69 @@
+{
+  "file": "award_payout.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "award_payout",
+      "property": "defines_function",
+      "element": "award_payout",
+      "formal": "award_payout(amount, ratios) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "award_payout",
+      "element": "award_payout",
+      "condition": "not ratios",
+      "property": "raises_on_condition",
+      "formal": "if not ratios then raises ValueError(\"ratios required\")"
+    },
+    {
+      "scope": "branch",
+      "function": "award_payout",
+      "element": "award_payout",
+      "condition": "amount < 0",
+      "property": "raises_on_condition",
+      "formal": "if amount < 0 then raises ValueError(\"negative amount\")"
+    },
+    {
+      "scope": "branch",
+      "function": "award_payout",
+      "element": "award_payout",
+      "condition": "total_ratio <= 0",
+      "property": "raises_on_condition",
+      "formal": "if total_ratio <= 0 then raises ValueError(\"invalid ratios\")"
+    },
+    {
+      "scope": "function",
+      "function": "award_payout",
+      "element": "award_payout",
+      "property": "length_preserving_listcomp",
+      "precondition": null,
+      "formal": "len(award_payout(...)) == len(shares)"
+    },
+    {
+      "scope": "function",
+      "function": "award_payout",
+      "element": "award_payout",
+      "property": "allocation_length_matches_ratios",
+      "precondition": null,
+      "formal": "len(shares) == len(ratios)"
+    },
+    {
+      "scope": "function",
+      "function": "award_payout",
+      "element": "award_payout",
+      "property": "ratio_allocation_sum_preserved_pre_fee",
+      "precondition": "sum(ratios) != 0",
+      "formal": "sum(shares) == amount"
+    },
+    {
+      "scope": "function",
+      "function": "award_payout",
+      "element": "award_payout",
+      "property": "fee_shifts_total_by_n_times_fee",
+      "precondition": null,
+      "formal": "sum(award_payout(...)) == amount - fee * len(ratios)"
+    }
+  ],
+  "error": null
+}

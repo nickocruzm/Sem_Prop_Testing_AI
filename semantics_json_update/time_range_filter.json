@@ -1,0 +1,37 @@
+{
+  "file": "time_range_filter.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "time_range_filter",
+      "property": "defines_function",
+      "element": "time_range_filter",
+      "formal": "time_range_filter(points, start, end) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "time_range_filter",
+      "element": "time_range_filter",
+      "condition": "start >= end",
+      "property": "raises_on_condition",
+      "formal": "if start >= end then raises ValueError(\"invalid range\")"
+    },
+    {
+      "scope": "function",
+      "function": "time_range_filter",
+      "element": "time_range_filter",
+      "property": "filtered_subset_listcomp",
+      "precondition": null,
+      "formal": "forall y in time_range_filter(...): y in points and (start <= p[0] <= end)"
+    },
+    {
+      "scope": "function",
+      "function": "time_range_filter",
+      "element": "time_range_filter",
+      "property": "filtered_length_upper_bound",
+      "precondition": null,
+      "formal": "len(time_range_filter(...)) <= len(points)"
+    }
+  ],
+  "error": null
+}

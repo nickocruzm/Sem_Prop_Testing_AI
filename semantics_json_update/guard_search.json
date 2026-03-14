@@ -1,0 +1,29 @@
+{
+  "file": "guard_search.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "guard_search",
+      "property": "defines_function",
+      "element": "guard_search",
+      "formal": "guard_search(timestamps, now) is defined"
+    },
+    {
+      "scope": "function",
+      "function": "guard_search",
+      "element": "guard_search",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "guard_search(...) returns (True, limit - len(active))"
+    },
+    {
+      "scope": "branch",
+      "function": "guard_search",
+      "element": "guard_search",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "guard_search(...) returns (False, 0)"
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,23 @@
+{
+  "file": "speed_trendline.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "speed_trendline",
+      "property": "defines_function",
+      "element": "speed_trendline",
+      "formal": "speed_trendline(x0, y0, x1, y1, x) is defined",
+      "file": "speed_trendline.py"
+    },
+    {
+      "scope": "branch",
+      "function": "speed_trendline",
+      "element": "speed_trendline",
+      "condition": "x0 == x1",
+      "property": "raises_on_condition",
+      "formal": "if x0 == x1 then raises ValueError(\"x0 equals x1\")",
+      "file": "speed_trendline.py"
+    }
+  ],
+  "error": null
+}

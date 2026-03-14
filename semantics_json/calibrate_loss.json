@@ -1,0 +1,23 @@
+{
+  "file": "calibrate_loss.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "calibrate_loss",
+      "property": "defines_function",
+      "element": "calibrate_loss",
+      "formal": "calibrate_loss(x0, y0, x1, y1, x) is defined",
+      "file": "calibrate_loss.py"
+    },
+    {
+      "scope": "branch",
+      "function": "calibrate_loss",
+      "element": "calibrate_loss",
+      "condition": "x1 == x0",
+      "property": "raises_on_condition",
+      "formal": "if x1 == x0 then raises ValueError(\"degenerate segment\")",
+      "file": "calibrate_loss.py"
+    }
+  ],
+  "error": null
+}

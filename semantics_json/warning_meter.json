@@ -1,0 +1,14 @@
+{
+  "file": "warning_meter.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "warning_meter",
+      "property": "defines_function",
+      "element": "warning_meter",
+      "formal": "warning_meter(counters, key) is defined",
+      "file": "warning_meter.py"
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,13 @@
+{
+  "file": "ttl_snapshot_store.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "ttl_snapshot_store",
+      "property": "defines_function",
+      "element": "ttl_snapshot_store",
+      "formal": "ttl_snapshot_store(entries, key, now) is defined"
+    }
+  ],
+  "error": null
+}

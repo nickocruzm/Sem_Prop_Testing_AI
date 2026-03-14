@@ -1,0 +1,45 @@
+{
+  "file": "tip_share.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "tip_share",
+      "property": "defines_function",
+      "element": "tip_share",
+      "formal": "tip_share(amount, ratios) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "tip_share",
+      "element": "tip_share",
+      "condition": "len(ratios) == 0",
+      "property": "raises_on_condition",
+      "formal": "if len(ratios) == 0 then raises ValueError(\"no ratios\")"
+    },
+    {
+      "scope": "branch",
+      "function": "tip_share",
+      "element": "tip_share",
+      "condition": "sum(ratios) <= 0",
+      "property": "raises_on_condition",
+      "formal": "if sum(ratios) <= 0 then raises ValueError(\"invalid ratios\")"
+    },
+    {
+      "scope": "branch",
+      "function": "tip_share",
+      "element": "tip_share",
+      "condition": "amount < 0",
+      "property": "raises_on_condition",
+      "formal": "if amount < 0 then raises ValueError(\"negative amount\")"
+    },
+    {
+      "scope": "function",
+      "function": "tip_share",
+      "element": "tip_share",
+      "property": "length_preserving_listcomp",
+      "precondition": null,
+      "formal": "len(tip_share(...)) == len(base)"
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,13 @@
+{
+  "file": "latencies_merge.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "latencies_merge",
+      "property": "defines_function",
+      "element": "latencies_merge",
+      "formal": "latencies_merge(left, right) is defined"
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,13 @@
+{
+  "file": "combine_responses.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "combine_responses",
+      "property": "defines_function",
+      "element": "combine_responses",
+      "formal": "combine_responses(left, right) is defined"
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,32 @@
+{
+  "file": "shift_risk.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "shift_risk",
+      "property": "defines_function",
+      "element": "shift_risk",
+      "formal": "shift_risk(current, target) is defined",
+      "file": "shift_risk.py"
+    },
+    {
+      "scope": "branch",
+      "function": "shift_risk",
+      "element": "shift_risk",
+      "condition": "len(current) != len(target)",
+      "property": "raises_on_condition",
+      "formal": "if len(current) != len(target) then raises ValueError(\"shape mismatch\")",
+      "file": "shift_risk.py"
+    },
+    {
+      "scope": "branch",
+      "function": "shift_risk",
+      "element": "shift_risk",
+      "condition": "not current",
+      "property": "raises_on_condition",
+      "formal": "if not current then raises ValueError(\"empty allocation\")",
+      "file": "shift_risk.py"
+    }
+  ],
+  "error": null
+}

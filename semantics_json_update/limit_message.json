@@ -1,0 +1,29 @@
+{
+  "file": "limit_message.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "limit_message",
+      "property": "defines_function",
+      "element": "limit_message",
+      "formal": "limit_message(timestamps, now) is defined"
+    },
+    {
+      "scope": "function",
+      "function": "limit_message",
+      "element": "limit_message",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "limit_message(...) returns (True, limit - len(recent))"
+    },
+    {
+      "scope": "branch",
+      "function": "limit_message",
+      "element": "limit_message",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "limit_message(...) returns (False, 0)"
+    }
+  ],
+  "error": null
+}

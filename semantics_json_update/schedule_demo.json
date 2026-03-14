@@ -1,0 +1,37 @@
+{
+  "file": "schedule_demo.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "schedule_demo",
+      "property": "defines_function",
+      "element": "schedule_demo",
+      "formal": "schedule_demo(existing, interval) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "schedule_demo",
+      "element": "schedule_demo",
+      "condition": "start >= end",
+      "property": "raises_on_condition",
+      "formal": "if start >= end then raises ValueError(\"invalid interval\")"
+    },
+    {
+      "scope": "function",
+      "function": "schedule_demo",
+      "element": "schedule_demo",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "schedule_demo(...) returns (True, updated)"
+    },
+    {
+      "scope": "branch",
+      "function": "schedule_demo",
+      "element": "schedule_demo",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "schedule_demo(...) returns (False, existing)"
+    }
+  ],
+  "error": null
+}

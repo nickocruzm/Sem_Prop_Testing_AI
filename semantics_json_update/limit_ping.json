@@ -1,0 +1,29 @@
+{
+  "file": "limit_ping.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "limit_ping",
+      "property": "defines_function",
+      "element": "limit_ping",
+      "formal": "limit_ping(timestamps, now) is defined"
+    },
+    {
+      "scope": "function",
+      "function": "limit_ping",
+      "element": "limit_ping",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "limit_ping(...) returns (True, limit - len(recent))"
+    },
+    {
+      "scope": "branch",
+      "function": "limit_ping",
+      "element": "limit_ping",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "limit_ping(...) returns (False, 0)"
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,32 @@
+{
+  "file": "audit_window_filter.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "audit_window_filter",
+      "property": "defines_function",
+      "element": "audit_window_filter",
+      "formal": "audit_window_filter(timestamps, now) is defined",
+      "file": "audit_window_filter.py"
+    },
+    {
+      "scope": "function",
+      "function": "audit_window_filter",
+      "element": "audit_window_filter",
+      "property": "filtered_subset_listcomp",
+      "precondition": null,
+      "formal": "forall y in audit_window_filter(...): y in timestamps and (t >= cutoff)",
+      "file": "audit_window_filter.py"
+    },
+    {
+      "scope": "function",
+      "function": "audit_window_filter",
+      "element": "audit_window_filter",
+      "property": "filtered_length_upper_bound",
+      "precondition": null,
+      "formal": "len(audit_window_filter(...)) <= len(timestamps)",
+      "file": "audit_window_filter.py"
+    }
+  ],
+  "error": null
+}

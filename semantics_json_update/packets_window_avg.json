@@ -1,0 +1,29 @@
+{
+  "file": "packets_window_avg.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "packets_window_avg",
+      "property": "defines_function",
+      "element": "packets_window_avg",
+      "formal": "packets_window_avg(values) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "packets_window_avg",
+      "element": "packets_window_avg",
+      "condition": "window <= 0",
+      "property": "raises_on_condition",
+      "formal": "if window <= 0 then raises ValueError(\"window must be positive\")"
+    },
+    {
+      "scope": "branch",
+      "function": "packets_window_avg",
+      "element": "packets_window_avg",
+      "condition": "not values",
+      "property": "raises_on_condition",
+      "formal": "if not values then raises ValueError(\"no values\")"
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,14 @@
+{
+  "file": "prediction_cache.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "prediction_cache",
+      "property": "defines_function",
+      "element": "prediction_cache",
+      "formal": "prediction_cache(store, key, now) is defined",
+      "file": "prediction_cache.py"
+    }
+  ],
+  "error": null
+}

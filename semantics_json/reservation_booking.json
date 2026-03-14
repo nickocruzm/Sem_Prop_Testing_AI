@@ -1,0 +1,41 @@
+{
+  "file": "reservation_booking.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "reservation_booking",
+      "property": "defines_function",
+      "element": "reservation_booking",
+      "formal": "reservation_booking(existing, interval) is defined",
+      "file": "reservation_booking.py"
+    },
+    {
+      "scope": "branch",
+      "function": "reservation_booking",
+      "element": "reservation_booking",
+      "condition": "start >= end",
+      "property": "raises_on_condition",
+      "formal": "if start >= end then raises ValueError(\"invalid interval\")",
+      "file": "reservation_booking.py"
+    },
+    {
+      "scope": "function",
+      "function": "reservation_booking",
+      "element": "reservation_booking",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "reservation_booking(...) returns (True, updated)",
+      "file": "reservation_booking.py"
+    },
+    {
+      "scope": "branch",
+      "function": "reservation_booking",
+      "element": "reservation_booking",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "reservation_booking(...) returns (False, existing)",
+      "file": "reservation_booking.py"
+    }
+  ],
+  "error": null
+}

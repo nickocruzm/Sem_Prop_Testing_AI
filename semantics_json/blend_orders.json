@@ -1,0 +1,14 @@
+{
+  "file": "blend_orders.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "blend_orders",
+      "property": "defines_function",
+      "element": "blend_orders",
+      "formal": "blend_orders(left, right) is defined",
+      "file": "blend_orders.py"
+    }
+  ],
+  "error": null
+}

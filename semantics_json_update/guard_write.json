@@ -1,0 +1,29 @@
+{
+  "file": "guard_write.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "guard_write",
+      "property": "defines_function",
+      "element": "guard_write",
+      "formal": "guard_write(timestamps, now) is defined"
+    },
+    {
+      "scope": "function",
+      "function": "guard_write",
+      "element": "guard_write",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "guard_write(...) returns (True, limit - len(recent))"
+    },
+    {
+      "scope": "branch",
+      "function": "guard_write",
+      "element": "guard_write",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "guard_write(...) returns (False, 0)"
+    }
+  ],
+  "error": null
+}

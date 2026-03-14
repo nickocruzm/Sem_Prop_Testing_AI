@@ -1,0 +1,13 @@
+{
+  "file": "combine_requests.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "combine_requests",
+      "property": "defines_function",
+      "element": "combine_requests",
+      "formal": "combine_requests(left, right) is defined"
+    }
+  ],
+  "error": null
+}

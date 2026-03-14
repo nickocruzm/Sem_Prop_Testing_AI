@@ -1,0 +1,14 @@
+{
+  "file": "track_delivery.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "track_delivery",
+      "property": "defines_function",
+      "element": "track_delivery",
+      "formal": "track_delivery(counters, key) is defined",
+      "file": "track_delivery.py"
+    }
+  ],
+  "error": null
+}

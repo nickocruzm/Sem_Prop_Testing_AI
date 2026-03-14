@@ -1,0 +1,13 @@
+{
+  "file": "bump_click.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "bump_click",
+      "property": "defines_function",
+      "element": "bump_click",
+      "formal": "bump_click(counters, key) is defined"
+    }
+  ],
+  "error": null
+}

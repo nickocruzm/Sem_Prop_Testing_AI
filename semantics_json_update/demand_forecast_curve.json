@@ -1,0 +1,21 @@
+{
+  "file": "demand_forecast_curve.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "demand_forecast_curve",
+      "property": "defines_function",
+      "element": "demand_forecast_curve",
+      "formal": "demand_forecast_curve(x0, y0, x1, y1, x) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "demand_forecast_curve",
+      "element": "demand_forecast_curve",
+      "condition": "x0 == x1",
+      "property": "raises_on_condition",
+      "formal": "if x0 == x1 then raises ValueError(\"x0 == x1\")"
+    }
+  ],
+  "error": null
+}

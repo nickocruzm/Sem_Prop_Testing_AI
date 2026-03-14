@@ -1,0 +1,13 @@
+{
+  "file": "windowed_error_rate.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "windowed_error_rate",
+      "property": "defines_function",
+      "element": "windowed_error_rate",
+      "formal": "windowed_error_rate(events, now) is defined"
+    }
+  ],
+  "error": null
+}

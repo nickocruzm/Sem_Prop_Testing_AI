@@ -1,0 +1,41 @@
+{
+  "file": "payment_split_rebate.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "payment_split_rebate",
+      "property": "defines_function",
+      "element": "payment_split_rebate",
+      "formal": "payment_split_rebate(total, ratios) is defined",
+      "file": "payment_split_rebate.py"
+    },
+    {
+      "scope": "branch",
+      "function": "payment_split_rebate",
+      "element": "payment_split_rebate",
+      "condition": "total < 0",
+      "property": "raises_on_condition",
+      "formal": "if total < 0 then raises ValueError(\"negative total\")",
+      "file": "payment_split_rebate.py"
+    },
+    {
+      "scope": "branch",
+      "function": "payment_split_rebate",
+      "element": "payment_split_rebate",
+      "condition": "not ratios or sum(ratios) <= 0",
+      "property": "raises_on_condition",
+      "formal": "if not ratios or sum(ratios) <= 0 then raises ValueError(\"invalid ratios\")",
+      "file": "payment_split_rebate.py"
+    },
+    {
+      "scope": "function",
+      "function": "payment_split_rebate",
+      "element": "payment_split_rebate",
+      "property": "length_preserving_listcomp",
+      "precondition": null,
+      "formal": "len(payment_split_rebate(...)) == len(shares)",
+      "file": "payment_split_rebate.py"
+    }
+  ],
+  "error": null
+}

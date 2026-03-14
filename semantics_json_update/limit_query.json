@@ -1,0 +1,29 @@
+{
+  "file": "limit_query.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "limit_query",
+      "property": "defines_function",
+      "element": "limit_query",
+      "formal": "limit_query(timestamps, now) is defined"
+    },
+    {
+      "scope": "function",
+      "function": "limit_query",
+      "element": "limit_query",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "limit_query(...) returns (True, limit - len(active))"
+    },
+    {
+      "scope": "branch",
+      "function": "limit_query",
+      "element": "limit_query",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "limit_query(...) returns (False, 0)"
+    }
+  ],
+  "error": null
+}

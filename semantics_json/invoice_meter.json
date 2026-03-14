@@ -1,0 +1,14 @@
+{
+  "file": "invoice_meter.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "invoice_meter",
+      "property": "defines_function",
+      "element": "invoice_meter",
+      "formal": "invoice_meter(counts, key) is defined",
+      "file": "invoice_meter.py"
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,32 @@
+{
+  "file": "search_result_pager.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "search_result_pager",
+      "property": "defines_function",
+      "element": "search_result_pager",
+      "formal": "search_result_pager(results, page) is defined",
+      "file": "search_result_pager.py"
+    },
+    {
+      "scope": "branch",
+      "function": "search_result_pager",
+      "element": "search_result_pager",
+      "condition": "page < 1",
+      "property": "raises_on_condition",
+      "formal": "if page < 1 then raises ValueError(\"page must be >= 1\")",
+      "file": "search_result_pager.py"
+    },
+    {
+      "scope": "branch",
+      "function": "search_result_pager",
+      "element": "search_result_pager",
+      "condition": "page_size <= 0",
+      "property": "raises_on_condition",
+      "formal": "if page_size <= 0 then raises ValueError(\"page_size must be positive\")",
+      "file": "search_result_pager.py"
+    }
+  ],
+  "error": null
+}

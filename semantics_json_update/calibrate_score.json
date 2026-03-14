@@ -1,0 +1,21 @@
+{
+  "file": "calibrate_score.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "calibrate_score",
+      "property": "defines_function",
+      "element": "calibrate_score",
+      "formal": "calibrate_score(x0, y0, x1, y1, x) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "calibrate_score",
+      "element": "calibrate_score",
+      "condition": "x1 == x0",
+      "property": "raises_on_condition",
+      "formal": "if x1 == x0 then raises ValueError(\"degenerate segment\")"
+    }
+  ],
+  "error": null
+}

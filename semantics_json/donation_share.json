@@ -1,0 +1,50 @@
+{
+  "file": "donation_share.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "donation_share",
+      "property": "defines_function",
+      "element": "donation_share",
+      "formal": "donation_share(amount, ratios) is defined",
+      "file": "donation_share.py"
+    },
+    {
+      "scope": "branch",
+      "function": "donation_share",
+      "element": "donation_share",
+      "condition": "not ratios",
+      "property": "raises_on_condition",
+      "formal": "if not ratios then raises ValueError(\"empty ratios\")",
+      "file": "donation_share.py"
+    },
+    {
+      "scope": "branch",
+      "function": "donation_share",
+      "element": "donation_share",
+      "condition": "sum(ratios) <= 0",
+      "property": "raises_on_condition",
+      "formal": "if sum(ratios) <= 0 then raises ValueError(\"invalid ratios\")",
+      "file": "donation_share.py"
+    },
+    {
+      "scope": "branch",
+      "function": "donation_share",
+      "element": "donation_share",
+      "condition": "amount < 0",
+      "property": "raises_on_condition",
+      "formal": "if amount < 0 then raises ValueError(\"negative amount\")",
+      "file": "donation_share.py"
+    },
+    {
+      "scope": "function",
+      "function": "donation_share",
+      "element": "donation_share",
+      "property": "length_preserving_listcomp",
+      "precondition": null,
+      "formal": "len(donation_share(...)) == len(base)",
+      "file": "donation_share.py"
+    }
+  ],
+  "error": null
+}

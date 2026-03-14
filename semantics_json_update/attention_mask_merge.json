@@ -1,0 +1,21 @@
+{
+  "file": "attention_mask_merge.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "attention_mask_merge",
+      "property": "defines_function",
+      "element": "attention_mask_merge",
+      "formal": "attention_mask_merge(mask_a, mask_b) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "attention_mask_merge",
+      "element": "attention_mask_merge",
+      "condition": "len(mask_a) != len(mask_b)",
+      "property": "raises_on_condition",
+      "formal": "if len(mask_a) != len(mask_b) then raises ValueError(\"shape mismatch\")"
+    }
+  ],
+  "error": null
+}

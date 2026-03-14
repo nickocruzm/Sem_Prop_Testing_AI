@@ -1,0 +1,50 @@
+{
+  "file": "quota_for_inventory.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "quota_for_inventory",
+      "property": "defines_function",
+      "element": "quota_for_inventory",
+      "formal": "quota_for_inventory(total, weights) is defined",
+      "file": "quota_for_inventory.py"
+    },
+    {
+      "scope": "branch",
+      "function": "quota_for_inventory",
+      "element": "quota_for_inventory",
+      "condition": "total < 0",
+      "property": "raises_on_condition",
+      "formal": "if total < 0 then raises ValueError(\"total must be non-negative\")",
+      "file": "quota_for_inventory.py"
+    },
+    {
+      "scope": "branch",
+      "function": "quota_for_inventory",
+      "element": "quota_for_inventory",
+      "condition": "minimum < 0",
+      "property": "raises_on_condition",
+      "formal": "if minimum < 0 then raises ValueError(\"minimum must be non-negative\")",
+      "file": "quota_for_inventory.py"
+    },
+    {
+      "scope": "branch",
+      "function": "quota_for_inventory",
+      "element": "quota_for_inventory",
+      "condition": "not weights",
+      "property": "raises_on_condition",
+      "formal": "if not weights then raises ValueError(\"no weights provided\")",
+      "file": "quota_for_inventory.py"
+    },
+    {
+      "scope": "branch",
+      "function": "quota_for_inventory",
+      "element": "quota_for_inventory",
+      "condition": "not any(weights)",
+      "property": "raises_on_condition",
+      "formal": "if not any(weights) then raises ValueError(\"all weights are zero\")",
+      "file": "quota_for_inventory.py"
+    }
+  ],
+  "error": null
+}

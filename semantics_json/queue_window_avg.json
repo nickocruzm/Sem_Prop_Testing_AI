@@ -1,0 +1,32 @@
+{
+  "file": "queue_window_avg.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "queue_window_avg",
+      "property": "defines_function",
+      "element": "queue_window_avg",
+      "formal": "queue_window_avg(values) is defined",
+      "file": "queue_window_avg.py"
+    },
+    {
+      "scope": "branch",
+      "function": "queue_window_avg",
+      "element": "queue_window_avg",
+      "condition": "window <= 0",
+      "property": "raises_on_condition",
+      "formal": "if window <= 0 then raises ValueError(\"window must be positive\")",
+      "file": "queue_window_avg.py"
+    },
+    {
+      "scope": "branch",
+      "function": "queue_window_avg",
+      "element": "queue_window_avg",
+      "condition": "not values",
+      "property": "raises_on_condition",
+      "formal": "if not values then raises ValueError(\"empty series\")",
+      "file": "queue_window_avg.py"
+    }
+  ],
+  "error": null
+}

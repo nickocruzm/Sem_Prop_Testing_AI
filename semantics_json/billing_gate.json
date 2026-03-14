@@ -1,0 +1,32 @@
+{
+  "file": "billing_gate.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "billing_gate",
+      "property": "defines_function",
+      "element": "billing_gate",
+      "formal": "billing_gate(timestamps, now) is defined",
+      "file": "billing_gate.py"
+    },
+    {
+      "scope": "function",
+      "function": "billing_gate",
+      "element": "billing_gate",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "billing_gate(...) returns (True, limit - len(active))",
+      "file": "billing_gate.py"
+    },
+    {
+      "scope": "branch",
+      "function": "billing_gate",
+      "element": "billing_gate",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "billing_gate(...) returns (False, 0)",
+      "file": "billing_gate.py"
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,29 @@
+{
+  "file": "latency_rolling_avg.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "latency_rolling_avg",
+      "property": "defines_function",
+      "element": "latency_rolling_avg",
+      "formal": "latency_rolling_avg(series) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "latency_rolling_avg",
+      "element": "latency_rolling_avg",
+      "condition": "window <= 0",
+      "property": "raises_on_condition",
+      "formal": "if window <= 0 then raises ValueError(\"invalid window\")"
+    },
+    {
+      "scope": "branch",
+      "function": "latency_rolling_avg",
+      "element": "latency_rolling_avg",
+      "condition": "not series",
+      "property": "raises_on_condition",
+      "formal": "if not series then raises ValueError(\"no samples\")"
+    }
+  ],
+  "error": null
+}

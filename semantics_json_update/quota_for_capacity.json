@@ -1,0 +1,53 @@
+{
+  "file": "quota_for_capacity.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "quota_for_capacity",
+      "property": "defines_function",
+      "element": "quota_for_capacity",
+      "formal": "quota_for_capacity(total, weights) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "quota_for_capacity",
+      "element": "quota_for_capacity",
+      "condition": "len(weights) == 0",
+      "property": "raises_on_condition",
+      "formal": "if len(weights) == 0 then raises ValueError(\"weights required\")"
+    },
+    {
+      "scope": "branch",
+      "function": "quota_for_capacity",
+      "element": "quota_for_capacity",
+      "condition": "total < 0",
+      "property": "raises_on_condition",
+      "formal": "if total < 0 then raises ValueError(\"negative total\")"
+    },
+    {
+      "scope": "branch",
+      "function": "quota_for_capacity",
+      "element": "quota_for_capacity",
+      "condition": "minimum < 0",
+      "property": "raises_on_condition",
+      "formal": "if minimum < 0 then raises ValueError(\"negative minimum\")"
+    },
+    {
+      "scope": "branch",
+      "function": "quota_for_capacity",
+      "element": "quota_for_capacity",
+      "condition": "sum(weights) == 0",
+      "property": "raises_on_condition",
+      "formal": "if sum(weights) == 0 then raises ValueError(\"zero total weight\")"
+    },
+    {
+      "scope": "function",
+      "function": "quota_for_capacity",
+      "element": "quota_for_capacity",
+      "property": "length_preserving_listcomp",
+      "precondition": null,
+      "formal": "len(quota_for_capacity(...)) == len(shares)"
+    }
+  ],
+  "error": null
+}

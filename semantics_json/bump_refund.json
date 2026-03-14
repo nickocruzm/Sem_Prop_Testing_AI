@@ -1,0 +1,14 @@
+{
+  "file": "bump_refund.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "bump_refund",
+      "property": "defines_function",
+      "element": "bump_refund",
+      "formal": "bump_refund(counts, key) is defined",
+      "file": "bump_refund.py"
+    }
+  ],
+  "error": null
+}

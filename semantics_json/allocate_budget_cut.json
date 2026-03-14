@@ -1,0 +1,77 @@
+{
+  "file": "allocate_budget_cut.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "allocate_budget_cut",
+      "property": "defines_function",
+      "element": "allocate_budget_cut",
+      "formal": "allocate_budget_cut(amount, ratios) is defined",
+      "file": "allocate_budget_cut.py"
+    },
+    {
+      "scope": "branch",
+      "function": "allocate_budget_cut",
+      "element": "allocate_budget_cut",
+      "condition": "not ratios",
+      "property": "raises_on_condition",
+      "formal": "if not ratios then raises ValueError(\"ratios required\")",
+      "file": "allocate_budget_cut.py"
+    },
+    {
+      "scope": "branch",
+      "function": "allocate_budget_cut",
+      "element": "allocate_budget_cut",
+      "condition": "amount < 0",
+      "property": "raises_on_condition",
+      "formal": "if amount < 0 then raises ValueError(\"negative amount\")",
+      "file": "allocate_budget_cut.py"
+    },
+    {
+      "scope": "branch",
+      "function": "allocate_budget_cut",
+      "element": "allocate_budget_cut",
+      "condition": "total_ratio <= 0",
+      "property": "raises_on_condition",
+      "formal": "if total_ratio <= 0 then raises ValueError(\"invalid ratios\")",
+      "file": "allocate_budget_cut.py"
+    },
+    {
+      "scope": "function",
+      "function": "allocate_budget_cut",
+      "element": "allocate_budget_cut",
+      "property": "length_preserving_listcomp",
+      "precondition": null,
+      "formal": "len(allocate_budget_cut(...)) == len(shares)",
+      "file": "allocate_budget_cut.py"
+    },
+    {
+      "scope": "function",
+      "function": "allocate_budget_cut",
+      "element": "allocate_budget_cut",
+      "property": "allocation_length_matches_ratios",
+      "precondition": null,
+      "formal": "len(shares) == len(ratios)",
+      "file": "allocate_budget_cut.py"
+    },
+    {
+      "scope": "function",
+      "function": "allocate_budget_cut",
+      "element": "allocate_budget_cut",
+      "property": "ratio_allocation_sum_preserved_pre_fee",
+      "precondition": "sum(ratios) != 0",
+      "formal": "sum(shares) == amount",
+      "file": "allocate_budget_cut.py"
+    },
+    {
+      "scope": "function",
+      "function": "allocate_budget_cut",
+      "element": "allocate_budget_cut",
+      "property": "fee_shifts_total_by_n_times_fee",
+      "precondition": null,
+      "formal": "sum(allocate_budget_cut(...)) == amount - fee * len(ratios)",
+      "file": "allocate_budget_cut.py"
+    }
+  ],
+  "error": null
+}

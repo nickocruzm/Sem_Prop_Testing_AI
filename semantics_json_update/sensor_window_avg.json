@@ -1,0 +1,29 @@
+{
+  "file": "sensor_window_avg.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "sensor_window_avg",
+      "property": "defines_function",
+      "element": "sensor_window_avg",
+      "formal": "sensor_window_avg(samples) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "sensor_window_avg",
+      "element": "sensor_window_avg",
+      "condition": "window <= 0",
+      "property": "raises_on_condition",
+      "formal": "if window <= 0 then raises ValueError(\"window must be positive\")"
+    },
+    {
+      "scope": "branch",
+      "function": "sensor_window_avg",
+      "element": "sensor_window_avg",
+      "condition": "not samples",
+      "property": "raises_on_condition",
+      "formal": "if not samples then raises ValueError(\"no samples\")"
+    }
+  ],
+  "error": null
+}

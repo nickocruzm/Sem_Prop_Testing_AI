@@ -1,0 +1,3215 @@
+{
+  "summary": {
+    "exception": 0,
+    "fail": 45,
+    "flaky": 0,
+    "pass": 281,
+    "skip": 116
+  },
+  "total-generated-tests": 442,
+  "groups": {
+    "ad_mix.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_ad_mix.py::test_ad_mix_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_ad_mix.py::test_ad_mix_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "adjust_allocation.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_adjust_allocation.py::test_adjust_allocation_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_adjust_allocation.py::test_adjust_allocation_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "adjust_portfolio.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_adjust_portfolio.py::test_adjust_portfolio_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_adjust_portfolio.py::test_adjust_portfolio_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "adjust_queue.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_adjust_queue.py::test_adjust_queue_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_adjust_queue.py::test_adjust_queue_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "adjust_supply.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_adjust_supply.py::test_adjust_supply_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_adjust_supply.py::test_adjust_supply_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "allocate_bonus_cut.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_allocate_bonus_cut.py::test_allocate_bonus_cut_fee_shift_total_7": "fail",
+        "semantic_prop_project/generated_tests/test_allocate_bonus_cut.py::test_allocate_bonus_cut_length_preserving_4": "fail",
+        "semantic_prop_project/generated_tests/test_allocate_bonus_cut.py::test_allocate_bonus_cut_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_allocate_bonus_cut.py::test_allocate_bonus_cut_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "fail": 2,
+        "pass": 2,
+        "exception": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "allocate_bounty_cut.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_allocate_bounty_cut.py::test_allocate_bounty_cut_length_preserving_4": "pass",
+        "semantic_prop_project/generated_tests/test_allocate_bounty_cut.py::test_allocate_bounty_cut_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_allocate_bounty_cut.py::test_allocate_bounty_cut_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_allocate_bounty_cut.py::test_allocate_bounty_cut_raises_on_condition_3": "pass"
+      },
+      "summary": {
+        "pass": 4,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "allocate_budget_cut.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_allocate_budget_cut.py::test_allocate_budget_cut_fee_shift_total_7": "fail",
+        "semantic_prop_project/generated_tests/test_allocate_budget_cut.py::test_allocate_budget_cut_length_preserving_4": "fail",
+        "semantic_prop_project/generated_tests/test_allocate_budget_cut.py::test_allocate_budget_cut_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_allocate_budget_cut.py::test_allocate_budget_cut_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "fail": 2,
+        "pass": 2,
+        "exception": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "allocate_pool_cut.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_allocate_pool_cut.py::test_allocate_pool_cut_fee_shift_total_7": "fail",
+        "semantic_prop_project/generated_tests/test_allocate_pool_cut.py::test_allocate_pool_cut_length_preserving_4": "fail",
+        "semantic_prop_project/generated_tests/test_allocate_pool_cut.py::test_allocate_pool_cut_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_allocate_pool_cut.py::test_allocate_pool_cut_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "fail": 2,
+        "pass": 2,
+        "exception": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "allocate_prize_cut.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_allocate_prize_cut.py::test_allocate_prize_cut_fee_shift_total_7": "fail",
+        "semantic_prop_project/generated_tests/test_allocate_prize_cut.py::test_allocate_prize_cut_length_preserving_4": "fail",
+        "semantic_prop_project/generated_tests/test_allocate_prize_cut.py::test_allocate_prize_cut_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_allocate_prize_cut.py::test_allocate_prize_cut_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "fail": 2,
+        "pass": 2,
+        "exception": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "api_rate_guard.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_api_rate_guard.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "attention_mask_merge.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_attention_mask_merge.py::test_attention_mask_merge_raises_on_condition_1": "fail"
+      },
+      "summary": {
+        "fail": 1,
+        "exception": 0,
+        "flaky": 0,
+        "pass": 0,
+        "skip": 0
+      }
+    },
+    "audit_window_filter.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_audit_window_filter.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "award_payout.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_award_payout.py::test_award_payout_fee_shift_total_7": "fail",
+        "semantic_prop_project/generated_tests/test_award_payout.py::test_award_payout_length_preserving_4": "fail",
+        "semantic_prop_project/generated_tests/test_award_payout.py::test_award_payout_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_award_payout.py::test_award_payout_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "fail": 2,
+        "pass": 2,
+        "exception": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "backlog_rolling_avg.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_backlog_rolling_avg.py::test_backlog_rolling_avg_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_backlog_rolling_avg.py::test_backlog_rolling_avg_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "bandwidth_apportion.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_bandwidth_apportion.py::test_bandwidth_apportion_length_preserving_4": "pass",
+        "semantic_prop_project/generated_tests/test_bandwidth_apportion.py::test_bandwidth_apportion_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_bandwidth_apportion.py::test_bandwidth_apportion_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_bandwidth_apportion.py::test_bandwidth_apportion_raises_on_condition_3": "pass"
+      },
+      "summary": {
+        "pass": 4,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "bandwidth_budgeter.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_bandwidth_budgeter.py::test_bandwidth_budgeter_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_bandwidth_budgeter.py::test_bandwidth_budgeter_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_bandwidth_budgeter.py::test_bandwidth_budgeter_raises_on_condition_3": "pass",
+        "semantic_prop_project/generated_tests/test_bandwidth_budgeter.py::test_bandwidth_budgeter_raises_on_condition_4": "fail"
+      },
+      "summary": {
+        "pass": 3,
+        "fail": 1,
+        "exception": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "bandwidth_rebalance.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_bandwidth_rebalance.py::test_bandwidth_rebalance_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_bandwidth_rebalance.py::test_bandwidth_rebalance_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "batch_rate.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_batch_rate.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "batch_tally.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_batch_tally.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "batchnorm_running_mean.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_batchnorm_running_mean.py::test_batchnorm_running_mean_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "bill_payout.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_bill_payout.py::test_bill_payout_fee_shift_total_7": "fail",
+        "semantic_prop_project/generated_tests/test_bill_payout.py::test_bill_payout_length_preserving_4": "fail",
+        "semantic_prop_project/generated_tests/test_bill_payout.py::test_bill_payout_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_bill_payout.py::test_bill_payout_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "fail": 2,
+        "pass": 2,
+        "exception": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "billing_gate.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_billing_gate.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "blend_levels.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_blend_levels.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "blend_margins.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_blend_margins.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "blend_orders.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_blend_orders.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "blend_supplies.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_blend_supplies.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "budget_budgeter.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_budget_budgeter.py::test_budget_budgeter_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_budget_budgeter.py::test_budget_budgeter_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_budget_budgeter.py::test_budget_budgeter_raises_on_condition_3": "pass",
+        "semantic_prop_project/generated_tests/test_budget_budgeter.py::test_budget_budgeter_raises_on_condition_4": "pass"
+      },
+      "summary": {
+        "pass": 4,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "budget_mix.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_budget_mix.py::test_budget_mix_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_budget_mix.py::test_budget_mix_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "bump_click.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_bump_click.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "bump_conversion.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_bump_conversion.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "bump_job.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_bump_job.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "bump_purchase.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_bump_purchase.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "bump_refund.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_bump_refund.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "cache_entry_ttl.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_cache_entry_ttl.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "cached_inventory.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_cached_inventory.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "cached_manifest.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_cached_manifest.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "cached_metric.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_cached_metric.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "cached_preference.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_cached_preference.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "cached_route.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_cached_route.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "cacheline_expiry.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_cacheline_expiry.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "cacheline_refresh.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_cacheline_refresh.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "calendar_slot_insert.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_calendar_slot_insert.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "calibrate_latency.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_calibrate_latency.py::test_calibrate_latency_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "calibrate_lift.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_calibrate_lift.py::test_calibrate_lift_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "calibrate_loss.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_calibrate_loss.py::test_calibrate_loss_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "calibrate_pressure.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_calibrate_pressure.py::test_calibrate_pressure_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "calibrate_quality.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_calibrate_quality.py::test_calibrate_quality_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "calibrate_score.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_calibrate_score.py::test_calibrate_score_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "calibrate_trend.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_calibrate_trend.py::test_calibrate_trend_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "catalog_cache.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_catalog_cache.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "checkout_rate.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_checkout_rate.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "cluster_rebalance_weights.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_cluster_rebalance_weights.py::test_cluster_rebalance_weights_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_cluster_rebalance_weights.py::test_cluster_rebalance_weights_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "combine_depths.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_combine_depths.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "combine_offsets.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_combine_offsets.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "combine_requests.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_combine_requests.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "combine_responses.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_combine_responses.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "combine_scores.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_combine_scores.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "confidence_trendline.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_confidence_trendline.py::test_confidence_trendline_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "config_expiry.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_config_expiry.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "config_interpolate.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_config_interpolate.py::test_config_interpolate_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "cost_trendline.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_cost_trendline.py::test_cost_trendline_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "coupons_apportion.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_coupons_apportion.py::test_coupons_apportion_length_preserving_5": "pass",
+        "semantic_prop_project/generated_tests/test_coupons_apportion.py::test_coupons_apportion_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_coupons_apportion.py::test_coupons_apportion_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_coupons_apportion.py::test_coupons_apportion_raises_on_condition_3": "pass",
+        "semantic_prop_project/generated_tests/test_coupons_apportion.py::test_coupons_apportion_raises_on_condition_4": "fail"
+      },
+      "summary": {
+        "pass": 4,
+        "fail": 1,
+        "exception": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "coverage_interp.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_coverage_interp.py::test_coverage_interp_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "cpu_allocator.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_cpu_allocator.py::test_cpu_allocator_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_cpu_allocator.py::test_cpu_allocator_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_cpu_allocator.py::test_cpu_allocator_raises_on_condition_3": "pass",
+        "semantic_prop_project/generated_tests/test_cpu_allocator.py::test_cpu_allocator_raises_on_condition_4": "fail"
+      },
+      "summary": {
+        "pass": 3,
+        "fail": 1,
+        "exception": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "credit_share.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_credit_share.py::test_credit_share_fee_shift_total_7": "fail",
+        "semantic_prop_project/generated_tests/test_credit_share.py::test_credit_share_length_preserving_4": "fail",
+        "semantic_prop_project/generated_tests/test_credit_share.py::test_credit_share_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_credit_share.py::test_credit_share_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "fail": 2,
+        "pass": 2,
+        "exception": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "credits_allocator.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_credits_allocator.py::test_credits_allocator_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_credits_allocator.py::test_credits_allocator_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_credits_allocator.py::test_credits_allocator_raises_on_condition_3": "pass",
+        "semantic_prop_project/generated_tests/test_credits_allocator.py::test_credits_allocator_raises_on_condition_4": "fail"
+      },
+      "summary": {
+        "pass": 3,
+        "fail": 1,
+        "exception": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "dataloader_shard_merge.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_dataloader_shard_merge.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "demand_curve.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_demand_curve.py::test_demand_curve_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "demand_forecast_curve.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_demand_forecast_curve.py::test_demand_forecast_curve_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "demands_union.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_demands_union.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "divide_coupon.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_divide_coupon.py::test_divide_coupon_length_preserving_4": "pass",
+        "semantic_prop_project/generated_tests/test_divide_coupon.py::test_divide_coupon_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_divide_coupon.py::test_divide_coupon_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_divide_coupon.py::test_divide_coupon_raises_on_condition_3": "pass"
+      },
+      "summary": {
+        "pass": 4,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "divide_refund.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_divide_refund.py::test_divide_refund_length_preserving_4": "pass",
+        "semantic_prop_project/generated_tests/test_divide_refund.py::test_divide_refund_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_divide_refund.py::test_divide_refund_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_divide_refund.py::test_divide_refund_raises_on_condition_3": "pass"
+      },
+      "summary": {
+        "pass": 4,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "donation_share.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_donation_share.py::test_donation_share_length_preserving_4": "pass",
+        "semantic_prop_project/generated_tests/test_donation_share.py::test_donation_share_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_donation_share.py::test_donation_share_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_donation_share.py::test_donation_share_raises_on_condition_3": "pass"
+      },
+      "summary": {
+        "pass": 4,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "download_rate.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_download_rate.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "downtime_booking.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_downtime_booking.py::test_downtime_booking_raises_on_condition_1": "fail"
+      },
+      "summary": {
+        "fail": 1,
+        "exception": 0,
+        "flaky": 0,
+        "pass": 0,
+        "skip": 0
+      }
+    },
+    "draft_cache.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_draft_cache.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "email_send_quota.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_email_send_quota.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "embedding_lookup_cache.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_embedding_lookup_cache.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "energy_window_avg.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_energy_window_avg.py::test_energy_window_avg_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_energy_window_avg.py::test_energy_window_avg_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "error_meter.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_error_meter.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "estimate_reliability.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_estimate_reliability.py::test_estimate_reliability_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "estimate_supply.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_estimate_supply.py::test_estimate_supply_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "estimate_temperature.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_estimate_temperature.py::test_estimate_temperature_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "event_gate.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_event_gate.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "feature_cache.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_feature_cache.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "feature_flag_rollout.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_feature_flag_rollout.py::test_feature_flag_rollout_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "fee_splitter.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_fee_splitter.py::test_fee_splitter_length_preserving_4": "pass",
+        "semantic_prop_project/generated_tests/test_fee_splitter.py::test_fee_splitter_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_fee_splitter.py::test_fee_splitter_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_fee_splitter.py::test_fee_splitter_raises_on_condition_3": "pass"
+      },
+      "summary": {
+        "pass": 4,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "file_chunk_stitch.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_file_chunk_stitch.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "fuel_moving_mean.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_fuel_moving_mean.py::test_fuel_moving_mean_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_fuel_moving_mean.py::test_fuel_moving_mean_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "gain_trendline.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_gain_trendline.py::test_gain_trendline_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "gpu_memory_pool.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_gpu_memory_pool.py::test_gpu_memory_pool_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_gpu_memory_pool.py::test_gpu_memory_pool_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "grades_union.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_grades_union.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "gradient_clip_budget.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_gradient_clip_budget.py::test_gradient_clip_budget_length_preserving_2": "fail",
+        "semantic_prop_project/generated_tests/test_gradient_clip_budget.py::test_gradient_clip_budget_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "fail": 1,
+        "pass": 1,
+        "exception": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "grant_share.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_grant_share.py::test_grant_share_length_preserving_4": "pass",
+        "semantic_prop_project/generated_tests/test_grant_share.py::test_grant_share_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_grant_share.py::test_grant_share_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_grant_share.py::test_grant_share_raises_on_condition_3": "pass"
+      },
+      "summary": {
+        "pass": 4,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "growth_trendline.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_growth_trendline.py::test_growth_trendline_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "guard_email.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_guard_email.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "guard_search.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_guard_search.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "guard_write.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_guard_write.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "heartbeat_throttle.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_heartbeat_throttle.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "histogram_bucket_merge.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_histogram_bucket_merge.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "ids_merge.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_ids_merge.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "inspection_booking.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_inspection_booking.py::test_inspection_booking_raises_on_condition_1": "fail"
+      },
+      "summary": {
+        "fail": 1,
+        "exception": 0,
+        "flaky": 0,
+        "pass": 0,
+        "skip": 0
+      }
+    },
+    "invoice_merge_stream.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_invoice_merge_stream.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "invoice_meter.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_invoice_meter.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "job_queue_priority.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_job_queue_priority.py::test_job_queue_priority_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_job_queue_priority.py::test_job_queue_priority_returns_constant_2": "fail"
+      },
+      "summary": {
+        "pass": 1,
+        "fail": 1,
+        "exception": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "kv_snapshot_reader.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_kv_snapshot_reader.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "latencies_merge.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_latencies_merge.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "latency_rolling_avg.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_latency_rolling_avg.py::test_latency_rolling_avg_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_latency_rolling_avg.py::test_latency_rolling_avg_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "ledger_balance_rollup.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_ledger_balance_rollup.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "limit_api.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_limit_api.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "limit_job.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_limit_job.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "limit_message.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_limit_message.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "limit_ping.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_limit_ping.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "limit_query.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_limit_query.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "limit_sensor.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_limit_sensor.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "load_mix.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_load_mix.py::test_load_mix_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_load_mix.py::test_load_mix_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "load_rolling_avg.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_load_rolling_avg.py::test_load_rolling_avg_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_load_rolling_avg.py::test_load_rolling_avg_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "log_sampling_decider.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_log_sampling_decider.py::test_log_sampling_decider_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "login_tally.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_login_tally.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "login_throttle.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_login_throttle.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "lr_warmup_schedule.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_lr_warmup_schedule.py::test_lr_warmup_schedule_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_lr_warmup_schedule.py::test_lr_warmup_schedule_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "lru_evictor.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_lru_evictor.py::test_lru_evictor_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "machine_booking.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_machine_booking.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "maintenance_booking.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_maintenance_booking.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "memory_moving_mean.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_memory_moving_mean.py::test_memory_moving_mean_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_memory_moving_mean.py::test_memory_moving_mean_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "message_counter.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_message_counter.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "metric_rolling_avg.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_metric_rolling_avg.py::test_metric_rolling_avg_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_metric_rolling_avg.py::test_metric_rolling_avg_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "model_confidence_clamp.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_model_confidence_clamp.py::test_model_confidence_clamp_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "normalize.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_normalize.py::test_normalize_identity_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_normalize.py::test_normalize_length_preserving_2": "skip",
+        "semantic_prop_project/generated_tests/test_normalize.py::test_normalize_sign_preservation_4": "pass",
+        "semantic_prop_project/generated_tests/test_normalize.py::test_normalize_unit_sum_3": "pass"
+      },
+      "summary": {
+        "pass": 3,
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0
+      }
+    },
+    "notification_gate.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_notification_gate.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "offer_expiry.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_offer_expiry.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "optimizer_step_guard.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_optimizer_step_guard.py::test_optimizer_step_guard_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_optimizer_step_guard.py::test_optimizer_step_guard_returns_constant_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "packets_window_avg.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_packets_window_avg.py::test_packets_window_avg_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_packets_window_avg.py::test_packets_window_avg_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "pages_union.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_pages_union.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "payment_payout.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_payment_payout.py::test_payment_payout_fee_shift_total_7": "fail",
+        "semantic_prop_project/generated_tests/test_payment_payout.py::test_payment_payout_length_preserving_4": "fail",
+        "semantic_prop_project/generated_tests/test_payment_payout.py::test_payment_payout_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_payment_payout.py::test_payment_payout_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "fail": 2,
+        "pass": 2,
+        "exception": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "payment_split_rebate.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_payment_split_rebate.py::test_payment_split_rebate_length_preserving_3": "pass",
+        "semantic_prop_project/generated_tests/test_payment_split_rebate.py::test_payment_split_rebate_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_payment_split_rebate.py::test_payment_split_rebate_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 3,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "percentile_estimator.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_percentile_estimator.py::test_percentile_estimator_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_percentile_estimator.py::test_percentile_estimator_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "plan_appointment_slot.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_plan_appointment_slot.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "plan_conference_slot.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_plan_conference_slot.py::test_plan_conference_slot_raises_on_condition_1": "fail"
+      },
+      "summary": {
+        "fail": 1,
+        "exception": 0,
+        "flaky": 0,
+        "pass": 0,
+        "skip": 0
+      }
+    },
+    "plan_delivery_slot.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_plan_delivery_slot.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "plan_desk_slot.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_plan_desk_slot.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "plan_jobs_share.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_plan_jobs_share.py::test_plan_jobs_share_length_preserving_5": "pass",
+        "semantic_prop_project/generated_tests/test_plan_jobs_share.py::test_plan_jobs_share_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_plan_jobs_share.py::test_plan_jobs_share_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_plan_jobs_share.py::test_plan_jobs_share_raises_on_condition_3": "pass",
+        "semantic_prop_project/generated_tests/test_plan_jobs_share.py::test_plan_jobs_share_raises_on_condition_4": "fail"
+      },
+      "summary": {
+        "pass": 4,
+        "fail": 1,
+        "exception": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "plan_memo.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_plan_memo.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "plan_points_share.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_plan_points_share.py::test_plan_points_share_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_plan_points_share.py::test_plan_points_share_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_plan_points_share.py::test_plan_points_share_raises_on_condition_3": "pass"
+      },
+      "summary": {
+        "pass": 3,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "plan_seats_share.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_plan_seats_share.py::test_plan_seats_share_length_preserving_5": "pass",
+        "semantic_prop_project/generated_tests/test_plan_seats_share.py::test_plan_seats_share_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_plan_seats_share.py::test_plan_seats_share_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_plan_seats_share.py::test_plan_seats_share_raises_on_condition_3": "pass",
+        "semantic_prop_project/generated_tests/test_plan_seats_share.py::test_plan_seats_share_raises_on_condition_4": "pass"
+      },
+      "summary": {
+        "pass": 5,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "plan_tickets_share.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_plan_tickets_share.py::test_plan_tickets_share_length_preserving_5": "pass",
+        "semantic_prop_project/generated_tests/test_plan_tickets_share.py::test_plan_tickets_share_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_plan_tickets_share.py::test_plan_tickets_share_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_plan_tickets_share.py::test_plan_tickets_share_raises_on_condition_3": "pass",
+        "semantic_prop_project/generated_tests/test_plan_tickets_share.py::test_plan_tickets_share_raises_on_condition_4": "pass"
+      },
+      "summary": {
+        "pass": 5,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "plan_upgrade_slot.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_plan_upgrade_slot.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "prediction_cache.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_prediction_cache.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "price_cache.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_price_cache.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "prices_stream.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_prices_stream.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "priority_mix.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_priority_mix.py::test_priority_mix_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_priority_mix.py::test_priority_mix_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "probability_curve.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_probability_curve.py::test_probability_curve_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "probability_rebalance.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_probability_rebalance.py::test_probability_rebalance_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_probability_rebalance.py::test_probability_rebalance_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "profile_expiry.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_profile_expiry.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "queue_window_avg.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_queue_window_avg.py::test_queue_window_avg_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_queue_window_avg.py::test_queue_window_avg_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "quota_allocator_service.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_quota_allocator_service.py::test_quota_allocator_service_length_preserving_4": "pass",
+        "semantic_prop_project/generated_tests/test_quota_allocator_service.py::test_quota_allocator_service_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_quota_allocator_service.py::test_quota_allocator_service_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_quota_allocator_service.py::test_quota_allocator_service_raises_on_condition_3": "pass"
+      },
+      "summary": {
+        "pass": 4,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "quota_for_capacity.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_quota_for_capacity.py::test_quota_for_capacity_length_preserving_5": "pass",
+        "semantic_prop_project/generated_tests/test_quota_for_capacity.py::test_quota_for_capacity_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_quota_for_capacity.py::test_quota_for_capacity_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_quota_for_capacity.py::test_quota_for_capacity_raises_on_condition_3": "pass",
+        "semantic_prop_project/generated_tests/test_quota_for_capacity.py::test_quota_for_capacity_raises_on_condition_4": "fail"
+      },
+      "summary": {
+        "pass": 4,
+        "fail": 1,
+        "exception": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "quota_for_fuel.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_quota_for_fuel.py::test_quota_for_fuel_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_quota_for_fuel.py::test_quota_for_fuel_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_quota_for_fuel.py::test_quota_for_fuel_raises_on_condition_3": "pass",
+        "semantic_prop_project/generated_tests/test_quota_for_fuel.py::test_quota_for_fuel_raises_on_condition_4": "fail"
+      },
+      "summary": {
+        "pass": 3,
+        "fail": 1,
+        "exception": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "quota_for_inventory.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_quota_for_inventory.py::test_quota_for_inventory_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_quota_for_inventory.py::test_quota_for_inventory_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_quota_for_inventory.py::test_quota_for_inventory_raises_on_condition_3": "pass",
+        "semantic_prop_project/generated_tests/test_quota_for_inventory.py::test_quota_for_inventory_raises_on_condition_4": "pass"
+      },
+      "summary": {
+        "pass": 4,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "quota_for_memory.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_quota_for_memory.py::test_quota_for_memory_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_quota_for_memory.py::test_quota_for_memory_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_quota_for_memory.py::test_quota_for_memory_raises_on_condition_3": "pass",
+        "semantic_prop_project/generated_tests/test_quota_for_memory.py::test_quota_for_memory_raises_on_condition_4": "fail"
+      },
+      "summary": {
+        "pass": 3,
+        "fail": 1,
+        "exception": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "quota_for_storage.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_quota_for_storage.py::test_quota_for_storage_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_quota_for_storage.py::test_quota_for_storage_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_quota_for_storage.py::test_quota_for_storage_raises_on_condition_3": "pass",
+        "semantic_prop_project/generated_tests/test_quota_for_storage.py::test_quota_for_storage_raises_on_condition_4": "fail"
+      },
+      "summary": {
+        "pass": 3,
+        "fail": 1,
+        "exception": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "quote_memo.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_quote_memo.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "rating_curve.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_rating_curve.py::test_rating_curve_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "read_throttle.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_read_throttle.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "realign_cache.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_realign_cache.py::test_realign_cache_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_realign_cache.py::test_realign_cache_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "realign_power.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_realign_power.py::test_realign_power_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_realign_power.py::test_realign_power_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "realign_replica.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_realign_replica.py::test_realign_replica_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_realign_replica.py::test_realign_replica_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "rebate_splitter.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_rebate_splitter.py::test_rebate_splitter_length_preserving_4": "pass",
+        "semantic_prop_project/generated_tests/test_rebate_splitter.py::test_rebate_splitter_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_rebate_splitter.py::test_rebate_splitter_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_rebate_splitter.py::test_rebate_splitter_raises_on_condition_3": "pass"
+      },
+      "summary": {
+        "pass": 4,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "redis_like_expiry.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_redis_like_expiry.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "rent_splitter.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_rent_splitter.py::test_rent_splitter_length_preserving_4": "pass",
+        "semantic_prop_project/generated_tests/test_rent_splitter.py::test_rent_splitter_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_rent_splitter.py::test_rent_splitter_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_rent_splitter.py::test_rent_splitter_raises_on_condition_3": "pass"
+      },
+      "summary": {
+        "pass": 4,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "replica_sync_offsets.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_replica_sync_offsets.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "request_token_bucket.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_request_token_bucket.py::test_request_token_bucket_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "reservation_booking.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_reservation_booking.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "reservation_overlap_check.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_reservation_overlap_check.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "reserve_band.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_reserve_band.py::test_reserve_band_raises_on_condition_1": "fail"
+      },
+      "summary": {
+        "fail": 1,
+        "exception": 0,
+        "flaky": 0,
+        "pass": 0,
+        "skip": 0
+      }
+    },
+    "reserve_lane.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_reserve_lane.py::test_reserve_lane_raises_on_condition_1": "fail"
+      },
+      "summary": {
+        "fail": 1,
+        "exception": 0,
+        "flaky": 0,
+        "pass": 0,
+        "skip": 0
+      }
+    },
+    "reserve_slot.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_reserve_slot.py::test_reserve_slot_raises_on_condition_1": "fail"
+      },
+      "summary": {
+        "fail": 1,
+        "exception": 0,
+        "flaky": 0,
+        "pass": 0,
+        "skip": 0
+      }
+    },
+    "retry_backoff_window.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_retry_backoff_window.py::test_retry_backoff_window_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "retry_tally.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_retry_tally.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "revenue_share.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_revenue_share.py::test_revenue_share_fee_shift_total_7": "fail",
+        "semantic_prop_project/generated_tests/test_revenue_share.py::test_revenue_share_length_preserving_4": "fail",
+        "semantic_prop_project/generated_tests/test_revenue_share.py::test_revenue_share_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_revenue_share.py::test_revenue_share_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "fail": 2,
+        "pass": 2,
+        "exception": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "rolling_errors.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_rolling_errors.py::test_rolling_errors_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_rolling_errors.py::test_rolling_errors_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "rolling_requests.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_rolling_requests.py::test_rolling_requests_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_rolling_requests.py::test_rolling_requests_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "rolling_retries.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_rolling_retries.py::test_rolling_retries_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_rolling_retries.py::test_rolling_retries_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "rolling_usage.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_rolling_usage.py::test_rolling_usage_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_rolling_usage.py::test_rolling_usage_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "room_reservation.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_room_reservation.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "royalty_payout.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_royalty_payout.py::test_royalty_payout_fee_shift_total_7": "fail",
+        "semantic_prop_project/generated_tests/test_royalty_payout.py::test_royalty_payout_length_preserving_4": "fail",
+        "semantic_prop_project/generated_tests/test_royalty_payout.py::test_royalty_payout_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_royalty_payout.py::test_royalty_payout_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "fail": 2,
+        "pass": 2,
+        "exception": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "sales_window_avg.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_sales_window_avg.py::test_sales_window_avg_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_sales_window_avg.py::test_sales_window_avg_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "schedule_call.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_schedule_call.py::test_schedule_call_raises_on_condition_1": "fail"
+      },
+      "summary": {
+        "fail": 1,
+        "exception": 0,
+        "flaky": 0,
+        "pass": 0,
+        "skip": 0
+      }
+    },
+    "schedule_car.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_schedule_car.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "schedule_demo.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_schedule_demo.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "schedule_pickup.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_schedule_pickup.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "schedule_shift_allocator.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_schedule_shift_allocator.py::test_schedule_shift_allocator_length_preserving_4": "pass",
+        "semantic_prop_project/generated_tests/test_schedule_shift_allocator.py::test_schedule_shift_allocator_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_schedule_shift_allocator.py::test_schedule_shift_allocator_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_schedule_shift_allocator.py::test_schedule_shift_allocator_raises_on_condition_3": "pass"
+      },
+      "summary": {
+        "pass": 4,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "schedule_training.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_schedule_training.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "schedule_window.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_schedule_window.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "scores_apportion.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_scores_apportion.py::test_scores_apportion_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_scores_apportion.py::test_scores_apportion_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_scores_apportion.py::test_scores_apportion_raises_on_condition_3": "pass"
+      },
+      "summary": {
+        "pass": 3,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "search_result_pager.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_search_result_pager.py::test_search_result_pager_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_search_result_pager.py::test_search_result_pager_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "sensor_window_avg.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_sensor_window_avg.py::test_sensor_window_avg_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_sensor_window_avg.py::test_sensor_window_avg_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "session_memo.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_session_memo.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "shard_assignment.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_shard_assignment.py::test_shard_assignment_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "shares_apportion.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_shares_apportion.py::test_shares_apportion_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_shares_apportion.py::test_shares_apportion_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_shares_apportion.py::test_shares_apportion_raises_on_condition_3": "pass",
+        "semantic_prop_project/generated_tests/test_shares_apportion.py::test_shares_apportion_raises_on_condition_4": "fail"
+      },
+      "summary": {
+        "pass": 3,
+        "fail": 1,
+        "exception": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "shift_demand.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_shift_demand.py::test_shift_demand_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_shift_demand.py::test_shift_demand_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "shift_feature.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_shift_feature.py::test_shift_feature_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_shift_feature.py::test_shift_feature_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "shift_risk.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_shift_risk.py::test_shift_risk_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_shift_risk.py::test_shift_risk_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "shift_traffic.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_shift_traffic.py::test_shift_traffic_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_shift_traffic.py::test_shift_traffic_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "shift_trust.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_shift_trust.py::test_shift_trust_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_shift_trust.py::test_shift_trust_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "shift_weight.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_shift_weight.py::test_shift_weight_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_shift_weight.py::test_shift_weight_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "signals_stream.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_signals_stream.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "slots_apportion.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_slots_apportion.py::test_slots_apportion_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_slots_apportion.py::test_slots_apportion_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_slots_apportion.py::test_slots_apportion_raises_on_condition_3": "pass",
+        "semantic_prop_project/generated_tests/test_slots_apportion.py::test_slots_apportion_raises_on_condition_4": "fail"
+      },
+      "summary": {
+        "pass": 3,
+        "fail": 1,
+        "exception": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "smooth_clicks.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_smooth_clicks.py::test_smooth_clicks_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_smooth_clicks.py::test_smooth_clicks_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "smooth_cpu.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_smooth_cpu.py::test_smooth_cpu_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_smooth_cpu.py::test_smooth_cpu_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "smooth_pressure.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_smooth_pressure.py::test_smooth_pressure_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_smooth_pressure.py::test_smooth_pressure_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "smooth_throughput.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_smooth_throughput.py::test_smooth_throughput_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_smooth_throughput.py::test_smooth_throughput_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "speed_trendline.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_speed_trendline.py::test_speed_trendline_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "storage_mix.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_storage_mix.py::test_storage_mix_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_storage_mix.py::test_storage_mix_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "storage_quota_split.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_storage_quota_split.py::test_storage_quota_split_length_preserving_3": "pass",
+        "semantic_prop_project/generated_tests/test_storage_quota_split.py::test_storage_quota_split_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_storage_quota_split.py::test_storage_quota_split_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 3,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "stream_joiner.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_stream_joiner.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "subsidy_payout.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_subsidy_payout.py::test_subsidy_payout_fee_shift_total_7": "fail",
+        "semantic_prop_project/generated_tests/test_subsidy_payout.py::test_subsidy_payout_length_preserving_4": "fail",
+        "semantic_prop_project/generated_tests/test_subsidy_payout.py::test_subsidy_payout_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_subsidy_payout.py::test_subsidy_payout_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "fail": 2,
+        "pass": 2,
+        "exception": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "summary_memo.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_summary_memo.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "task_tally.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_task_tally.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "task_throttle.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_task_throttle.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "tasks_allocator.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_tasks_allocator.py::test_tasks_allocator_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_tasks_allocator.py::test_tasks_allocator_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_tasks_allocator.py::test_tasks_allocator_raises_on_condition_3": "pass",
+        "semantic_prop_project/generated_tests/test_tasks_allocator.py::test_tasks_allocator_raises_on_condition_4": "pass"
+      },
+      "summary": {
+        "pass": 4,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "temperature_window_avg.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_temperature_window_avg.py::test_temperature_window_avg_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_temperature_window_avg.py::test_temperature_window_avg_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "tensor_slice_pad.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_tensor_slice_pad.py::test_tensor_slice_pad_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "throughput_trendline.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_throughput_trendline.py::test_throughput_trendline_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "tiers_stream.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_tiers_stream.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "time_range_filter.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_time_range_filter.py::test_time_range_filter_raises_on_condition_1": "pass"
+      },
+      "summary": {
+        "pass": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "timestamps_stream.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_timestamps_stream.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "tip_share.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_tip_share.py::test_tip_share_length_preserving_4": "pass",
+        "semantic_prop_project/generated_tests/test_tip_share.py::test_tip_share_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_tip_share.py::test_tip_share_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_tip_share.py::test_tip_share_raises_on_condition_3": "pass"
+      },
+      "summary": {
+        "pass": 4,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "token_cache.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_token_cache.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "token_expiry_check.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_token_expiry_check.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "track_api.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_track_api.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "track_build.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_track_build.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "track_delivery.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_track_delivery.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "track_deployment.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_track_deployment.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "track_logout.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_track_logout.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "track_release.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_track_release.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "traffic_shaping_gate.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_traffic_shaping_gate.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "ttl_snapshot_store.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_ttl_snapshot_store.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "txn_dedup_merge.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_txn_dedup_merge.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "upload_gate.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_upload_gate.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "versions_stream.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_versions_stream.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "view_tally.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_view_tally.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "views_moving_mean.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_views_moving_mean.py::test_views_moving_mean_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_views_moving_mean.py::test_views_moving_mean_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "volume_moving_mean.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_volume_moving_mean.py::test_volume_moving_mean_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_volume_moving_mean.py::test_volume_moving_mean_raises_on_condition_2": "pass"
+      },
+      "summary": {
+        "pass": 2,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "votes_apportion.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_votes_apportion.py::test_votes_apportion_length_preserving_5": "pass",
+        "semantic_prop_project/generated_tests/test_votes_apportion.py::test_votes_apportion_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_votes_apportion.py::test_votes_apportion_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_votes_apportion.py::test_votes_apportion_raises_on_condition_3": "pass",
+        "semantic_prop_project/generated_tests/test_votes_apportion.py::test_votes_apportion_raises_on_condition_4": "fail"
+      },
+      "summary": {
+        "pass": 4,
+        "fail": 1,
+        "exception": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "warm_cache_loader.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_warm_cache_loader.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "warning_meter.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_warning_meter.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "water_allocator.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_water_allocator.py::test_water_allocator_length_preserving_5": "pass",
+        "semantic_prop_project/generated_tests/test_water_allocator.py::test_water_allocator_raises_on_condition_1": "pass",
+        "semantic_prop_project/generated_tests/test_water_allocator.py::test_water_allocator_raises_on_condition_2": "pass",
+        "semantic_prop_project/generated_tests/test_water_allocator.py::test_water_allocator_raises_on_condition_3": "pass",
+        "semantic_prop_project/generated_tests/test_water_allocator.py::test_water_allocator_raises_on_condition_4": "fail"
+      },
+      "summary": {
+        "pass": 4,
+        "fail": 1,
+        "exception": 0,
+        "flaky": 0,
+        "skip": 0
+      }
+    },
+    "weights_union.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_weights_union.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    },
+    "windowed_error_rate.py": {
+      "tests": {
+        "semantic_prop_project/generated_tests/test_windowed_error_rate.py::test_generated_no_supported_properties": "skip"
+      },
+      "summary": {
+        "skip": 1,
+        "exception": 0,
+        "fail": 0,
+        "flaky": 0,
+        "pass": 0
+      }
+    }
+  }
+}

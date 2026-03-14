@@ -1,0 +1,14 @@
+{
+  "file": "weights_union.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "weights_union",
+      "property": "defines_function",
+      "element": "weights_union",
+      "formal": "weights_union(left, right) is defined",
+      "file": "weights_union.py"
+    }
+  ],
+  "error": null
+}

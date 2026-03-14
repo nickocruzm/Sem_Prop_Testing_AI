@@ -1,0 +1,59 @@
+{
+  "file": "plan_jobs_share.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "plan_jobs_share",
+      "property": "defines_function",
+      "element": "plan_jobs_share",
+      "formal": "plan_jobs_share(total, weights) is defined",
+      "file": "plan_jobs_share.py"
+    },
+    {
+      "scope": "branch",
+      "function": "plan_jobs_share",
+      "element": "plan_jobs_share",
+      "condition": "len(weights) == 0",
+      "property": "raises_on_condition",
+      "formal": "if len(weights) == 0 then raises ValueError(\"weights required\")",
+      "file": "plan_jobs_share.py"
+    },
+    {
+      "scope": "branch",
+      "function": "plan_jobs_share",
+      "element": "plan_jobs_share",
+      "condition": "total < 0",
+      "property": "raises_on_condition",
+      "formal": "if total < 0 then raises ValueError(\"negative total\")",
+      "file": "plan_jobs_share.py"
+    },
+    {
+      "scope": "branch",
+      "function": "plan_jobs_share",
+      "element": "plan_jobs_share",
+      "condition": "minimum < 0",
+      "property": "raises_on_condition",
+      "formal": "if minimum < 0 then raises ValueError(\"negative minimum\")",
+      "file": "plan_jobs_share.py"
+    },
+    {
+      "scope": "branch",
+      "function": "plan_jobs_share",
+      "element": "plan_jobs_share",
+      "condition": "sum(weights) == 0",
+      "property": "raises_on_condition",
+      "formal": "if sum(weights) == 0 then raises ValueError(\"zero total weight\")",
+      "file": "plan_jobs_share.py"
+    },
+    {
+      "scope": "function",
+      "function": "plan_jobs_share",
+      "element": "plan_jobs_share",
+      "property": "length_preserving_listcomp",
+      "precondition": null,
+      "formal": "len(plan_jobs_share(...)) == len(shares)",
+      "file": "plan_jobs_share.py"
+    }
+  ],
+  "error": null
+}

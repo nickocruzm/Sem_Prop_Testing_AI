@@ -1,0 +1,32 @@
+{
+  "file": "storage_mix.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "storage_mix",
+      "property": "defines_function",
+      "element": "storage_mix",
+      "formal": "storage_mix(current, target) is defined",
+      "file": "storage_mix.py"
+    },
+    {
+      "scope": "branch",
+      "function": "storage_mix",
+      "element": "storage_mix",
+      "condition": "len(current) != len(target)",
+      "property": "raises_on_condition",
+      "formal": "if len(current) != len(target) then raises ValueError(\"shape mismatch\")",
+      "file": "storage_mix.py"
+    },
+    {
+      "scope": "branch",
+      "function": "storage_mix",
+      "element": "storage_mix",
+      "condition": "not current",
+      "property": "raises_on_condition",
+      "formal": "if not current then raises ValueError(\"empty allocation\")",
+      "file": "storage_mix.py"
+    }
+  ],
+  "error": null
+}

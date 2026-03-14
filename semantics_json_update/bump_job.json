@@ -1,0 +1,13 @@
+{
+  "file": "bump_job.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "bump_job",
+      "property": "defines_function",
+      "element": "bump_job",
+      "formal": "bump_job(counters, key) is defined"
+    }
+  ],
+  "error": null
+}

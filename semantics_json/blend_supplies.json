@@ -1,0 +1,14 @@
+{
+  "file": "blend_supplies.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "blend_supplies",
+      "property": "defines_function",
+      "element": "blend_supplies",
+      "formal": "blend_supplies(left, right) is defined",
+      "file": "blend_supplies.py"
+    }
+  ],
+  "error": null
+}

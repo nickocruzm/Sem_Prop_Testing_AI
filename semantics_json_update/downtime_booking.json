@@ -1,0 +1,44 @@
+{
+  "file": "downtime_booking.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "downtime_booking",
+      "property": "defines_function",
+      "element": "downtime_booking",
+      "formal": "downtime_booking(existing, candidate) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "downtime_booking",
+      "element": "downtime_booking",
+      "condition": "candidate[0] >= candidate[1]",
+      "property": "raises_on_condition",
+      "formal": "if candidate[0] >= candidate[1] then raises ValueError(\"start must be before end\")"
+    },
+    {
+      "scope": "function",
+      "function": "overlaps",
+      "property": "defines_function",
+      "element": "overlaps",
+      "formal": "overlaps(a, b) is defined"
+    },
+    {
+      "scope": "function",
+      "function": "downtime_booking",
+      "element": "downtime_booking",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "downtime_booking(...) returns (True, merged)"
+    },
+    {
+      "scope": "branch",
+      "function": "downtime_booking",
+      "element": "downtime_booking",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "downtime_booking(...) returns (False, list(existing))"
+    }
+  ],
+  "error": null
+}

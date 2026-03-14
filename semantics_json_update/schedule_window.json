@@ -1,0 +1,37 @@
+{
+  "file": "schedule_window.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "schedule_window",
+      "property": "defines_function",
+      "element": "schedule_window",
+      "formal": "schedule_window(existing, interval) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "schedule_window",
+      "element": "schedule_window",
+      "condition": "start >= end",
+      "property": "raises_on_condition",
+      "formal": "if start >= end then raises ValueError(\"invalid interval\")"
+    },
+    {
+      "scope": "function",
+      "function": "schedule_window",
+      "element": "schedule_window",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "schedule_window(...) returns (True, updated)"
+    },
+    {
+      "scope": "branch",
+      "function": "schedule_window",
+      "element": "schedule_window",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "schedule_window(...) returns (False, existing)"
+    }
+  ],
+  "error": null
+}

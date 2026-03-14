@@ -1,0 +1,14 @@
+{
+  "file": "txn_dedup_merge.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "txn_dedup_merge",
+      "property": "defines_function",
+      "element": "txn_dedup_merge",
+      "formal": "txn_dedup_merge(left, right) is defined",
+      "file": "txn_dedup_merge.py"
+    }
+  ],
+  "error": null
+}

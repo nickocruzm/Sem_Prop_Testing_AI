@@ -1,0 +1,50 @@
+{
+  "file": "credits_allocator.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "credits_allocator",
+      "property": "defines_function",
+      "element": "credits_allocator",
+      "formal": "credits_allocator(total, weights) is defined",
+      "file": "credits_allocator.py"
+    },
+    {
+      "scope": "branch",
+      "function": "credits_allocator",
+      "element": "credits_allocator",
+      "condition": "total < 0",
+      "property": "raises_on_condition",
+      "formal": "if total < 0 then raises ValueError(\"total must be non-negative\")",
+      "file": "credits_allocator.py"
+    },
+    {
+      "scope": "branch",
+      "function": "credits_allocator",
+      "element": "credits_allocator",
+      "condition": "minimum < 0",
+      "property": "raises_on_condition",
+      "formal": "if minimum < 0 then raises ValueError(\"minimum must be non-negative\")",
+      "file": "credits_allocator.py"
+    },
+    {
+      "scope": "branch",
+      "function": "credits_allocator",
+      "element": "credits_allocator",
+      "condition": "not weights",
+      "property": "raises_on_condition",
+      "formal": "if not weights then raises ValueError(\"no weights provided\")",
+      "file": "credits_allocator.py"
+    },
+    {
+      "scope": "branch",
+      "function": "credits_allocator",
+      "element": "credits_allocator",
+      "condition": "not any(weights)",
+      "property": "raises_on_condition",
+      "formal": "if not any(weights) then raises ValueError(\"all weights are zero\")",
+      "file": "credits_allocator.py"
+    }
+  ],
+  "error": null
+}

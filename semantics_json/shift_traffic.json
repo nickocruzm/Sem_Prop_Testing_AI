@@ -1,0 +1,32 @@
+{
+  "file": "shift_traffic.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "shift_traffic",
+      "property": "defines_function",
+      "element": "shift_traffic",
+      "formal": "shift_traffic(current, target) is defined",
+      "file": "shift_traffic.py"
+    },
+    {
+      "scope": "branch",
+      "function": "shift_traffic",
+      "element": "shift_traffic",
+      "condition": "len(current) != len(target)",
+      "property": "raises_on_condition",
+      "formal": "if len(current) != len(target) then raises ValueError(\"shape mismatch\")",
+      "file": "shift_traffic.py"
+    },
+    {
+      "scope": "branch",
+      "function": "shift_traffic",
+      "element": "shift_traffic",
+      "condition": "not current",
+      "property": "raises_on_condition",
+      "formal": "if not current then raises ValueError(\"empty allocation\")",
+      "file": "shift_traffic.py"
+    }
+  ],
+  "error": null
+}

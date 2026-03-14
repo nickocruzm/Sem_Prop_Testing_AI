@@ -1,0 +1,45 @@
+{
+  "file": "request_token_bucket.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "request_token_bucket",
+      "property": "defines_function",
+      "element": "request_token_bucket",
+      "formal": "request_token_bucket(tokens, now) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "request_token_bucket",
+      "element": "request_token_bucket",
+      "condition": "rate <= 0 or capacity <= 0",
+      "property": "raises_on_condition",
+      "formal": "if rate <= 0 or capacity <= 0 then raises ValueError(\"invalid rate/capacity\")"
+    },
+    {
+      "scope": "branch",
+      "function": "request_token_bucket",
+      "element": "request_token_bucket",
+      "condition": "available <= 0",
+      "property": "returns_constant",
+      "formal": "if available <= 0 then request_token_bucket(...) == False"
+    },
+    {
+      "scope": "function",
+      "function": "request_token_bucket",
+      "element": "request_token_bucket",
+      "property": "state_update_on_success",
+      "precondition": null,
+      "formal": "if return True then tokens['available'] decreases by 1 and tokens['last'] set to now"
+    },
+    {
+      "scope": "branch",
+      "function": "request_token_bucket",
+      "element": "request_token_bucket",
+      "property": "failure_no_consumption",
+      "precondition": null,
+      "formal": "if return False then no token is consumed (available <= 0)"
+    }
+  ],
+  "error": null
+}

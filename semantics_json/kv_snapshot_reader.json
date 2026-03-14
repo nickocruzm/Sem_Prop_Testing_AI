@@ -1,0 +1,14 @@
+{
+  "file": "kv_snapshot_reader.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "kv_snapshot_reader",
+      "property": "defines_function",
+      "element": "kv_snapshot_reader",
+      "formal": "kv_snapshot_reader(snapshot, key) is defined",
+      "file": "kv_snapshot_reader.py"
+    }
+  ],
+  "error": null
+}

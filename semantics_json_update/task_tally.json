@@ -1,0 +1,13 @@
+{
+  "file": "task_tally.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "task_tally",
+      "property": "defines_function",
+      "element": "task_tally",
+      "formal": "task_tally(counts, key) is defined"
+    }
+  ],
+  "error": null
+}

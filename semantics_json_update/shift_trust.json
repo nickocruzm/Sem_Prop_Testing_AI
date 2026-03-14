@@ -1,0 +1,29 @@
+{
+  "file": "shift_trust.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "shift_trust",
+      "property": "defines_function",
+      "element": "shift_trust",
+      "formal": "shift_trust(current, target) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "shift_trust",
+      "element": "shift_trust",
+      "condition": "len(current) != len(target)",
+      "property": "raises_on_condition",
+      "formal": "if len(current) != len(target) then raises ValueError(\"shape mismatch\")"
+    },
+    {
+      "scope": "branch",
+      "function": "shift_trust",
+      "element": "shift_trust",
+      "condition": "not current",
+      "property": "raises_on_condition",
+      "formal": "if not current then raises ValueError(\"empty allocation\")"
+    }
+  ],
+  "error": null
+}

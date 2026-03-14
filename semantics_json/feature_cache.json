@@ -1,0 +1,14 @@
+{
+  "file": "feature_cache.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "feature_cache",
+      "property": "defines_function",
+      "element": "feature_cache",
+      "formal": "feature_cache(cache, key, now) is defined",
+      "file": "feature_cache.py"
+    }
+  ],
+  "error": null
+}

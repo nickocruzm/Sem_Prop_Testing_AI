@@ -1,0 +1,29 @@
+{
+  "file": "download_rate.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "download_rate",
+      "property": "defines_function",
+      "element": "download_rate",
+      "formal": "download_rate(timestamps, now) is defined"
+    },
+    {
+      "scope": "function",
+      "function": "download_rate",
+      "element": "download_rate",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "download_rate(...) returns (True, limit - len(active))"
+    },
+    {
+      "scope": "branch",
+      "function": "download_rate",
+      "element": "download_rate",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "download_rate(...) returns (False, 0)"
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,21 @@
+{
+  "file": "retry_backoff_window.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "retry_backoff_window",
+      "property": "defines_function",
+      "element": "retry_backoff_window",
+      "formal": "retry_backoff_window(attempts) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "retry_backoff_window",
+      "element": "retry_backoff_window",
+      "condition": "attempts < 0",
+      "property": "raises_on_condition",
+      "formal": "if attempts < 0 then raises ValueError(\"attempts must be non-negative\")"
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,14 @@
+{
+  "file": "ids_merge.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "ids_merge",
+      "property": "defines_function",
+      "element": "ids_merge",
+      "formal": "ids_merge(left, right) is defined",
+      "file": "ids_merge.py"
+    }
+  ],
+  "error": null
+}

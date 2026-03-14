@@ -1,0 +1,13 @@
+{
+  "file": "invoice_merge_stream.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "invoice_merge_stream",
+      "property": "defines_function",
+      "element": "invoice_merge_stream",
+      "formal": "invoice_merge_stream(left, right) is defined"
+    }
+  ],
+  "error": null
+}

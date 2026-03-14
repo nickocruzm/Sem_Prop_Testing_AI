@@ -1,0 +1,13 @@
+{
+  "file": "offer_expiry.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "offer_expiry",
+      "property": "defines_function",
+      "element": "offer_expiry",
+      "formal": "offer_expiry(store, key, now) is defined"
+    }
+  ],
+  "error": null
+}

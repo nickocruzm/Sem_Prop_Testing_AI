@@ -1,0 +1,29 @@
+{
+  "file": "bandwidth_rebalance.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "bandwidth_rebalance",
+      "property": "defines_function",
+      "element": "bandwidth_rebalance",
+      "formal": "bandwidth_rebalance(current, target) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "bandwidth_rebalance",
+      "element": "bandwidth_rebalance",
+      "condition": "len(current) != len(target)",
+      "property": "raises_on_condition",
+      "formal": "if len(current) != len(target) then raises ValueError(\"shape mismatch\")"
+    },
+    {
+      "scope": "branch",
+      "function": "bandwidth_rebalance",
+      "element": "bandwidth_rebalance",
+      "condition": "not current",
+      "property": "raises_on_condition",
+      "formal": "if not current then raises ValueError(\"empty allocation\")"
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,29 @@
+{
+  "file": "smooth_clicks.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "smooth_clicks",
+      "property": "defines_function",
+      "element": "smooth_clicks",
+      "formal": "smooth_clicks(values) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "smooth_clicks",
+      "element": "smooth_clicks",
+      "condition": "window <= 0",
+      "property": "raises_on_condition",
+      "formal": "if window <= 0 then raises ValueError(\"window must be positive\")"
+    },
+    {
+      "scope": "branch",
+      "function": "smooth_clicks",
+      "element": "smooth_clicks",
+      "condition": "not values",
+      "property": "raises_on_condition",
+      "formal": "if not values then raises ValueError(\"empty series\")"
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,37 @@
+{
+  "file": "schedule_car.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "schedule_car",
+      "property": "defines_function",
+      "element": "schedule_car",
+      "formal": "schedule_car(timeline, window) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "schedule_car",
+      "element": "schedule_car",
+      "condition": "a >= b",
+      "property": "raises_on_condition",
+      "formal": "if a >= b then raises ValueError(\"empty window\")"
+    },
+    {
+      "scope": "function",
+      "function": "schedule_car",
+      "element": "schedule_car",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "schedule_car(...) returns (True, result)"
+    },
+    {
+      "scope": "branch",
+      "function": "schedule_car",
+      "element": "schedule_car",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "schedule_car(...) returns (False, timeline)"
+    }
+  ],
+  "error": null
+}

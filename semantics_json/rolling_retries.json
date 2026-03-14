@@ -1,0 +1,32 @@
+{
+  "file": "rolling_retries.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "rolling_retries",
+      "property": "defines_function",
+      "element": "rolling_retries",
+      "formal": "rolling_retries(values) is defined",
+      "file": "rolling_retries.py"
+    },
+    {
+      "scope": "branch",
+      "function": "rolling_retries",
+      "element": "rolling_retries",
+      "condition": "window <= 0",
+      "property": "raises_on_condition",
+      "formal": "if window <= 0 then raises ValueError(\"window must be positive\")",
+      "file": "rolling_retries.py"
+    },
+    {
+      "scope": "branch",
+      "function": "rolling_retries",
+      "element": "rolling_retries",
+      "condition": "not values",
+      "property": "raises_on_condition",
+      "formal": "if not values then raises ValueError(\"empty series\")",
+      "file": "rolling_retries.py"
+    }
+  ],
+  "error": null
+}

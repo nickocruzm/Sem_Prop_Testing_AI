@@ -1,0 +1,41 @@
+{
+  "file": "calendar_slot_insert.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "calendar_slot_insert",
+      "property": "defines_function",
+      "element": "calendar_slot_insert",
+      "formal": "calendar_slot_insert(existing, slot) is defined",
+      "file": "calendar_slot_insert.py"
+    },
+    {
+      "scope": "branch",
+      "function": "calendar_slot_insert",
+      "element": "calendar_slot_insert",
+      "condition": "start >= end",
+      "property": "raises_on_condition",
+      "formal": "if start >= end then raises ValueError(\"invalid slot\")",
+      "file": "calendar_slot_insert.py"
+    },
+    {
+      "scope": "function",
+      "function": "calendar_slot_insert",
+      "element": "calendar_slot_insert",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "calendar_slot_insert(...) returns (True, result)",
+      "file": "calendar_slot_insert.py"
+    },
+    {
+      "scope": "branch",
+      "function": "calendar_slot_insert",
+      "element": "calendar_slot_insert",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "calendar_slot_insert(...) returns (False, list(existing))",
+      "file": "calendar_slot_insert.py"
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,13 @@
+{
+  "file": "plan_memo.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "plan_memo",
+      "property": "defines_function",
+      "element": "plan_memo",
+      "formal": "plan_memo(entries, key, now) is defined"
+    }
+  ],
+  "error": null
+}

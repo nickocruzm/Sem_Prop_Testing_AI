@@ -1,0 +1,14 @@
+{
+  "file": "view_tally.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "view_tally",
+      "property": "defines_function",
+      "element": "view_tally",
+      "formal": "view_tally(counts, key) is defined",
+      "file": "view_tally.py"
+    }
+  ],
+  "error": null
+}

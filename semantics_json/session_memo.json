@@ -1,0 +1,14 @@
+{
+  "file": "session_memo.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "session_memo",
+      "property": "defines_function",
+      "element": "session_memo",
+      "formal": "session_memo(store, key, now) is defined",
+      "file": "session_memo.py"
+    }
+  ],
+  "error": null
+}

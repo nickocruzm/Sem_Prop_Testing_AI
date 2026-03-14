@@ -1,0 +1,41 @@
+{
+  "file": "storage_quota_split.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "storage_quota_split",
+      "property": "defines_function",
+      "element": "storage_quota_split",
+      "formal": "storage_quota_split(total, ratios) is defined",
+      "file": "storage_quota_split.py"
+    },
+    {
+      "scope": "branch",
+      "function": "storage_quota_split",
+      "element": "storage_quota_split",
+      "condition": "total < 0",
+      "property": "raises_on_condition",
+      "formal": "if total < 0 then raises ValueError(\"negative total\")",
+      "file": "storage_quota_split.py"
+    },
+    {
+      "scope": "branch",
+      "function": "storage_quota_split",
+      "element": "storage_quota_split",
+      "condition": "not ratios or sum(ratios) <= 0",
+      "property": "raises_on_condition",
+      "formal": "if not ratios or sum(ratios) <= 0 then raises ValueError(\"invalid ratios\")",
+      "file": "storage_quota_split.py"
+    },
+    {
+      "scope": "function",
+      "function": "storage_quota_split",
+      "element": "storage_quota_split",
+      "property": "length_preserving_listcomp",
+      "precondition": null,
+      "formal": "len(storage_quota_split(...)) == len(shares)",
+      "file": "storage_quota_split.py"
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,13 @@
+{
+  "file": "grades_union.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "grades_union",
+      "property": "defines_function",
+      "element": "grades_union",
+      "formal": "grades_union(left, right) is defined"
+    }
+  ],
+  "error": null
+}

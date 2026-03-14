@@ -1,0 +1,50 @@
+{
+  "file": "allocate_bounty_cut.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "allocate_bounty_cut",
+      "property": "defines_function",
+      "element": "allocate_bounty_cut",
+      "formal": "allocate_bounty_cut(amount, ratios) is defined",
+      "file": "allocate_bounty_cut.py"
+    },
+    {
+      "scope": "branch",
+      "function": "allocate_bounty_cut",
+      "element": "allocate_bounty_cut",
+      "condition": "len(ratios) == 0",
+      "property": "raises_on_condition",
+      "formal": "if len(ratios) == 0 then raises ValueError(\"no ratios\")",
+      "file": "allocate_bounty_cut.py"
+    },
+    {
+      "scope": "branch",
+      "function": "allocate_bounty_cut",
+      "element": "allocate_bounty_cut",
+      "condition": "sum(ratios) <= 0",
+      "property": "raises_on_condition",
+      "formal": "if sum(ratios) <= 0 then raises ValueError(\"invalid ratios\")",
+      "file": "allocate_bounty_cut.py"
+    },
+    {
+      "scope": "branch",
+      "function": "allocate_bounty_cut",
+      "element": "allocate_bounty_cut",
+      "condition": "amount < 0",
+      "property": "raises_on_condition",
+      "formal": "if amount < 0 then raises ValueError(\"negative amount\")",
+      "file": "allocate_bounty_cut.py"
+    },
+    {
+      "scope": "function",
+      "function": "allocate_bounty_cut",
+      "element": "allocate_bounty_cut",
+      "property": "length_preserving_listcomp",
+      "precondition": null,
+      "formal": "len(allocate_bounty_cut(...)) == len(base)",
+      "file": "allocate_bounty_cut.py"
+    }
+  ],
+  "error": null
+}

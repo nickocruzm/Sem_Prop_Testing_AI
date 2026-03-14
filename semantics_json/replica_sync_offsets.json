@@ -1,0 +1,14 @@
+{
+  "file": "replica_sync_offsets.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "replica_sync_offsets",
+      "property": "defines_function",
+      "element": "replica_sync_offsets",
+      "formal": "replica_sync_offsets(primary, replica) is defined",
+      "file": "replica_sync_offsets.py"
+    }
+  ],
+  "error": null
+}

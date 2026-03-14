@@ -1,0 +1,23 @@
+{
+  "file": "calibrate_lift.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "calibrate_lift",
+      "property": "defines_function",
+      "element": "calibrate_lift",
+      "formal": "calibrate_lift(x0, y0, x1, y1, x) is defined",
+      "file": "calibrate_lift.py"
+    },
+    {
+      "scope": "branch",
+      "function": "calibrate_lift",
+      "element": "calibrate_lift",
+      "condition": "x1 == x0",
+      "property": "raises_on_condition",
+      "formal": "if x1 == x0 then raises ValueError(\"zero length\")",
+      "file": "calibrate_lift.py"
+    }
+  ],
+  "error": null
+}

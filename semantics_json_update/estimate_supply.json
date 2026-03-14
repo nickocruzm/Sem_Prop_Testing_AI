@@ -1,0 +1,21 @@
+{
+  "file": "estimate_supply.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "estimate_supply",
+      "property": "defines_function",
+      "element": "estimate_supply",
+      "formal": "estimate_supply(x0, y0, x1, y1, x) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "estimate_supply",
+      "element": "estimate_supply",
+      "condition": "x1 == x0",
+      "property": "raises_on_condition",
+      "formal": "if x1 == x0 then raises ValueError(\"degenerate segment\")"
+    }
+  ],
+  "error": null
+}

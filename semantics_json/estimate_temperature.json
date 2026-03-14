@@ -1,0 +1,23 @@
+{
+  "file": "estimate_temperature.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "estimate_temperature",
+      "property": "defines_function",
+      "element": "estimate_temperature",
+      "formal": "estimate_temperature(x0, y0, x1, y1, x) is defined",
+      "file": "estimate_temperature.py"
+    },
+    {
+      "scope": "branch",
+      "function": "estimate_temperature",
+      "element": "estimate_temperature",
+      "condition": "x1 == x0",
+      "property": "raises_on_condition",
+      "formal": "if x1 == x0 then raises ValueError(\"zero length\")",
+      "file": "estimate_temperature.py"
+    }
+  ],
+  "error": null
+}

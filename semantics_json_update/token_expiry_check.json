@@ -1,0 +1,13 @@
+{
+  "file": "token_expiry_check.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "token_expiry_check",
+      "property": "defines_function",
+      "element": "token_expiry_check",
+      "formal": "token_expiry_check(tokens, key, now) is defined"
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,29 @@
+{
+  "file": "adjust_portfolio.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "adjust_portfolio",
+      "property": "defines_function",
+      "element": "adjust_portfolio",
+      "formal": "adjust_portfolio(current, target) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "adjust_portfolio",
+      "element": "adjust_portfolio",
+      "condition": "len(current) != len(target)",
+      "property": "raises_on_condition",
+      "formal": "if len(current) != len(target) then raises ValueError(\"shape mismatch\")"
+    },
+    {
+      "scope": "branch",
+      "function": "adjust_portfolio",
+      "element": "adjust_portfolio",
+      "condition": "not current",
+      "property": "raises_on_condition",
+      "formal": "if not current then raises ValueError(\"empty allocation\")"
+    }
+  ],
+  "error": null
+}

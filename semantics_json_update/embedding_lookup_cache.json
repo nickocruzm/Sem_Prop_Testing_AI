@@ -1,0 +1,13 @@
+{
+  "file": "embedding_lookup_cache.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "embedding_lookup_cache",
+      "property": "defines_function",
+      "element": "embedding_lookup_cache",
+      "formal": "embedding_lookup_cache(cache, key, now) is defined"
+    }
+  ],
+  "error": null
+}

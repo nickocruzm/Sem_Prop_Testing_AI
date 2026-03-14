@@ -1,0 +1,32 @@
+{
+  "file": "metric_rolling_avg.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "metric_rolling_avg",
+      "property": "defines_function",
+      "element": "metric_rolling_avg",
+      "formal": "metric_rolling_avg(values) is defined",
+      "file": "metric_rolling_avg.py"
+    },
+    {
+      "scope": "branch",
+      "function": "metric_rolling_avg",
+      "element": "metric_rolling_avg",
+      "condition": "window <= 0",
+      "property": "raises_on_condition",
+      "formal": "if window <= 0 then raises ValueError(\"window must be positive\")",
+      "file": "metric_rolling_avg.py"
+    },
+    {
+      "scope": "branch",
+      "function": "metric_rolling_avg",
+      "element": "metric_rolling_avg",
+      "condition": "not values",
+      "property": "raises_on_condition",
+      "formal": "if not values then raises ValueError(\"no values\")",
+      "file": "metric_rolling_avg.py"
+    }
+  ],
+  "error": null
+}

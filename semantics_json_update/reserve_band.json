@@ -1,0 +1,44 @@
+{
+  "file": "reserve_band.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "reserve_band",
+      "property": "defines_function",
+      "element": "reserve_band",
+      "formal": "reserve_band(existing, candidate) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "reserve_band",
+      "element": "reserve_band",
+      "condition": "candidate[0] >= candidate[1]",
+      "property": "raises_on_condition",
+      "formal": "if candidate[0] >= candidate[1] then raises ValueError(\"start must be before end\")"
+    },
+    {
+      "scope": "function",
+      "function": "overlaps",
+      "property": "defines_function",
+      "element": "overlaps",
+      "formal": "overlaps(a, b) is defined"
+    },
+    {
+      "scope": "function",
+      "function": "reserve_band",
+      "element": "reserve_band",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "reserve_band(...) returns (True, merged)"
+    },
+    {
+      "scope": "branch",
+      "function": "reserve_band",
+      "element": "reserve_band",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "reserve_band(...) returns (False, list(existing))"
+    }
+  ],
+  "error": null
+}

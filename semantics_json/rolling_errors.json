@@ -1,0 +1,32 @@
+{
+  "file": "rolling_errors.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "rolling_errors",
+      "property": "defines_function",
+      "element": "rolling_errors",
+      "formal": "rolling_errors(values) is defined",
+      "file": "rolling_errors.py"
+    },
+    {
+      "scope": "branch",
+      "function": "rolling_errors",
+      "element": "rolling_errors",
+      "condition": "window <= 0",
+      "property": "raises_on_condition",
+      "formal": "if window <= 0 then raises ValueError(\"window must be positive\")",
+      "file": "rolling_errors.py"
+    },
+    {
+      "scope": "branch",
+      "function": "rolling_errors",
+      "element": "rolling_errors",
+      "condition": "not values",
+      "property": "raises_on_condition",
+      "formal": "if not values then raises ValueError(\"no values\")",
+      "file": "rolling_errors.py"
+    }
+  ],
+  "error": null
+}

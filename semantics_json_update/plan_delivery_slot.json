@@ -1,0 +1,37 @@
+{
+  "file": "plan_delivery_slot.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "plan_delivery_slot",
+      "property": "defines_function",
+      "element": "plan_delivery_slot",
+      "formal": "plan_delivery_slot(timeline, window) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "plan_delivery_slot",
+      "element": "plan_delivery_slot",
+      "condition": "a >= b",
+      "property": "raises_on_condition",
+      "formal": "if a >= b then raises ValueError(\"empty window\")"
+    },
+    {
+      "scope": "function",
+      "function": "plan_delivery_slot",
+      "element": "plan_delivery_slot",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "plan_delivery_slot(...) returns (True, result)"
+    },
+    {
+      "scope": "branch",
+      "function": "plan_delivery_slot",
+      "element": "plan_delivery_slot",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "plan_delivery_slot(...) returns (False, timeline)"
+    }
+  ],
+  "error": null
+}

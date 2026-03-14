@@ -1,0 +1,21 @@
+{
+  "file": "shard_assignment.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "shard_assignment",
+      "property": "defines_function",
+      "element": "shard_assignment",
+      "formal": "shard_assignment(keys) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "shard_assignment",
+      "element": "shard_assignment",
+      "condition": "shards <= 0",
+      "property": "raises_on_condition",
+      "formal": "if shards <= 0 then raises ValueError(\"shards must be positive\")"
+    }
+  ],
+  "error": null
+}

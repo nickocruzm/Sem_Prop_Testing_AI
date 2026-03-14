@@ -1,0 +1,14 @@
+{
+  "file": "message_counter.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "message_counter",
+      "property": "defines_function",
+      "element": "message_counter",
+      "formal": "message_counter(counters, key) is defined",
+      "file": "message_counter.py"
+    }
+  ],
+  "error": null
+}

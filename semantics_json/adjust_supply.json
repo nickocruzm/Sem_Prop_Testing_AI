@@ -1,0 +1,32 @@
+{
+  "file": "adjust_supply.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "adjust_supply",
+      "property": "defines_function",
+      "element": "adjust_supply",
+      "formal": "adjust_supply(current, target) is defined",
+      "file": "adjust_supply.py"
+    },
+    {
+      "scope": "branch",
+      "function": "adjust_supply",
+      "element": "adjust_supply",
+      "condition": "len(current) != len(target)",
+      "property": "raises_on_condition",
+      "formal": "if len(current) != len(target) then raises ValueError(\"shape mismatch\")",
+      "file": "adjust_supply.py"
+    },
+    {
+      "scope": "branch",
+      "function": "adjust_supply",
+      "element": "adjust_supply",
+      "condition": "not current",
+      "property": "raises_on_condition",
+      "formal": "if not current then raises ValueError(\"empty allocation\")",
+      "file": "adjust_supply.py"
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,14 @@
+{
+  "file": "signals_stream.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "signals_stream",
+      "property": "defines_function",
+      "element": "signals_stream",
+      "formal": "signals_stream(left, right) is defined",
+      "file": "signals_stream.py"
+    }
+  ],
+  "error": null
+}

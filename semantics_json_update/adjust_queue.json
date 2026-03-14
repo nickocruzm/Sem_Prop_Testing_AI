@@ -1,0 +1,29 @@
+{
+  "file": "adjust_queue.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "adjust_queue",
+      "property": "defines_function",
+      "element": "adjust_queue",
+      "formal": "adjust_queue(current, target) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "adjust_queue",
+      "element": "adjust_queue",
+      "condition": "len(current) != len(target)",
+      "property": "raises_on_condition",
+      "formal": "if len(current) != len(target) then raises ValueError(\"shape mismatch\")"
+    },
+    {
+      "scope": "branch",
+      "function": "adjust_queue",
+      "element": "adjust_queue",
+      "condition": "not current",
+      "property": "raises_on_condition",
+      "formal": "if not current then raises ValueError(\"empty allocation\")"
+    }
+  ],
+  "error": null
+}

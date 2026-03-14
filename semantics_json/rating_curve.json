@@ -1,0 +1,23 @@
+{
+  "file": "rating_curve.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "rating_curve",
+      "property": "defines_function",
+      "element": "rating_curve",
+      "formal": "rating_curve(x0, y0, x1, y1, x) is defined",
+      "file": "rating_curve.py"
+    },
+    {
+      "scope": "branch",
+      "function": "rating_curve",
+      "element": "rating_curve",
+      "condition": "x1 == x0",
+      "property": "raises_on_condition",
+      "formal": "if x1 == x0 then raises ValueError(\"zero length\")",
+      "file": "rating_curve.py"
+    }
+  ],
+  "error": null
+}

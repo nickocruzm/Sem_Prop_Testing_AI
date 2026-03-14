@@ -1,0 +1,32 @@
+{
+  "file": "limit_job.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "limit_job",
+      "property": "defines_function",
+      "element": "limit_job",
+      "formal": "limit_job(timestamps, now) is defined",
+      "file": "limit_job.py"
+    },
+    {
+      "scope": "function",
+      "function": "limit_job",
+      "element": "limit_job",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "limit_job(...) returns (True, limit - len(recent))",
+      "file": "limit_job.py"
+    },
+    {
+      "scope": "branch",
+      "function": "limit_job",
+      "element": "limit_job",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "limit_job(...) returns (False, 0)",
+      "file": "limit_job.py"
+    }
+  ],
+  "error": null
+}

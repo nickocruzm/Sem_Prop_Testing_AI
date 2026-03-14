@@ -1,0 +1,32 @@
+{
+  "file": "guard_email.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "guard_email",
+      "property": "defines_function",
+      "element": "guard_email",
+      "formal": "guard_email(timestamps, now) is defined",
+      "file": "guard_email.py"
+    },
+    {
+      "scope": "function",
+      "function": "guard_email",
+      "element": "guard_email",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "guard_email(...) returns (True, limit - len(recent))",
+      "file": "guard_email.py"
+    },
+    {
+      "scope": "branch",
+      "function": "guard_email",
+      "element": "guard_email",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "guard_email(...) returns (False, 0)",
+      "file": "guard_email.py"
+    }
+  ],
+  "error": null
+}

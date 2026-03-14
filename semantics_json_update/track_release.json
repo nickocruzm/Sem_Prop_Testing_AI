@@ -1,0 +1,13 @@
+{
+  "file": "track_release.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "track_release",
+      "property": "defines_function",
+      "element": "track_release",
+      "formal": "track_release(counters, key) is defined"
+    }
+  ],
+  "error": null
+}

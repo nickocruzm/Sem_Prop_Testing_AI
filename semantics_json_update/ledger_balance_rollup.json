@@ -1,0 +1,21 @@
+{
+  "file": "ledger_balance_rollup.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "ledger_balance_rollup",
+      "property": "defines_function",
+      "element": "ledger_balance_rollup",
+      "formal": "ledger_balance_rollup(entries) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "ledger_balance_rollup",
+      "element": "ledger_balance_rollup",
+      "condition": "amount < 0",
+      "property": "raises_on_condition",
+      "formal": "if amount < 0 then raises ValueError(\"negative amount\")"
+    }
+  ],
+  "error": null
+}

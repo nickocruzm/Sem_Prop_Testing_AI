@@ -1,0 +1,23 @@
+{
+  "file": "growth_trendline.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "growth_trendline",
+      "property": "defines_function",
+      "element": "growth_trendline",
+      "formal": "growth_trendline(x0, y0, x1, y1, x) is defined",
+      "file": "growth_trendline.py"
+    },
+    {
+      "scope": "branch",
+      "function": "growth_trendline",
+      "element": "growth_trendline",
+      "condition": "x1 == x0",
+      "property": "raises_on_condition",
+      "formal": "if x1 == x0 then raises ValueError(\"degenerate segment\")",
+      "file": "growth_trendline.py"
+    }
+  ],
+  "error": null
+}

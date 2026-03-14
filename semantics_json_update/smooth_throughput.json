@@ -1,0 +1,29 @@
+{
+  "file": "smooth_throughput.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "smooth_throughput",
+      "property": "defines_function",
+      "element": "smooth_throughput",
+      "formal": "smooth_throughput(series) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "smooth_throughput",
+      "element": "smooth_throughput",
+      "condition": "window <= 0",
+      "property": "raises_on_condition",
+      "formal": "if window <= 0 then raises ValueError(\"invalid window\")"
+    },
+    {
+      "scope": "branch",
+      "function": "smooth_throughput",
+      "element": "smooth_throughput",
+      "condition": "not series",
+      "property": "raises_on_condition",
+      "formal": "if not series then raises ValueError(\"no samples\")"
+    }
+  ],
+  "error": null
+}

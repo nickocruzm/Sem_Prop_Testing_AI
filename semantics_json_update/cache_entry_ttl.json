@@ -1,0 +1,13 @@
+{
+  "file": "cache_entry_ttl.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "cache_entry_ttl",
+      "property": "defines_function",
+      "element": "cache_entry_ttl",
+      "formal": "cache_entry_ttl(entries, key, now) is defined"
+    }
+  ],
+  "error": null
+}

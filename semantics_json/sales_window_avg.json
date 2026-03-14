@@ -1,0 +1,32 @@
+{
+  "file": "sales_window_avg.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "sales_window_avg",
+      "property": "defines_function",
+      "element": "sales_window_avg",
+      "formal": "sales_window_avg(values) is defined",
+      "file": "sales_window_avg.py"
+    },
+    {
+      "scope": "branch",
+      "function": "sales_window_avg",
+      "element": "sales_window_avg",
+      "condition": "window <= 0",
+      "property": "raises_on_condition",
+      "formal": "if window <= 0 then raises ValueError(\"window must be positive\")",
+      "file": "sales_window_avg.py"
+    },
+    {
+      "scope": "branch",
+      "function": "sales_window_avg",
+      "element": "sales_window_avg",
+      "condition": "not values",
+      "property": "raises_on_condition",
+      "formal": "if not values then raises ValueError(\"no values\")",
+      "file": "sales_window_avg.py"
+    }
+  ],
+  "error": null
+}

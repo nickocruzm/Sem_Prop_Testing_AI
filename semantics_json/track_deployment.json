@@ -1,0 +1,14 @@
+{
+  "file": "track_deployment.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "track_deployment",
+      "property": "defines_function",
+      "element": "track_deployment",
+      "formal": "track_deployment(counts, key) is defined",
+      "file": "track_deployment.py"
+    }
+  ],
+  "error": null
+}

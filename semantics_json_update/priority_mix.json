@@ -1,0 +1,29 @@
+{
+  "file": "priority_mix.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "priority_mix",
+      "property": "defines_function",
+      "element": "priority_mix",
+      "formal": "priority_mix(current, target) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "priority_mix",
+      "element": "priority_mix",
+      "condition": "len(current) != len(target)",
+      "property": "raises_on_condition",
+      "formal": "if len(current) != len(target) then raises ValueError(\"shape mismatch\")"
+    },
+    {
+      "scope": "branch",
+      "function": "priority_mix",
+      "element": "priority_mix",
+      "condition": "not current",
+      "property": "raises_on_condition",
+      "formal": "if not current then raises ValueError(\"empty allocation\")"
+    }
+  ],
+  "error": null
+}

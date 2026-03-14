@@ -1,0 +1,50 @@
+{
+  "file": "rebate_splitter.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "rebate_splitter",
+      "property": "defines_function",
+      "element": "rebate_splitter",
+      "formal": "rebate_splitter(amount, ratios) is defined",
+      "file": "rebate_splitter.py"
+    },
+    {
+      "scope": "branch",
+      "function": "rebate_splitter",
+      "element": "rebate_splitter",
+      "condition": "len(ratios) == 0",
+      "property": "raises_on_condition",
+      "formal": "if len(ratios) == 0 then raises ValueError(\"no ratios\")",
+      "file": "rebate_splitter.py"
+    },
+    {
+      "scope": "branch",
+      "function": "rebate_splitter",
+      "element": "rebate_splitter",
+      "condition": "sum(ratios) <= 0",
+      "property": "raises_on_condition",
+      "formal": "if sum(ratios) <= 0 then raises ValueError(\"invalid ratios\")",
+      "file": "rebate_splitter.py"
+    },
+    {
+      "scope": "branch",
+      "function": "rebate_splitter",
+      "element": "rebate_splitter",
+      "condition": "amount < 0",
+      "property": "raises_on_condition",
+      "formal": "if amount < 0 then raises ValueError(\"negative amount\")",
+      "file": "rebate_splitter.py"
+    },
+    {
+      "scope": "function",
+      "function": "rebate_splitter",
+      "element": "rebate_splitter",
+      "property": "length_preserving_listcomp",
+      "precondition": null,
+      "formal": "len(rebate_splitter(...)) == len(base)",
+      "file": "rebate_splitter.py"
+    }
+  ],
+  "error": null
+}

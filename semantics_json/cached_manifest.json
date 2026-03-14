@@ -1,0 +1,14 @@
+{
+  "file": "cached_manifest.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "cached_manifest",
+      "property": "defines_function",
+      "element": "cached_manifest",
+      "formal": "cached_manifest(entries, key, now) is defined",
+      "file": "cached_manifest.py"
+    }
+  ],
+  "error": null
+}

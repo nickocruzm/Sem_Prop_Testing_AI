@@ -1,0 +1,59 @@
+{
+  "file": "votes_apportion.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "votes_apportion",
+      "property": "defines_function",
+      "element": "votes_apportion",
+      "formal": "votes_apportion(total, weights) is defined",
+      "file": "votes_apportion.py"
+    },
+    {
+      "scope": "branch",
+      "function": "votes_apportion",
+      "element": "votes_apportion",
+      "condition": "len(weights) == 0",
+      "property": "raises_on_condition",
+      "formal": "if len(weights) == 0 then raises ValueError(\"weights required\")",
+      "file": "votes_apportion.py"
+    },
+    {
+      "scope": "branch",
+      "function": "votes_apportion",
+      "element": "votes_apportion",
+      "condition": "total < 0",
+      "property": "raises_on_condition",
+      "formal": "if total < 0 then raises ValueError(\"negative total\")",
+      "file": "votes_apportion.py"
+    },
+    {
+      "scope": "branch",
+      "function": "votes_apportion",
+      "element": "votes_apportion",
+      "condition": "minimum < 0",
+      "property": "raises_on_condition",
+      "formal": "if minimum < 0 then raises ValueError(\"negative minimum\")",
+      "file": "votes_apportion.py"
+    },
+    {
+      "scope": "branch",
+      "function": "votes_apportion",
+      "element": "votes_apportion",
+      "condition": "sum(weights) == 0",
+      "property": "raises_on_condition",
+      "formal": "if sum(weights) == 0 then raises ValueError(\"zero total weight\")",
+      "file": "votes_apportion.py"
+    },
+    {
+      "scope": "function",
+      "function": "votes_apportion",
+      "element": "votes_apportion",
+      "property": "length_preserving_listcomp",
+      "precondition": null,
+      "formal": "len(votes_apportion(...)) == len(shares)",
+      "file": "votes_apportion.py"
+    }
+  ],
+  "error": null
+}

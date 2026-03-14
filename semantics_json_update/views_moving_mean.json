@@ -1,0 +1,29 @@
+{
+  "file": "views_moving_mean.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "views_moving_mean",
+      "property": "defines_function",
+      "element": "views_moving_mean",
+      "formal": "views_moving_mean(values) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "views_moving_mean",
+      "element": "views_moving_mean",
+      "condition": "window <= 0",
+      "property": "raises_on_condition",
+      "formal": "if window <= 0 then raises ValueError(\"window must be positive\")"
+    },
+    {
+      "scope": "branch",
+      "function": "views_moving_mean",
+      "element": "views_moving_mean",
+      "condition": "not values",
+      "property": "raises_on_condition",
+      "formal": "if not values then raises ValueError(\"no values\")"
+    }
+  ],
+  "error": null
+}

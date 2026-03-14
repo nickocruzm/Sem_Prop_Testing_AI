@@ -1,0 +1,13 @@
+{
+  "file": "stream_joiner.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "stream_joiner",
+      "property": "defines_function",
+      "element": "stream_joiner",
+      "formal": "stream_joiner(left, right) is defined"
+    }
+  ],
+  "error": null
+}

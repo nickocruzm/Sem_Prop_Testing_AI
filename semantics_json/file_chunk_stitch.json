@@ -1,0 +1,14 @@
+{
+  "file": "file_chunk_stitch.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "file_chunk_stitch",
+      "property": "defines_function",
+      "element": "file_chunk_stitch",
+      "formal": "file_chunk_stitch(chunks) is defined",
+      "file": "file_chunk_stitch.py"
+    }
+  ],
+  "error": null
+}

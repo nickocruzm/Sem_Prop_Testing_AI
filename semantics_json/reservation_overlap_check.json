@@ -1,0 +1,32 @@
+{
+  "file": "reservation_overlap_check.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "reservation_overlap_check",
+      "property": "defines_function",
+      "element": "reservation_overlap_check",
+      "formal": "reservation_overlap_check(reservations, candidate) is defined",
+      "file": "reservation_overlap_check.py"
+    },
+    {
+      "scope": "branch",
+      "function": "reservation_overlap_check",
+      "element": "reservation_overlap_check",
+      "condition": "c_start >= c_end",
+      "property": "raises_on_condition",
+      "formal": "if c_start >= c_end then raises ValueError(\"invalid reservation\")",
+      "file": "reservation_overlap_check.py"
+    },
+    {
+      "scope": "branch",
+      "function": "reservation_overlap_check",
+      "element": "reservation_overlap_check",
+      "condition": "not (c_end <= start or c_start >= end)",
+      "property": "returns_constant",
+      "formal": "if not (c_end <= start or c_start >= end) then reservation_overlap_check(...) == True",
+      "file": "reservation_overlap_check.py"
+    }
+  ],
+  "error": null
+}

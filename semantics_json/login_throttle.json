@@ -1,0 +1,32 @@
+{
+  "file": "login_throttle.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "login_throttle",
+      "property": "defines_function",
+      "element": "login_throttle",
+      "formal": "login_throttle(timestamps, now) is defined",
+      "file": "login_throttle.py"
+    },
+    {
+      "scope": "function",
+      "function": "login_throttle",
+      "element": "login_throttle",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "login_throttle(...) returns (True, limit - len(recent))",
+      "file": "login_throttle.py"
+    },
+    {
+      "scope": "branch",
+      "function": "login_throttle",
+      "element": "login_throttle",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "login_throttle(...) returns (False, 0)",
+      "file": "login_throttle.py"
+    }
+  ],
+  "error": null
+}

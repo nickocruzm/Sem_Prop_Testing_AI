@@ -1,0 +1,14 @@
+{
+  "file": "track_logout.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "track_logout",
+      "property": "defines_function",
+      "element": "track_logout",
+      "formal": "track_logout(counters, key) is defined",
+      "file": "track_logout.py"
+    }
+  ],
+  "error": null
+}

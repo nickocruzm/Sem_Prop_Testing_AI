@@ -1,0 +1,13 @@
+{
+  "file": "tiers_stream.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "tiers_stream",
+      "property": "defines_function",
+      "element": "tiers_stream",
+      "formal": "tiers_stream(left, right) is defined"
+    }
+  ],
+  "error": null
+}

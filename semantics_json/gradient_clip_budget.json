@@ -1,0 +1,32 @@
+{
+  "file": "gradient_clip_budget.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "gradient_clip_budget",
+      "property": "defines_function",
+      "element": "gradient_clip_budget",
+      "formal": "gradient_clip_budget(gradients) is defined",
+      "file": "gradient_clip_budget.py"
+    },
+    {
+      "scope": "branch",
+      "function": "gradient_clip_budget",
+      "element": "gradient_clip_budget",
+      "condition": "max_norm <= 0",
+      "property": "raises_on_condition",
+      "formal": "if max_norm <= 0 then raises ValueError(\"max_norm must be positive\")",
+      "file": "gradient_clip_budget.py"
+    },
+    {
+      "scope": "function",
+      "function": "gradient_clip_budget",
+      "element": "gradient_clip_budget",
+      "property": "length_preserving_listcomp",
+      "precondition": null,
+      "formal": "len(gradient_clip_budget(...)) == len(gradients)",
+      "file": "gradient_clip_budget.py"
+    }
+  ],
+  "error": null
+}

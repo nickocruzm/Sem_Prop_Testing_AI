@@ -1,0 +1,32 @@
+{
+  "file": "shift_feature.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "shift_feature",
+      "property": "defines_function",
+      "element": "shift_feature",
+      "formal": "shift_feature(current, target) is defined",
+      "file": "shift_feature.py"
+    },
+    {
+      "scope": "branch",
+      "function": "shift_feature",
+      "element": "shift_feature",
+      "condition": "len(current) != len(target)",
+      "property": "raises_on_condition",
+      "formal": "if len(current) != len(target) then raises ValueError(\"shape mismatch\")",
+      "file": "shift_feature.py"
+    },
+    {
+      "scope": "branch",
+      "function": "shift_feature",
+      "element": "shift_feature",
+      "condition": "not current",
+      "property": "raises_on_condition",
+      "formal": "if not current then raises ValueError(\"empty allocation\")",
+      "file": "shift_feature.py"
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,21 @@
+{
+  "file": "log_sampling_decider.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "log_sampling_decider",
+      "property": "defines_function",
+      "element": "log_sampling_decider",
+      "formal": "log_sampling_decider(log_id) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "log_sampling_decider",
+      "element": "log_sampling_decider",
+      "condition": "not (0 <= rate <= 1)",
+      "property": "raises_on_condition",
+      "formal": "if not (0 <= rate <= 1) then raises ValueError(\"rate must be in [0, 1]\")"
+    }
+  ],
+  "error": null
+}

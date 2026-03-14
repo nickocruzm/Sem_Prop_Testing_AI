@@ -1,0 +1,37 @@
+{
+  "file": "room_reservation.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "room_reservation",
+      "property": "defines_function",
+      "element": "room_reservation",
+      "formal": "room_reservation(existing, interval) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "room_reservation",
+      "element": "room_reservation",
+      "condition": "start >= end",
+      "property": "raises_on_condition",
+      "formal": "if start >= end then raises ValueError(\"invalid interval\")"
+    },
+    {
+      "scope": "function",
+      "function": "room_reservation",
+      "element": "room_reservation",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "room_reservation(...) returns (True, updated)"
+    },
+    {
+      "scope": "branch",
+      "function": "room_reservation",
+      "element": "room_reservation",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "room_reservation(...) returns (False, existing)"
+    }
+  ],
+  "error": null
+}

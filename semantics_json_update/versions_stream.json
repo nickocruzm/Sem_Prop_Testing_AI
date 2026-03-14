@@ -1,0 +1,13 @@
+{
+  "file": "versions_stream.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "versions_stream",
+      "property": "defines_function",
+      "element": "versions_stream",
+      "formal": "versions_stream(left, right) is defined"
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,21 @@
+{
+  "file": "throughput_trendline.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "throughput_trendline",
+      "property": "defines_function",
+      "element": "throughput_trendline",
+      "formal": "throughput_trendline(x0, y0, x1, y1, x) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "throughput_trendline",
+      "element": "throughput_trendline",
+      "condition": "x1 == x0",
+      "property": "raises_on_condition",
+      "formal": "if x1 == x0 then raises ValueError(\"zero length\")"
+    }
+  ],
+  "error": null
+}

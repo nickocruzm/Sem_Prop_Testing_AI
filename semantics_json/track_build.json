@@ -1,0 +1,14 @@
+{
+  "file": "track_build.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "track_build",
+      "property": "defines_function",
+      "element": "track_build",
+      "formal": "track_build(counters, key) is defined",
+      "file": "track_build.py"
+    }
+  ],
+  "error": null
+}

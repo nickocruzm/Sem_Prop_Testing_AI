@@ -1,0 +1,29 @@
+{
+  "file": "traffic_shaping_gate.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "traffic_shaping_gate",
+      "property": "defines_function",
+      "element": "traffic_shaping_gate",
+      "formal": "traffic_shaping_gate(timestamps, now) is defined"
+    },
+    {
+      "scope": "function",
+      "function": "traffic_shaping_gate",
+      "element": "traffic_shaping_gate",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "traffic_shaping_gate(...) returns (True, limit - len(active))"
+    },
+    {
+      "scope": "branch",
+      "function": "traffic_shaping_gate",
+      "element": "traffic_shaping_gate",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "traffic_shaping_gate(...) returns (False, 0)"
+    }
+  ],
+  "error": null
+}

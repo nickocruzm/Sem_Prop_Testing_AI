@@ -1,0 +1,13 @@
+{
+  "file": "retry_tally.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "retry_tally",
+      "property": "defines_function",
+      "element": "retry_tally",
+      "formal": "retry_tally(counters, key) is defined"
+    }
+  ],
+  "error": null
+}

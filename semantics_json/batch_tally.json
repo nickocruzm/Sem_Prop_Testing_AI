@@ -1,0 +1,14 @@
+{
+  "file": "batch_tally.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "batch_tally",
+      "property": "defines_function",
+      "element": "batch_tally",
+      "formal": "batch_tally(counts, key) is defined",
+      "file": "batch_tally.py"
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,14 @@
+{
+  "file": "bump_conversion.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "bump_conversion",
+      "property": "defines_function",
+      "element": "bump_conversion",
+      "formal": "bump_conversion(counters, key) is defined",
+      "file": "bump_conversion.py"
+    }
+  ],
+  "error": null
+}

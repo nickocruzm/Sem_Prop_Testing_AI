@@ -1,0 +1,29 @@
+{
+  "file": "task_throttle.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "task_throttle",
+      "property": "defines_function",
+      "element": "task_throttle",
+      "formal": "task_throttle(timestamps, now) is defined"
+    },
+    {
+      "scope": "function",
+      "function": "task_throttle",
+      "element": "task_throttle",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "task_throttle(...) returns (True, limit - len(recent))"
+    },
+    {
+      "scope": "branch",
+      "function": "task_throttle",
+      "element": "task_throttle",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "task_throttle(...) returns (False, 0)"
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,13 @@
+{
+  "file": "cacheline_refresh.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "cacheline_refresh",
+      "property": "defines_function",
+      "element": "cacheline_refresh",
+      "formal": "cacheline_refresh(store, key, now) is defined"
+    }
+  ],
+  "error": null
+}

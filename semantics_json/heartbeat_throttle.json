@@ -1,0 +1,32 @@
+{
+  "file": "heartbeat_throttle.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "heartbeat_throttle",
+      "property": "defines_function",
+      "element": "heartbeat_throttle",
+      "formal": "heartbeat_throttle(timestamps, now) is defined",
+      "file": "heartbeat_throttle.py"
+    },
+    {
+      "scope": "function",
+      "function": "heartbeat_throttle",
+      "element": "heartbeat_throttle",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "heartbeat_throttle(...) returns (True, limit - len(active))",
+      "file": "heartbeat_throttle.py"
+    },
+    {
+      "scope": "branch",
+      "function": "heartbeat_throttle",
+      "element": "heartbeat_throttle",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "heartbeat_throttle(...) returns (False, 0)",
+      "file": "heartbeat_throttle.py"
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,13 @@
+{
+  "file": "summary_memo.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "summary_memo",
+      "property": "defines_function",
+      "element": "summary_memo",
+      "formal": "summary_memo(entries, key, now) is defined"
+    }
+  ],
+  "error": null
+}

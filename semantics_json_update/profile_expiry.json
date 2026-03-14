@@ -1,0 +1,13 @@
+{
+  "file": "profile_expiry.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "profile_expiry",
+      "property": "defines_function",
+      "element": "profile_expiry",
+      "formal": "profile_expiry(entries, key, now) is defined"
+    }
+  ],
+  "error": null
+}

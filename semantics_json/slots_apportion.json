@@ -1,0 +1,50 @@
+{
+  "file": "slots_apportion.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "slots_apportion",
+      "property": "defines_function",
+      "element": "slots_apportion",
+      "formal": "slots_apportion(total, weights) is defined",
+      "file": "slots_apportion.py"
+    },
+    {
+      "scope": "branch",
+      "function": "slots_apportion",
+      "element": "slots_apportion",
+      "condition": "total < 0",
+      "property": "raises_on_condition",
+      "formal": "if total < 0 then raises ValueError(\"total must be non-negative\")",
+      "file": "slots_apportion.py"
+    },
+    {
+      "scope": "branch",
+      "function": "slots_apportion",
+      "element": "slots_apportion",
+      "condition": "minimum < 0",
+      "property": "raises_on_condition",
+      "formal": "if minimum < 0 then raises ValueError(\"minimum must be non-negative\")",
+      "file": "slots_apportion.py"
+    },
+    {
+      "scope": "branch",
+      "function": "slots_apportion",
+      "element": "slots_apportion",
+      "condition": "not weights",
+      "property": "raises_on_condition",
+      "formal": "if not weights then raises ValueError(\"no weights provided\")",
+      "file": "slots_apportion.py"
+    },
+    {
+      "scope": "branch",
+      "function": "slots_apportion",
+      "element": "slots_apportion",
+      "condition": "not any(weights)",
+      "property": "raises_on_condition",
+      "formal": "if not any(weights) then raises ValueError(\"all weights are zero\")",
+      "file": "slots_apportion.py"
+    }
+  ],
+  "error": null
+}

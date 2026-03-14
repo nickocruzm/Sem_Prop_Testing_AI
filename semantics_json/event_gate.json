@@ -1,0 +1,32 @@
+{
+  "file": "event_gate.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "event_gate",
+      "property": "defines_function",
+      "element": "event_gate",
+      "formal": "event_gate(timestamps, now) is defined",
+      "file": "event_gate.py"
+    },
+    {
+      "scope": "function",
+      "function": "event_gate",
+      "element": "event_gate",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "event_gate(...) returns (True, limit - len(recent))",
+      "file": "event_gate.py"
+    },
+    {
+      "scope": "branch",
+      "function": "event_gate",
+      "element": "event_gate",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "event_gate(...) returns (False, 0)",
+      "file": "event_gate.py"
+    }
+  ],
+  "error": null
+}

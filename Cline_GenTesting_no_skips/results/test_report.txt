@@ -1,0 +1,2 @@
+run=1/2 tests_dir=semantic_prop_project/Cline_GenTesting_no_skips/generated_tests pass=303 fail=0 exception=0 flaky=0 skip=139
+run=2/2 tests_dir=semantic_prop_project/Cline_GenTesting_no_skips/generated_tests pass=303 fail=0 exception=0 flaky=0 skip=139

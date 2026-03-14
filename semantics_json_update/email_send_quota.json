@@ -1,0 +1,21 @@
+{
+  "file": "email_send_quota.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "email_send_quota",
+      "property": "defines_function",
+      "element": "email_send_quota",
+      "formal": "email_send_quota(sent, now) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "email_send_quota",
+      "element": "email_send_quota",
+      "condition": "len(recent) > limit",
+      "property": "returns_constant",
+      "formal": "if len(recent) > limit then email_send_quota(...) == False"
+    }
+  ],
+  "error": null
+}

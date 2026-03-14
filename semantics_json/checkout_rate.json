@@ -1,0 +1,32 @@
+{
+  "file": "checkout_rate.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "checkout_rate",
+      "property": "defines_function",
+      "element": "checkout_rate",
+      "formal": "checkout_rate(timestamps, now) is defined",
+      "file": "checkout_rate.py"
+    },
+    {
+      "scope": "function",
+      "function": "checkout_rate",
+      "element": "checkout_rate",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "checkout_rate(...) returns (True, limit - len(recent))",
+      "file": "checkout_rate.py"
+    },
+    {
+      "scope": "branch",
+      "function": "checkout_rate",
+      "element": "checkout_rate",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "checkout_rate(...) returns (False, 0)",
+      "file": "checkout_rate.py"
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,13 @@
+{
+  "file": "combine_depths.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "combine_depths",
+      "property": "defines_function",
+      "element": "combine_depths",
+      "formal": "combine_depths(left, right) is defined"
+    }
+  ],
+  "error": null
+}

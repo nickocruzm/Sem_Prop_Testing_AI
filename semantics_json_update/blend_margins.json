@@ -1,0 +1,13 @@
+{
+  "file": "blend_margins.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "blend_margins",
+      "property": "defines_function",
+      "element": "blend_margins",
+      "formal": "blend_margins(left, right) is defined"
+    }
+  ],
+  "error": null
+}

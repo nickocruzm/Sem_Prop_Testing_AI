@@ -1,0 +1,13 @@
+{
+  "file": "cached_inventory.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "cached_inventory",
+      "property": "defines_function",
+      "element": "cached_inventory",
+      "formal": "cached_inventory(store, key, now) is defined"
+    }
+  ],
+  "error": null
+}

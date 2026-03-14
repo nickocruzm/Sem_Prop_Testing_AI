@@ -1,0 +1,29 @@
+{
+  "file": "realign_cache.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "realign_cache",
+      "property": "defines_function",
+      "element": "realign_cache",
+      "formal": "realign_cache(current, target) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "realign_cache",
+      "element": "realign_cache",
+      "condition": "len(current) != len(target)",
+      "property": "raises_on_condition",
+      "formal": "if len(current) != len(target) then raises ValueError(\"shape mismatch\")"
+    },
+    {
+      "scope": "branch",
+      "function": "realign_cache",
+      "element": "realign_cache",
+      "condition": "not current",
+      "property": "raises_on_condition",
+      "formal": "if not current then raises ValueError(\"empty allocation\")"
+    }
+  ],
+  "error": null
+}

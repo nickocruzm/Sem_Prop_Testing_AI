@@ -1,0 +1,41 @@
+{
+  "file": "plan_upgrade_slot.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "plan_upgrade_slot",
+      "property": "defines_function",
+      "element": "plan_upgrade_slot",
+      "formal": "plan_upgrade_slot(timeline, window) is defined",
+      "file": "plan_upgrade_slot.py"
+    },
+    {
+      "scope": "branch",
+      "function": "plan_upgrade_slot",
+      "element": "plan_upgrade_slot",
+      "condition": "a >= b",
+      "property": "raises_on_condition",
+      "formal": "if a >= b then raises ValueError(\"empty window\")",
+      "file": "plan_upgrade_slot.py"
+    },
+    {
+      "scope": "function",
+      "function": "plan_upgrade_slot",
+      "element": "plan_upgrade_slot",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "plan_upgrade_slot(...) returns (True, result)",
+      "file": "plan_upgrade_slot.py"
+    },
+    {
+      "scope": "branch",
+      "function": "plan_upgrade_slot",
+      "element": "plan_upgrade_slot",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "plan_upgrade_slot(...) returns (False, timeline)",
+      "file": "plan_upgrade_slot.py"
+    }
+  ],
+  "error": null
+}

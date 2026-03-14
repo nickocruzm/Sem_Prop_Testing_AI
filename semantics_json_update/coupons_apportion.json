@@ -1,0 +1,53 @@
+{
+  "file": "coupons_apportion.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "coupons_apportion",
+      "property": "defines_function",
+      "element": "coupons_apportion",
+      "formal": "coupons_apportion(total, weights) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "coupons_apportion",
+      "element": "coupons_apportion",
+      "condition": "len(weights) == 0",
+      "property": "raises_on_condition",
+      "formal": "if len(weights) == 0 then raises ValueError(\"weights required\")"
+    },
+    {
+      "scope": "branch",
+      "function": "coupons_apportion",
+      "element": "coupons_apportion",
+      "condition": "total < 0",
+      "property": "raises_on_condition",
+      "formal": "if total < 0 then raises ValueError(\"negative total\")"
+    },
+    {
+      "scope": "branch",
+      "function": "coupons_apportion",
+      "element": "coupons_apportion",
+      "condition": "minimum < 0",
+      "property": "raises_on_condition",
+      "formal": "if minimum < 0 then raises ValueError(\"negative minimum\")"
+    },
+    {
+      "scope": "branch",
+      "function": "coupons_apportion",
+      "element": "coupons_apportion",
+      "condition": "sum(weights) == 0",
+      "property": "raises_on_condition",
+      "formal": "if sum(weights) == 0 then raises ValueError(\"zero total weight\")"
+    },
+    {
+      "scope": "function",
+      "function": "coupons_apportion",
+      "element": "coupons_apportion",
+      "property": "length_preserving_listcomp",
+      "precondition": null,
+      "formal": "len(coupons_apportion(...)) == len(shares)"
+    }
+  ],
+  "error": null
+}

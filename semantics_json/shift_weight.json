@@ -1,0 +1,32 @@
+{
+  "file": "shift_weight.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "shift_weight",
+      "property": "defines_function",
+      "element": "shift_weight",
+      "formal": "shift_weight(current, target) is defined",
+      "file": "shift_weight.py"
+    },
+    {
+      "scope": "branch",
+      "function": "shift_weight",
+      "element": "shift_weight",
+      "condition": "len(current) != len(target)",
+      "property": "raises_on_condition",
+      "formal": "if len(current) != len(target) then raises ValueError(\"shape mismatch\")",
+      "file": "shift_weight.py"
+    },
+    {
+      "scope": "branch",
+      "function": "shift_weight",
+      "element": "shift_weight",
+      "condition": "not current",
+      "property": "raises_on_condition",
+      "formal": "if not current then raises ValueError(\"empty allocation\")",
+      "file": "shift_weight.py"
+    }
+  ],
+  "error": null
+}

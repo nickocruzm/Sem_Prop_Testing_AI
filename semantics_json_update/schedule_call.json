@@ -1,0 +1,44 @@
+{
+  "file": "schedule_call.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "schedule_call",
+      "property": "defines_function",
+      "element": "schedule_call",
+      "formal": "schedule_call(existing, candidate) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "schedule_call",
+      "element": "schedule_call",
+      "condition": "candidate[0] >= candidate[1]",
+      "property": "raises_on_condition",
+      "formal": "if candidate[0] >= candidate[1] then raises ValueError(\"start must be before end\")"
+    },
+    {
+      "scope": "function",
+      "function": "overlaps",
+      "property": "defines_function",
+      "element": "overlaps",
+      "formal": "overlaps(a, b) is defined"
+    },
+    {
+      "scope": "function",
+      "function": "schedule_call",
+      "element": "schedule_call",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "schedule_call(...) returns (True, merged)"
+    },
+    {
+      "scope": "branch",
+      "function": "schedule_call",
+      "element": "schedule_call",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "schedule_call(...) returns (False, list(existing))"
+    }
+  ],
+  "error": null
+}

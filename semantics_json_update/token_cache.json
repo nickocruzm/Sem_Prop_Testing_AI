@@ -1,0 +1,13 @@
+{
+  "file": "token_cache.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "token_cache",
+      "property": "defines_function",
+      "element": "token_cache",
+      "formal": "token_cache(cache, key, now) is defined"
+    }
+  ],
+  "error": null
+}

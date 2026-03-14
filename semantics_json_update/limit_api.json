@@ -1,0 +1,29 @@
+{
+  "file": "limit_api.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "limit_api",
+      "property": "defines_function",
+      "element": "limit_api",
+      "formal": "limit_api(timestamps, now) is defined"
+    },
+    {
+      "scope": "function",
+      "function": "limit_api",
+      "element": "limit_api",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "limit_api(...) returns (True, limit - len(recent))"
+    },
+    {
+      "scope": "branch",
+      "function": "limit_api",
+      "element": "limit_api",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "limit_api(...) returns (False, 0)"
+    }
+  ],
+  "error": null
+}

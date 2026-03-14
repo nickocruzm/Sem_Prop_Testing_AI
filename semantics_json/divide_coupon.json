@@ -1,0 +1,50 @@
+{
+  "file": "divide_coupon.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "divide_coupon",
+      "property": "defines_function",
+      "element": "divide_coupon",
+      "formal": "divide_coupon(amount, ratios) is defined",
+      "file": "divide_coupon.py"
+    },
+    {
+      "scope": "branch",
+      "function": "divide_coupon",
+      "element": "divide_coupon",
+      "condition": "not ratios",
+      "property": "raises_on_condition",
+      "formal": "if not ratios then raises ValueError(\"empty ratios\")",
+      "file": "divide_coupon.py"
+    },
+    {
+      "scope": "branch",
+      "function": "divide_coupon",
+      "element": "divide_coupon",
+      "condition": "sum(ratios) <= 0",
+      "property": "raises_on_condition",
+      "formal": "if sum(ratios) <= 0 then raises ValueError(\"invalid ratios\")",
+      "file": "divide_coupon.py"
+    },
+    {
+      "scope": "branch",
+      "function": "divide_coupon",
+      "element": "divide_coupon",
+      "condition": "amount < 0",
+      "property": "raises_on_condition",
+      "formal": "if amount < 0 then raises ValueError(\"negative amount\")",
+      "file": "divide_coupon.py"
+    },
+    {
+      "scope": "function",
+      "function": "divide_coupon",
+      "element": "divide_coupon",
+      "property": "length_preserving_listcomp",
+      "precondition": null,
+      "formal": "len(divide_coupon(...)) == len(base)",
+      "file": "divide_coupon.py"
+    }
+  ],
+  "error": null
+}

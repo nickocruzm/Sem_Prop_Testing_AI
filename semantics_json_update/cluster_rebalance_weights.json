@@ -1,0 +1,29 @@
+{
+  "file": "cluster_rebalance_weights.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "cluster_rebalance_weights",
+      "property": "defines_function",
+      "element": "cluster_rebalance_weights",
+      "formal": "cluster_rebalance_weights(current, target) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "cluster_rebalance_weights",
+      "element": "cluster_rebalance_weights",
+      "condition": "len(current) != len(target)",
+      "property": "raises_on_condition",
+      "formal": "if len(current) != len(target) then raises ValueError(\"shape mismatch\")"
+    },
+    {
+      "scope": "branch",
+      "function": "cluster_rebalance_weights",
+      "element": "cluster_rebalance_weights",
+      "condition": "not current",
+      "property": "raises_on_condition",
+      "formal": "if not current then raises ValueError(\"empty weights\")"
+    }
+  ],
+  "error": null
+}

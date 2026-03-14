@@ -1,0 +1,21 @@
+{
+  "file": "config_interpolate.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "config_interpolate",
+      "property": "defines_function",
+      "element": "config_interpolate",
+      "formal": "config_interpolate(x0, y0, x1, y1, x) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "config_interpolate",
+      "element": "config_interpolate",
+      "condition": "x1 == x0",
+      "property": "raises_on_condition",
+      "formal": "if x1 == x0 then raises ValueError(\"degenerate range\")"
+    }
+  ],
+  "error": null
+}

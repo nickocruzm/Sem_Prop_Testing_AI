@@ -1,0 +1,13 @@
+{
+  "file": "cached_preference.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "cached_preference",
+      "property": "defines_function",
+      "element": "cached_preference",
+      "formal": "cached_preference(cache, key, now) is defined"
+    }
+  ],
+  "error": null
+}

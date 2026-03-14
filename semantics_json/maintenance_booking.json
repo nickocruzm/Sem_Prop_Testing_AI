@@ -1,0 +1,41 @@
+{
+  "file": "maintenance_booking.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "maintenance_booking",
+      "property": "defines_function",
+      "element": "maintenance_booking",
+      "formal": "maintenance_booking(timeline, window) is defined",
+      "file": "maintenance_booking.py"
+    },
+    {
+      "scope": "branch",
+      "function": "maintenance_booking",
+      "element": "maintenance_booking",
+      "condition": "a >= b",
+      "property": "raises_on_condition",
+      "formal": "if a >= b then raises ValueError(\"empty window\")",
+      "file": "maintenance_booking.py"
+    },
+    {
+      "scope": "function",
+      "function": "maintenance_booking",
+      "element": "maintenance_booking",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "maintenance_booking(...) returns (True, result)",
+      "file": "maintenance_booking.py"
+    },
+    {
+      "scope": "branch",
+      "function": "maintenance_booking",
+      "element": "maintenance_booking",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "maintenance_booking(...) returns (False, timeline)",
+      "file": "maintenance_booking.py"
+    }
+  ],
+  "error": null
+}

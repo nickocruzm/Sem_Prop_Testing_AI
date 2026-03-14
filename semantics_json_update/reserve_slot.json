@@ -1,0 +1,44 @@
+{
+  "file": "reserve_slot.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "reserve_slot",
+      "property": "defines_function",
+      "element": "reserve_slot",
+      "formal": "reserve_slot(existing, candidate) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "reserve_slot",
+      "element": "reserve_slot",
+      "condition": "candidate[0] >= candidate[1]",
+      "property": "raises_on_condition",
+      "formal": "if candidate[0] >= candidate[1] then raises ValueError(\"start must be before end\")"
+    },
+    {
+      "scope": "function",
+      "function": "overlaps",
+      "property": "defines_function",
+      "element": "overlaps",
+      "formal": "overlaps(a, b) is defined"
+    },
+    {
+      "scope": "function",
+      "function": "reserve_slot",
+      "element": "reserve_slot",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "reserve_slot(...) returns (True, merged)"
+    },
+    {
+      "scope": "branch",
+      "function": "reserve_slot",
+      "element": "reserve_slot",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "reserve_slot(...) returns (False, list(existing))"
+    }
+  ],
+  "error": null
+}

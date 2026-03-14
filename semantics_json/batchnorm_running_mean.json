@@ -1,0 +1,23 @@
+{
+  "file": "batchnorm_running_mean.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "batchnorm_running_mean",
+      "property": "defines_function",
+      "element": "batchnorm_running_mean",
+      "formal": "batchnorm_running_mean(current_mean, batch_mean) is defined",
+      "file": "batchnorm_running_mean.py"
+    },
+    {
+      "scope": "branch",
+      "function": "batchnorm_running_mean",
+      "element": "batchnorm_running_mean",
+      "condition": "not (0 <= momentum <= 1)",
+      "property": "raises_on_condition",
+      "formal": "if not (0 <= momentum <= 1) then raises ValueError(\"momentum must be in [0, 1]\")",
+      "file": "batchnorm_running_mean.py"
+    }
+  ],
+  "error": null
+}

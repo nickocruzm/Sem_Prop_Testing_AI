@@ -1,0 +1,21 @@
+{
+  "file": "model_confidence_clamp.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "model_confidence_clamp",
+      "property": "defines_function",
+      "element": "model_confidence_clamp",
+      "formal": "model_confidence_clamp(x0, y0, x1, y1, x) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "model_confidence_clamp",
+      "element": "model_confidence_clamp",
+      "condition": "x0 == x1",
+      "property": "raises_on_condition",
+      "formal": "if x0 == x1 then raises ValueError(\"degenerate segment\")"
+    }
+  ],
+  "error": null
+}

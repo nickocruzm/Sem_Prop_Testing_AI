@@ -1,0 +1,45 @@
+{
+  "file": "schedule_shift_allocator.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "schedule_shift_allocator",
+      "property": "defines_function",
+      "element": "schedule_shift_allocator",
+      "formal": "schedule_shift_allocator(total, weights) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "schedule_shift_allocator",
+      "element": "schedule_shift_allocator",
+      "condition": "total < 0",
+      "property": "raises_on_condition",
+      "formal": "if total < 0 then raises ValueError(\"total must be non-negative\")"
+    },
+    {
+      "scope": "branch",
+      "function": "schedule_shift_allocator",
+      "element": "schedule_shift_allocator",
+      "condition": "minimum < 0",
+      "property": "raises_on_condition",
+      "formal": "if minimum < 0 then raises ValueError(\"minimum must be non-negative\")"
+    },
+    {
+      "scope": "branch",
+      "function": "schedule_shift_allocator",
+      "element": "schedule_shift_allocator",
+      "condition": "not weights or sum(weights) == 0",
+      "property": "raises_on_condition",
+      "formal": "if not weights or sum(weights) == 0 then raises ValueError(\"invalid weights\")"
+    },
+    {
+      "scope": "function",
+      "function": "schedule_shift_allocator",
+      "element": "schedule_shift_allocator",
+      "property": "length_preserving_listcomp",
+      "precondition": null,
+      "formal": "len(schedule_shift_allocator(...)) == len(shares)"
+    }
+  ],
+  "error": null
+}

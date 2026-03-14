@@ -1,0 +1,13 @@
+{
+  "file": "redis_like_expiry.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "redis_like_expiry",
+      "property": "defines_function",
+      "element": "redis_like_expiry",
+      "formal": "redis_like_expiry(store, key, now) is defined"
+    }
+  ],
+  "error": null
+}

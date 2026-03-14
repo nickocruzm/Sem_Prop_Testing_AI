@@ -1,0 +1,13 @@
+{
+  "file": "combine_offsets.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "combine_offsets",
+      "property": "defines_function",
+      "element": "combine_offsets",
+      "formal": "combine_offsets(left, right) is defined"
+    }
+  ],
+  "error": null
+}

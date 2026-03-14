@@ -1,0 +1,32 @@
+{
+  "file": "smooth_cpu.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "smooth_cpu",
+      "property": "defines_function",
+      "element": "smooth_cpu",
+      "formal": "smooth_cpu(values) is defined",
+      "file": "smooth_cpu.py"
+    },
+    {
+      "scope": "branch",
+      "function": "smooth_cpu",
+      "element": "smooth_cpu",
+      "condition": "window <= 0",
+      "property": "raises_on_condition",
+      "formal": "if window <= 0 then raises ValueError(\"window must be positive\")",
+      "file": "smooth_cpu.py"
+    },
+    {
+      "scope": "branch",
+      "function": "smooth_cpu",
+      "element": "smooth_cpu",
+      "condition": "not values",
+      "property": "raises_on_condition",
+      "formal": "if not values then raises ValueError(\"empty series\")",
+      "file": "smooth_cpu.py"
+    }
+  ],
+  "error": null
+}

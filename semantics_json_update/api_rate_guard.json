@@ -1,0 +1,29 @@
+{
+  "file": "api_rate_guard.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "api_rate_guard",
+      "property": "defines_function",
+      "element": "api_rate_guard",
+      "formal": "api_rate_guard(timestamps, now) is defined"
+    },
+    {
+      "scope": "function",
+      "function": "api_rate_guard",
+      "element": "api_rate_guard",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "api_rate_guard(...) returns (True, limit - len(recent))"
+    },
+    {
+      "scope": "branch",
+      "function": "api_rate_guard",
+      "element": "api_rate_guard",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "api_rate_guard(...) returns (False, 0)"
+    }
+  ],
+  "error": null
+}

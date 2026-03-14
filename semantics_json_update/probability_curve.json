@@ -1,0 +1,21 @@
+{
+  "file": "probability_curve.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "probability_curve",
+      "property": "defines_function",
+      "element": "probability_curve",
+      "formal": "probability_curve(x0, y0, x1, y1, x) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "probability_curve",
+      "element": "probability_curve",
+      "condition": "x1 == x0",
+      "property": "raises_on_condition",
+      "formal": "if x1 == x0 then raises ValueError(\"degenerate segment\")"
+    }
+  ],
+  "error": null
+}

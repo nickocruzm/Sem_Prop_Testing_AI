@@ -1,0 +1,32 @@
+{
+  "file": "budget_mix.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "budget_mix",
+      "property": "defines_function",
+      "element": "budget_mix",
+      "formal": "budget_mix(current, target) is defined",
+      "file": "budget_mix.py"
+    },
+    {
+      "scope": "branch",
+      "function": "budget_mix",
+      "element": "budget_mix",
+      "condition": "len(current) != len(target)",
+      "property": "raises_on_condition",
+      "formal": "if len(current) != len(target) then raises ValueError(\"shape mismatch\")",
+      "file": "budget_mix.py"
+    },
+    {
+      "scope": "branch",
+      "function": "budget_mix",
+      "element": "budget_mix",
+      "condition": "not current",
+      "property": "raises_on_condition",
+      "formal": "if not current then raises ValueError(\"empty allocation\")",
+      "file": "budget_mix.py"
+    }
+  ],
+  "error": null
+}

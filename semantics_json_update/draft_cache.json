@@ -1,0 +1,13 @@
+{
+  "file": "draft_cache.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "draft_cache",
+      "property": "defines_function",
+      "element": "draft_cache",
+      "formal": "draft_cache(entries, key, now) is defined"
+    }
+  ],
+  "error": null
+}

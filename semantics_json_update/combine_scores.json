@@ -1,0 +1,13 @@
+{
+  "file": "combine_scores.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "combine_scores",
+      "property": "defines_function",
+      "element": "combine_scores",
+      "formal": "combine_scores(left, right) is defined"
+    }
+  ],
+  "error": null
+}

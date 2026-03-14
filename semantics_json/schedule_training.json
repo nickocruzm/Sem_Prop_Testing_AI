@@ -1,0 +1,41 @@
+{
+  "file": "schedule_training.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "schedule_training",
+      "property": "defines_function",
+      "element": "schedule_training",
+      "formal": "schedule_training(existing, interval) is defined",
+      "file": "schedule_training.py"
+    },
+    {
+      "scope": "branch",
+      "function": "schedule_training",
+      "element": "schedule_training",
+      "condition": "start >= end",
+      "property": "raises_on_condition",
+      "formal": "if start >= end then raises ValueError(\"invalid interval\")",
+      "file": "schedule_training.py"
+    },
+    {
+      "scope": "function",
+      "function": "schedule_training",
+      "element": "schedule_training",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "schedule_training(...) returns (True, updated)",
+      "file": "schedule_training.py"
+    },
+    {
+      "scope": "branch",
+      "function": "schedule_training",
+      "element": "schedule_training",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "schedule_training(...) returns (False, existing)",
+      "file": "schedule_training.py"
+    }
+  ],
+  "error": null
+}

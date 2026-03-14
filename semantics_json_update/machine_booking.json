@@ -1,0 +1,37 @@
+{
+  "file": "machine_booking.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "machine_booking",
+      "property": "defines_function",
+      "element": "machine_booking",
+      "formal": "machine_booking(timeline, window) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "machine_booking",
+      "element": "machine_booking",
+      "condition": "a >= b",
+      "property": "raises_on_condition",
+      "formal": "if a >= b then raises ValueError(\"empty window\")"
+    },
+    {
+      "scope": "function",
+      "function": "machine_booking",
+      "element": "machine_booking",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "machine_booking(...) returns (True, result)"
+    },
+    {
+      "scope": "branch",
+      "function": "machine_booking",
+      "element": "machine_booking",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "machine_booking(...) returns (False, timeline)"
+    }
+  ],
+  "error": null
+}

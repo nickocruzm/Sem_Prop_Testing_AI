@@ -1,0 +1,13 @@
+{
+  "file": "histogram_bucket_merge.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "histogram_bucket_merge",
+      "property": "defines_function",
+      "element": "histogram_bucket_merge",
+      "formal": "histogram_bucket_merge(left, right) is defined"
+    }
+  ],
+  "error": null
+}

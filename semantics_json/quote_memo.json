@@ -1,0 +1,14 @@
+{
+  "file": "quote_memo.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "quote_memo",
+      "property": "defines_function",
+      "element": "quote_memo",
+      "formal": "quote_memo(cache, key, now) is defined",
+      "file": "quote_memo.py"
+    }
+  ],
+  "error": null
+}

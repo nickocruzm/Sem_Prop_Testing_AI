@@ -1,0 +1,49 @@
+{
+  "file": "scores_apportion.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "scores_apportion",
+      "property": "defines_function",
+      "element": "scores_apportion",
+      "formal": "scores_apportion(total, weights) is defined",
+      "file": "scores_apportion.py"
+    },
+    {
+      "scope": "branch",
+      "function": "scores_apportion",
+      "element": "scores_apportion",
+      "condition": "total < 0",
+      "property": "raises_on_condition",
+      "formal": "if total < 0 then raises ValueError(\"total < 0\")",
+      "file": "scores_apportion.py"
+    },
+    {
+      "scope": "branch",
+      "function": "scores_apportion",
+      "element": "scores_apportion",
+      "condition": "minimum < 0",
+      "property": "raises_on_condition",
+      "formal": "if minimum < 0 then raises ValueError(\"minimum < 0\")",
+      "file": "scores_apportion.py"
+    },
+    {
+      "scope": "branch",
+      "function": "scores_apportion",
+      "element": "scores_apportion",
+      "condition": "not weights or sum(weights) == 0",
+      "property": "raises_on_condition",
+      "formal": "if not weights or sum(weights) == 0 then raises ValueError(\"invalid weights\")",
+      "file": "scores_apportion.py"
+    },
+    {
+      "scope": "function",
+      "function": "compute_share",
+      "property": "defines_function",
+      "element": "compute_share",
+      "formal": "compute_share(w) is defined",
+      "file": "scores_apportion.py"
+    }
+  ],
+  "error": null
+}

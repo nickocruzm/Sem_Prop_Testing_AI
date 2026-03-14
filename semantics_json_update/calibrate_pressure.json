@@ -1,0 +1,21 @@
+{
+  "file": "calibrate_pressure.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "calibrate_pressure",
+      "property": "defines_function",
+      "element": "calibrate_pressure",
+      "formal": "calibrate_pressure(x0, y0, x1, y1, x) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "calibrate_pressure",
+      "element": "calibrate_pressure",
+      "condition": "x1 == x0",
+      "property": "raises_on_condition",
+      "formal": "if x1 == x0 then raises ValueError(\"zero length\")"
+    }
+  ],
+  "error": null
+}

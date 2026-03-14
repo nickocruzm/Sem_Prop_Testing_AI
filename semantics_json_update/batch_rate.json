@@ -1,0 +1,29 @@
+{
+  "file": "batch_rate.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "batch_rate",
+      "property": "defines_function",
+      "element": "batch_rate",
+      "formal": "batch_rate(timestamps, now) is defined"
+    },
+    {
+      "scope": "function",
+      "function": "batch_rate",
+      "element": "batch_rate",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "batch_rate(...) returns (True, limit - len(recent))"
+    },
+    {
+      "scope": "branch",
+      "function": "batch_rate",
+      "element": "batch_rate",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "batch_rate(...) returns (False, 0)"
+    }
+  ],
+  "error": null
+}

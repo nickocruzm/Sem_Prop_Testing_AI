@@ -1,0 +1,44 @@
+{
+  "file": "reserve_lane.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "reserve_lane",
+      "property": "defines_function",
+      "element": "reserve_lane",
+      "formal": "reserve_lane(existing, candidate) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "reserve_lane",
+      "element": "reserve_lane",
+      "condition": "candidate[0] >= candidate[1]",
+      "property": "raises_on_condition",
+      "formal": "if candidate[0] >= candidate[1] then raises ValueError(\"start must be before end\")"
+    },
+    {
+      "scope": "function",
+      "function": "overlaps",
+      "property": "defines_function",
+      "element": "overlaps",
+      "formal": "overlaps(a, b) is defined"
+    },
+    {
+      "scope": "function",
+      "function": "reserve_lane",
+      "element": "reserve_lane",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "reserve_lane(...) returns (True, merged)"
+    },
+    {
+      "scope": "branch",
+      "function": "reserve_lane",
+      "element": "reserve_lane",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "reserve_lane(...) returns (False, list(existing))"
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,21 @@
+{
+  "file": "tensor_slice_pad.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "tensor_slice_pad",
+      "property": "defines_function",
+      "element": "tensor_slice_pad",
+      "formal": "tensor_slice_pad(values, start, end) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "tensor_slice_pad",
+      "element": "tensor_slice_pad",
+      "condition": "start < 0 or end < start",
+      "property": "raises_on_condition",
+      "formal": "if start < 0 or end < start then raises ValueError(\"invalid range\")"
+    }
+  ],
+  "error": null
+}

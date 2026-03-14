@@ -1,0 +1,13 @@
+{
+  "file": "warm_cache_loader.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "warm_cache_loader",
+      "property": "defines_function",
+      "element": "warm_cache_loader",
+      "formal": "warm_cache_loader(cache, key, now) is defined"
+    }
+  ],
+  "error": null
+}

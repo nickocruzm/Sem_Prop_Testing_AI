@@ -1,0 +1,49 @@
+{
+  "file": "plan_conference_slot.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "plan_conference_slot",
+      "property": "defines_function",
+      "element": "plan_conference_slot",
+      "formal": "plan_conference_slot(existing, candidate) is defined",
+      "file": "plan_conference_slot.py"
+    },
+    {
+      "scope": "branch",
+      "function": "plan_conference_slot",
+      "element": "plan_conference_slot",
+      "condition": "candidate[0] >= candidate[1]",
+      "property": "raises_on_condition",
+      "formal": "if candidate[0] >= candidate[1] then raises ValueError(\"start must be before end\")",
+      "file": "plan_conference_slot.py"
+    },
+    {
+      "scope": "function",
+      "function": "overlaps",
+      "property": "defines_function",
+      "element": "overlaps",
+      "formal": "overlaps(a, b) is defined",
+      "file": "plan_conference_slot.py"
+    },
+    {
+      "scope": "function",
+      "function": "plan_conference_slot",
+      "element": "plan_conference_slot",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "plan_conference_slot(...) returns (True, merged)",
+      "file": "plan_conference_slot.py"
+    },
+    {
+      "scope": "branch",
+      "function": "plan_conference_slot",
+      "element": "plan_conference_slot",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "plan_conference_slot(...) returns (False, list(existing))",
+      "file": "plan_conference_slot.py"
+    }
+  ],
+  "error": null
+}

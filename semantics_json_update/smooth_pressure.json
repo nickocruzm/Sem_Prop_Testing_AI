@@ -1,0 +1,29 @@
+{
+  "file": "smooth_pressure.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "smooth_pressure",
+      "property": "defines_function",
+      "element": "smooth_pressure",
+      "formal": "smooth_pressure(values) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "smooth_pressure",
+      "element": "smooth_pressure",
+      "condition": "window <= 0",
+      "property": "raises_on_condition",
+      "formal": "if window <= 0 then raises ValueError(\"window must be positive\")"
+    },
+    {
+      "scope": "branch",
+      "function": "smooth_pressure",
+      "element": "smooth_pressure",
+      "condition": "not values",
+      "property": "raises_on_condition",
+      "formal": "if not values then raises ValueError(\"no values\")"
+    }
+  ],
+  "error": null
+}

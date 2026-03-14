@@ -1,0 +1,29 @@
+{
+  "file": "read_throttle.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "read_throttle",
+      "property": "defines_function",
+      "element": "read_throttle",
+      "formal": "read_throttle(timestamps, now) is defined"
+    },
+    {
+      "scope": "function",
+      "function": "read_throttle",
+      "element": "read_throttle",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "read_throttle(...) returns (True, limit - len(active))"
+    },
+    {
+      "scope": "branch",
+      "function": "read_throttle",
+      "element": "read_throttle",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "read_throttle(...) returns (False, 0)"
+    }
+  ],
+  "error": null
+}

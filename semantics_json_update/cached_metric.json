@@ -1,0 +1,13 @@
+{
+  "file": "cached_metric.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "cached_metric",
+      "property": "defines_function",
+      "element": "cached_metric",
+      "formal": "cached_metric(cache, key, now) is defined"
+    }
+  ],
+  "error": null
+}

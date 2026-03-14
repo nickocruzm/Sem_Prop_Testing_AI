@@ -1,0 +1,29 @@
+{
+  "file": "limit_sensor.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "limit_sensor",
+      "property": "defines_function",
+      "element": "limit_sensor",
+      "formal": "limit_sensor(timestamps, now) is defined"
+    },
+    {
+      "scope": "function",
+      "function": "limit_sensor",
+      "element": "limit_sensor",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "limit_sensor(...) returns (True, limit - len(active))"
+    },
+    {
+      "scope": "branch",
+      "function": "limit_sensor",
+      "element": "limit_sensor",
+      "property": "returns_status_tuple",
+      "precondition": null,
+      "formal": "limit_sensor(...) returns (False, 0)"
+    }
+  ],
+  "error": null
+}

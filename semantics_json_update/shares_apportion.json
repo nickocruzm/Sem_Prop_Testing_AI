@@ -1,0 +1,45 @@
+{
+  "file": "shares_apportion.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "shares_apportion",
+      "property": "defines_function",
+      "element": "shares_apportion",
+      "formal": "shares_apportion(total, weights) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "shares_apportion",
+      "element": "shares_apportion",
+      "condition": "total < 0",
+      "property": "raises_on_condition",
+      "formal": "if total < 0 then raises ValueError(\"total must be non-negative\")"
+    },
+    {
+      "scope": "branch",
+      "function": "shares_apportion",
+      "element": "shares_apportion",
+      "condition": "minimum < 0",
+      "property": "raises_on_condition",
+      "formal": "if minimum < 0 then raises ValueError(\"minimum must be non-negative\")"
+    },
+    {
+      "scope": "branch",
+      "function": "shares_apportion",
+      "element": "shares_apportion",
+      "condition": "not weights",
+      "property": "raises_on_condition",
+      "formal": "if not weights then raises ValueError(\"no weights provided\")"
+    },
+    {
+      "scope": "branch",
+      "function": "shares_apportion",
+      "element": "shares_apportion",
+      "condition": "not any(weights)",
+      "property": "raises_on_condition",
+      "formal": "if not any(weights) then raises ValueError(\"all weights are zero\")"
+    }
+  ],
+  "error": null
+}

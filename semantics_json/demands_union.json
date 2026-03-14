@@ -1,0 +1,14 @@
+{
+  "file": "demands_union.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "demands_union",
+      "property": "defines_function",
+      "element": "demands_union",
+      "formal": "demands_union(left, right) is defined",
+      "file": "demands_union.py"
+    }
+  ],
+  "error": null
+}

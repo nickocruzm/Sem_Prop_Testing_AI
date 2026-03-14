@@ -1,0 +1,32 @@
+{
+  "file": "adjust_allocation.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "adjust_allocation",
+      "property": "defines_function",
+      "element": "adjust_allocation",
+      "formal": "adjust_allocation(current, target) is defined",
+      "file": "adjust_allocation.py"
+    },
+    {
+      "scope": "branch",
+      "function": "adjust_allocation",
+      "element": "adjust_allocation",
+      "condition": "len(current) != len(target)",
+      "property": "raises_on_condition",
+      "formal": "if len(current) != len(target) then raises ValueError(\"shape mismatch\")",
+      "file": "adjust_allocation.py"
+    },
+    {
+      "scope": "branch",
+      "function": "adjust_allocation",
+      "element": "adjust_allocation",
+      "condition": "not current",
+      "property": "raises_on_condition",
+      "formal": "if not current then raises ValueError(\"empty allocation\")",
+      "file": "adjust_allocation.py"
+    }
+  ],
+  "error": null
+}

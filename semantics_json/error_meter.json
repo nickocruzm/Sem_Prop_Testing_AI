@@ -1,0 +1,14 @@
+{
+  "file": "error_meter.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "error_meter",
+      "property": "defines_function",
+      "element": "error_meter",
+      "formal": "error_meter(counters, key) is defined",
+      "file": "error_meter.py"
+    }
+  ],
+  "error": null
+}

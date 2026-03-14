@@ -1,0 +1,13 @@
+{
+  "file": "price_cache.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "price_cache",
+      "property": "defines_function",
+      "element": "price_cache",
+      "formal": "price_cache(cache, key, now) is defined"
+    }
+  ],
+  "error": null
+}

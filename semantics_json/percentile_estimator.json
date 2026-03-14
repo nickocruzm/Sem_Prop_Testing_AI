@@ -1,0 +1,32 @@
+{
+  "file": "percentile_estimator.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "percentile_estimator",
+      "property": "defines_function",
+      "element": "percentile_estimator",
+      "formal": "percentile_estimator(values) is defined",
+      "file": "percentile_estimator.py"
+    },
+    {
+      "scope": "branch",
+      "function": "percentile_estimator",
+      "element": "percentile_estimator",
+      "condition": "not values",
+      "property": "raises_on_condition",
+      "formal": "if not values then raises ValueError(\"no values\")",
+      "file": "percentile_estimator.py"
+    },
+    {
+      "scope": "branch",
+      "function": "percentile_estimator",
+      "element": "percentile_estimator",
+      "condition": "not (0 <= q <= 1)",
+      "property": "raises_on_condition",
+      "formal": "if not (0 <= q <= 1) then raises ValueError(\"q must be in [0, 1]\")",
+      "file": "percentile_estimator.py"
+    }
+  ],
+  "error": null
+}

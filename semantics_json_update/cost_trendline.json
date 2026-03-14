@@ -1,0 +1,21 @@
+{
+  "file": "cost_trendline.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "cost_trendline",
+      "property": "defines_function",
+      "element": "cost_trendline",
+      "formal": "cost_trendline(x0, y0, x1, y1, x) is defined"
+    },
+    {
+      "scope": "branch",
+      "function": "cost_trendline",
+      "element": "cost_trendline",
+      "condition": "x0 == x1",
+      "property": "raises_on_condition",
+      "formal": "if x0 == x1 then raises ValueError(\"x0 equals x1\")"
+    }
+  ],
+  "error": null
+}

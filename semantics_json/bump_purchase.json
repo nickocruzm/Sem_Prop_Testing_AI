@@ -1,0 +1,14 @@
+{
+  "file": "bump_purchase.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "bump_purchase",
+      "property": "defines_function",
+      "element": "bump_purchase",
+      "formal": "bump_purchase(counters, key) is defined",
+      "file": "bump_purchase.py"
+    }
+  ],
+  "error": null
+}

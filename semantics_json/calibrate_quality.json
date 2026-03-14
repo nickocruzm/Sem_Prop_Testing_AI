@@ -1,0 +1,23 @@
+{
+  "file": "calibrate_quality.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "calibrate_quality",
+      "property": "defines_function",
+      "element": "calibrate_quality",
+      "formal": "calibrate_quality(x0, y0, x1, y1, x) is defined",
+      "file": "calibrate_quality.py"
+    },
+    {
+      "scope": "branch",
+      "function": "calibrate_quality",
+      "element": "calibrate_quality",
+      "condition": "x1 == x0",
+      "property": "raises_on_condition",
+      "formal": "if x1 == x0 then raises ValueError(\"degenerate segment\")",
+      "file": "calibrate_quality.py"
+    }
+  ],
+  "error": null
+}

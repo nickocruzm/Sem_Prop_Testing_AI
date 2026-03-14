@@ -1,0 +1,32 @@
+{
+  "file": "probability_rebalance.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "probability_rebalance",
+      "property": "defines_function",
+      "element": "probability_rebalance",
+      "formal": "probability_rebalance(current, target) is defined",
+      "file": "probability_rebalance.py"
+    },
+    {
+      "scope": "branch",
+      "function": "probability_rebalance",
+      "element": "probability_rebalance",
+      "condition": "len(current) != len(target)",
+      "property": "raises_on_condition",
+      "formal": "if len(current) != len(target) then raises ValueError(\"shape mismatch\")",
+      "file": "probability_rebalance.py"
+    },
+    {
+      "scope": "branch",
+      "function": "probability_rebalance",
+      "element": "probability_rebalance",
+      "condition": "not current",
+      "property": "raises_on_condition",
+      "formal": "if not current then raises ValueError(\"empty allocation\")",
+      "file": "probability_rebalance.py"
+    }
+  ],
+  "error": null
+}

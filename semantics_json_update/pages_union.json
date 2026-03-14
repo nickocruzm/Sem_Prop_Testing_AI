@@ -1,0 +1,13 @@
+{
+  "file": "pages_union.py",
+  "properties": [
+    {
+      "scope": "function",
+      "function": "pages_union",
+      "property": "defines_function",
+      "element": "pages_union",
+      "formal": "pages_union(left, right) is defined"
+    }
+  ],
+  "error": null
+}
