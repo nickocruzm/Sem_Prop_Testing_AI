@@ -1,65 +1,27 @@
 {
   "stream_joiner.py": {
-    "functions": [
-      "stream_joiner"
-    ],
-    "branches": [
-      "left[i] <= right[j]",
-      "out and left and right and out[-1] == left[-1] == right[-1]"
-    ],
-    "loops": [
-      "while_statement"
-    ],
-    "returns": 1
+    "function": "stream_joiner",
+    "branch1": "left[i] <= right[j]",
+    "branch2": "out and left and right and out[-1] == left[-1] == right[-1]"
   },
   "dataloader_shard_merge.py": {
-    "functions": [
-      "dataloader_shard_merge"
-    ],
-    "branches": [
-      "left_ids[i] <= right_ids[j]",
-      "merged and left_ids and right_ids and merged[-1] == left_ids[-1] == right_ids[-1]"
-    ],
-    "loops": [
-      "while_statement"
-    ],
-    "returns": 1
+    "function": "dataloader_shard_merge",
+    "branch1": "left_ids[i] <= right_ids[j]",
+    "branch2": "merged and left_ids and right_ids and merged[-1] == left_ids[-1] == right_ids[-1]"
   },
   "txn_dedup_merge.py": {
-    "functions": [
-      "txn_dedup_merge"
-    ],
-    "branches": [
-      "left[i] < right[j]",
-      "merged and left and right and merged[-1] == left[-1] == right[-1]"
-    ],
-    "loops": [
-      "while_statement"
-    ],
-    "returns": 1
+    "function": "txn_dedup_merge",
+    "branch1": "left[i] < right[j]",
+    "branch2": "merged and left and right and merged[-1] == left[-1] == right[-1]"
   },
   "calibrate_lift.py": {
-    "functions": [
-      "calibrate_lift"
-    ],
-    "branches": [
-      "x1 == x0",
-      "clamp"
-    ],
-    "loops": [],
-    "returns": 1
+    "function": "calibrate_lift",
+    "branch1": "x1 == x0",
+    "branch2": "clamp"
   },
   "blend_levels.py": {
-    "functions": [
-      "blend_levels"
-    ],
-    "branches": [
-      "left[i] <= right[j]",
-      "merged and left and right and merged[-1] == left[-1] == right[-1]"
-    ],
-    "loops": [
-      "while_statement"
-    ],
-    "returns": 1
+    "function": "blend_levels",
+    "branch1": "left[i] <= right[j]",
+    "branch2": "merged and left and right and merged[-1] == left[-1] == right[-1]"
   }
 }
