@@ -23,5 +23,1306 @@
     "function": "blend_levels",
     "branch1": "left[i] <= right[j]",
     "branch2": "merged and left and right and merged[-1] == left[-1] == right[-1]"
+  },
+  "volume_moving_mean.py": {
+    "function": "volume_moving_mean",
+    "branch1": "window <= 0",
+    "branch2": "not values",
+    "branch3": "len(recent) < warmup_min"
+  },
+  "calibrate_quality.py": {
+    "function": "calibrate_quality",
+    "branch1": "x1 == x0",
+    "branch2": "clamp",
+    "branch3": "y < lo",
+    "branch4": "y > hi"
+  },
+  "kv_snapshot_reader.py": {
+    "function": "kv_snapshot_reader",
+    "branch1": "k == key",
+    "branch2": "k > key"
+  },
+  "quota_allocator_service.py": {
+    "function": "quota_allocator_service",
+    "branch1": "total < 0",
+    "branch2": "minimum < 0",
+    "branch3": "not weights or sum(weights) == 0"
+  },
+  "warm_cache_loader.py": {
+    "function": "warm_cache_loader",
+    "branch1": "item is None",
+    "branch2": "now > expires_at"
+  },
+  "cacheline_refresh.py": {
+    "function": "cacheline_refresh",
+    "branch1": "item is None",
+    "branch2": "now > expires_at"
+  },
+  "file_chunk_stitch.py": {
+    "function": "file_chunk_stitch",
+    "branch1": "not chunks"
+  },
+  "quota_for_memory.py": {
+    "function": "quota_for_memory",
+    "branch1": "total < 0",
+    "branch2": "minimum < 0",
+    "branch3": "not weights",
+    "branch4": "not any(weights)"
+  },
+  "track_build.py": {
+    "function": "track_build",
+    "branch1": "cap is not None and counters[key] > cap"
+  },
+  "redis_like_expiry.py": {
+    "function": "redis_like_expiry",
+    "branch1": "item is None",
+    "branch2": "now > expires_at"
+  },
+  "blend_supplies.py": {
+    "function": "blend_supplies",
+    "branch1": "left[li] < right[ri]",
+    "branch2": "merged and left and right and merged[-1] == left[-1] == right[-1]"
+  },
+  "grades_union.py": {
+    "function": "grades_union",
+    "branch1": "a < b",
+    "branch2": "merged and left and right and merged[-1] == left[-1] == right[-1]"
+  },
+  "fuel_moving_mean.py": {
+    "function": "fuel_moving_mean",
+    "branch1": "window <= 0",
+    "branch2": "not values",
+    "branch3": "len(recent) < warmup_min"
+  },
+  "realign_cache.py": {
+    "function": "realign_cache",
+    "branch1": "len(current) != len(target)",
+    "branch2": "not current"
+  },
+  "quote_memo.py": {
+    "function": "quote_memo",
+    "branch1": "item is None",
+    "branch2": "now > ttl"
+  },
+  "offer_expiry.py": {
+    "function": "offer_expiry",
+    "branch1": "record is None",
+    "branch2": "now > deadline"
+  },
+  "request_token_bucket.py": {
+    "function": "request_token_bucket",
+    "branch1": "rate <= 0 or capacity <= 0",
+    "branch2": "available <= 0"
+  },
+  "cost_trendline.py": {
+    "function": "cost_trendline",
+    "branch1": "x0 == x1",
+    "branch2": "clamp",
+    "branch3": "y < lo"
+  },
+  "cached_route.py": {
+    "function": "cached_route",
+    "branch1": "key not in entries",
+    "branch2": "now > expires_at"
+  },
+  "catalog_cache.py": {
+    "function": "catalog_cache",
+    "branch1": "key not in entries",
+    "branch2": "now > expires_at"
+  },
+  "time_range_filter.py": {
+    "function": "time_range_filter",
+    "branch1": "start >= end"
+  },
+  "tip_share.py": {
+    "function": "tip_share",
+    "branch1": "len(ratios) == 0",
+    "branch2": "sum(ratios) <= 0",
+    "branch3": "amount < 0"
+  },
+  "allocate_budget_cut.py": {
+    "function": "allocate_budget_cut",
+    "branch1": "not ratios",
+    "branch2": "amount < 0",
+    "branch3": "total_ratio <= 0"
+  },
+  "task_tally.py": {
+    "function": "task_tally",
+    "branch1": "max_value is not None",
+    "branch2": "new_value > max_value"
+  },
+  "plan_points_share.py": {
+    "function": "plan_points_share",
+    "branch1": "total < 0",
+    "branch2": "minimum < 0",
+    "branch3": "not weights or sum(weights) == 0"
+  },
+  "config_expiry.py": {
+    "function": "config_expiry",
+    "branch1": "key not in entries",
+    "branch2": "now > expires_at"
+  },
+  "retry_backoff_window.py": {
+    "function": "retry_backoff_window",
+    "branch1": "attempts < 0",
+    "branch2": "delay > max_delay"
+  },
+  "estimate_reliability.py": {
+    "function": "estimate_reliability",
+    "branch1": "x0 == x1",
+    "branch2": "clamp",
+    "branch3": "y < lo"
+  },
+  "draft_cache.py": {
+    "function": "draft_cache",
+    "branch1": "key not in entries",
+    "branch2": "now > expires_at"
+  },
+  "smooth_cpu.py": {
+    "function": "smooth_cpu",
+    "branch1": "window <= 0",
+    "branch2": "not values",
+    "branch3": "len(tail) < warmup_min"
+  },
+  "downtime_booking.py": {
+    "function": "downtime_booking",
+    "branch1": "candidate[0] >= candidate[1]",
+    "branch2": "overlaps(slot, candidate)"
+  },
+  "api_rate_guard.py": {
+    "function": "api_rate_guard",
+    "branch1": "len(recent) > limit"
+  },
+  "optimizer_step_guard.py": {
+    "function": "optimizer_step_guard",
+    "branch1": "loss_value < 0",
+    "branch2": "loss_value == loss_value and loss_value > max_loss"
+  },
+  "metric_rolling_avg.py": {
+    "function": "metric_rolling_avg",
+    "branch1": "window <= 0",
+    "branch2": "not values",
+    "branch3": "len(tail) < min_samples"
+  },
+  "bump_job.py": {
+    "function": "bump_job",
+    "branch1": "cap is not None and counters[key] > cap"
+  },
+  "token_cache.py": {
+    "function": "token_cache",
+    "branch1": "item is None",
+    "branch2": "now > ttl"
+  },
+  "plan_desk_slot.py": {
+    "function": "plan_desk_slot",
+    "branch1": "start >= end",
+    "branch2": "not (end <= s or start >= e)"
+  },
+  "notification_gate.py": {
+    "function": "notification_gate",
+    "branch1": "len(recent) > limit"
+  },
+  "windowed_error_rate.py": {
+    "function": "windowed_error_rate",
+    "branch1": "not recent"
+  },
+  "scores_apportion.py": {
+    "function": "scores_apportion",
+    "branch1": "total < 0",
+    "branch2": "minimum < 0",
+    "branch3": "not weights or sum(weights) == 0"
+  },
+  "growth_trendline.py": {
+    "function": "growth_trendline",
+    "branch1": "x1 == x0",
+    "branch2": "clamp",
+    "branch3": "y < lo",
+    "branch4": "y > hi"
+  },
+  "plan_conference_slot.py": {
+    "function": "plan_conference_slot",
+    "branch1": "candidate[0] >= candidate[1]",
+    "branch2": "overlaps(slot, candidate)"
+  },
+  "download_rate.py": {
+    "function": "download_rate",
+    "branch1": "len(active) > limit"
+  },
+  "timestamps_stream.py": {
+    "function": "timestamps_stream",
+    "branch1": "left[i] <= right[j]",
+    "branch2": "merged and left and right and merged[-1] == left[-1] == right[-1]"
+  },
+  "smooth_pressure.py": {
+    "function": "smooth_pressure",
+    "branch1": "window <= 0",
+    "branch2": "not values",
+    "branch3": "len(recent) < warmup_min"
+  },
+  "confidence_trendline.py": {
+    "function": "confidence_trendline",
+    "branch1": "x0 == x1",
+    "branch2": "clamp",
+    "branch3": "y < lo"
+  },
+  "bump_refund.py": {
+    "function": "bump_refund",
+    "branch1": "max_value is not None",
+    "branch2": "new_value > max_value"
+  },
+  "schedule_training.py": {
+    "function": "schedule_training",
+    "branch1": "start >= end",
+    "branch2": "not (end <= s or start >= e)"
+  },
+  "plan_appointment_slot.py": {
+    "function": "plan_appointment_slot",
+    "branch1": "a >= b",
+    "branch2": "any(not (b <= s or a >= e) for s, e in timeline)"
+  },
+  "views_moving_mean.py": {
+    "function": "views_moving_mean",
+    "branch1": "window <= 0",
+    "branch2": "not values",
+    "branch3": "len(recent) < warmup_min"
+  },
+  "smooth_throughput.py": {
+    "function": "smooth_throughput",
+    "branch1": "window <= 0",
+    "branch2": "not series",
+    "branch3": "len(tail) < warmup_min"
+  },
+  "limit_query.py": {
+    "function": "limit_query",
+    "branch1": "len(active) > limit"
+  },
+  "cached_manifest.py": {
+    "function": "cached_manifest",
+    "branch1": "key not in entries",
+    "branch2": "now > expires_at"
+  },
+  "schedule_pickup.py": {
+    "function": "schedule_pickup",
+    "branch1": "a >= b",
+    "branch2": "any(not (b <= s or a >= e) for s, e in timeline)"
+  },
+  "track_deployment.py": {
+    "function": "track_deployment",
+    "branch1": "max_value is not None",
+    "branch2": "new_value > max_value"
+  },
+  "adjust_portfolio.py": {
+    "function": "adjust_portfolio",
+    "branch1": "len(current) != len(target)",
+    "branch2": "not current"
+  },
+  "revenue_share.py": {
+    "function": "revenue_share",
+    "branch1": "not ratios",
+    "branch2": "amount < 0",
+    "branch3": "total_ratio <= 0"
+  },
+  "feature_cache.py": {
+    "function": "feature_cache",
+    "branch1": "item is None",
+    "branch2": "now > ttl"
+  },
+  "shares_apportion.py": {
+    "function": "shares_apportion",
+    "branch1": "total < 0",
+    "branch2": "minimum < 0",
+    "branch3": "not weights",
+    "branch4": "not any(weights)"
+  },
+  "bandwidth_apportion.py": {
+    "function": "bandwidth_apportion",
+    "branch1": "total < 0",
+    "branch2": "minimum < 0",
+    "branch3": "not weights or sum(weights) == 0"
+  },
+  "smooth_clicks.py": {
+    "function": "smooth_clicks",
+    "branch1": "window <= 0",
+    "branch2": "not values",
+    "branch3": "len(tail) < warmup_min"
+  },
+  "gpu_memory_pool.py": {
+    "function": "gpu_memory_pool",
+    "branch1": "capacity <= 0",
+    "branch2": "request < 0",
+    "branch3": "used + request > capacity"
+  },
+  "calibrate_trend.py": {
+    "function": "calibrate_trend",
+    "branch1": "x1 == x0",
+    "branch2": "clamp"
+  },
+  "checkout_rate.py": {
+    "function": "checkout_rate",
+    "branch1": "len(recent) > limit"
+  },
+  "sensor_window_avg.py": {
+    "function": "sensor_window_avg",
+    "branch1": "window <= 0",
+    "branch2": "not samples",
+    "branch3": "len(recent) < min_samples"
+  },
+  "cached_inventory.py": {
+    "function": "cached_inventory",
+    "branch1": "record is None",
+    "branch2": "now > deadline"
+  },
+  "probability_rebalance.py": {
+    "function": "probability_rebalance",
+    "branch1": "len(current) != len(target)",
+    "branch2": "not current"
+  },
+  "votes_apportion.py": {
+    "function": "votes_apportion",
+    "branch1": "len(weights) == 0",
+    "branch2": "total < 0",
+    "branch3": "minimum < 0",
+    "branch4": "sum(weights) == 0",
+    "branch5": "floor_to_int"
+  },
+  "divide_refund.py": {
+    "function": "divide_refund",
+    "branch1": "not ratios",
+    "branch2": "sum(ratios) <= 0",
+    "branch3": "amount < 0"
+  },
+  "track_release.py": {
+    "function": "track_release",
+    "branch1": "cap is not None",
+    "branch2": "updated > cap"
+  },
+  "normalize.py": {
+    "function": "normalize",
+    "branch1": "len(xs) == 0"
+  },
+  "limit_api.py": {
+    "function": "limit_api",
+    "branch1": "len(recent) > limit"
+  },
+  "config_interpolate.py": {
+    "function": "config_interpolate",
+    "branch1": "x1 == x0",
+    "branch2": "clamp",
+    "branch3": "y < lo",
+    "branch4": "y > hi"
+  },
+  "allocate_prize_cut.py": {
+    "function": "allocate_prize_cut",
+    "branch1": "not ratios",
+    "branch2": "amount < 0",
+    "branch3": "total_ratio <= 0"
+  },
+  "combine_offsets.py": {
+    "function": "combine_offsets",
+    "branch1": "left[li] < right[ri]",
+    "branch2": "merged and left and right and merged[-1] == left[-1] == right[-1]"
+  },
+  "profile_expiry.py": {
+    "function": "profile_expiry",
+    "branch1": "key not in entries",
+    "branch2": "now > expires_at"
+  },
+  "price_cache.py": {
+    "function": "price_cache",
+    "branch1": "item is None",
+    "branch2": "now > ttl"
+  },
+  "probability_curve.py": {
+    "function": "probability_curve",
+    "branch1": "x1 == x0",
+    "branch2": "clamp",
+    "branch3": "y < lo",
+    "branch4": "y > hi"
+  },
+  "percentile_estimator.py": {
+    "function": "percentile_estimator",
+    "branch1": "not values",
+    "branch2": "not (0 <= q <= 1)"
+  },
+  "packets_window_avg.py": {
+    "function": "packets_window_avg",
+    "branch1": "window <= 0",
+    "branch2": "not values",
+    "branch3": "len(recent) < warmup_min"
+  },
+  "adjust_allocation.py": {
+    "function": "adjust_allocation",
+    "branch1": "len(current) != len(target)",
+    "branch2": "not current"
+  },
+  "rating_curve.py": {
+    "function": "rating_curve",
+    "branch1": "x1 == x0",
+    "branch2": "clamp"
+  },
+  "prices_stream.py": {
+    "function": "prices_stream",
+    "branch1": "a < b",
+    "branch2": "merged and left and right and merged[-1] == left[-1] == right[-1]"
+  },
+  "maintenance_booking.py": {
+    "function": "maintenance_booking",
+    "branch1": "a >= b",
+    "branch2": "any(not (b <= s or a >= e) for s, e in timeline)"
+  },
+  "limit_message.py": {
+    "function": "limit_message",
+    "branch1": "len(recent) > limit"
+  },
+  "shift_traffic.py": {
+    "function": "shift_traffic",
+    "branch1": "len(current) != len(target)",
+    "branch2": "not current"
+  },
+  "cluster_rebalance_weights.py": {
+    "function": "cluster_rebalance_weights",
+    "branch1": "len(current) != len(target)",
+    "branch2": "not current"
+  },
+  "shift_risk.py": {
+    "function": "shift_risk",
+    "branch1": "len(current) != len(target)",
+    "branch2": "not current"
+  },
+  "guard_search.py": {
+    "function": "guard_search",
+    "branch1": "len(active) > limit"
+  },
+  "bump_conversion.py": {
+    "function": "bump_conversion",
+    "branch1": "cap is not None",
+    "branch2": "updated > cap"
+  },
+  "job_queue_priority.py": {
+    "function": "job_queue_priority",
+    "branch1": "max_jobs < 0",
+    "branch2": "len(jobs) > max_jobs"
+  },
+  "bandwidth_budgeter.py": {
+    "function": "bandwidth_budgeter",
+    "branch1": "total < 0",
+    "branch2": "minimum < 0",
+    "branch3": "not weights",
+    "branch4": "not any(weights)"
+  },
+  "demand_curve.py": {
+    "function": "demand_curve",
+    "branch1": "x1 == x0",
+    "branch2": "clamp"
+  },
+  "plan_tickets_share.py": {
+    "function": "plan_tickets_share",
+    "branch1": "len(weights) == 0",
+    "branch2": "total < 0",
+    "branch3": "minimum < 0",
+    "branch4": "sum(weights) == 0",
+    "branch5": "floor_to_int"
+  },
+  "load_mix.py": {
+    "function": "load_mix",
+    "branch1": "len(current) != len(target)",
+    "branch2": "not current"
+  },
+  "budget_budgeter.py": {
+    "function": "budget_budgeter",
+    "branch1": "total < 0",
+    "branch2": "minimum < 0",
+    "branch3": "not weights",
+    "branch4": "not any(weights)"
+  },
+  "slots_apportion.py": {
+    "function": "slots_apportion",
+    "branch1": "total < 0",
+    "branch2": "minimum < 0",
+    "branch3": "not weights",
+    "branch4": "not any(weights)"
+  },
+  "guard_email.py": {
+    "function": "guard_email",
+    "branch1": "len(recent) > limit"
+  },
+  "prediction_cache.py": {
+    "function": "prediction_cache",
+    "branch1": "record is None",
+    "branch2": "now > deadline"
+  },
+  "reserve_lane.py": {
+    "function": "reserve_lane",
+    "branch1": "candidate[0] >= candidate[1]",
+    "branch2": "overlaps(slot, candidate)"
+  },
+  "combine_depths.py": {
+    "function": "combine_depths",
+    "branch1": "a < b",
+    "branch2": "merged and left and right and merged[-1] == left[-1] == right[-1]"
+  },
+  "storage_quota_split.py": {
+    "function": "storage_quota_split",
+    "branch1": "total < 0",
+    "branch2": "not ratios or sum(ratios) <= 0"
+  },
+  "queue_window_avg.py": {
+    "function": "queue_window_avg",
+    "branch1": "window <= 0",
+    "branch2": "not values",
+    "branch3": "len(tail) < warmup_min"
+  },
+  "search_result_pager.py": {
+    "function": "search_result_pager",
+    "branch1": "page < 1",
+    "branch2": "page_size <= 0"
+  },
+  "priority_mix.py": {
+    "function": "priority_mix",
+    "branch1": "len(current) != len(target)",
+    "branch2": "not current"
+  },
+  "combine_requests.py": {
+    "function": "combine_requests",
+    "branch1": "a < b",
+    "branch2": "merged and left and right and merged[-1] == left[-1] == right[-1]"
+  },
+  "invoice_meter.py": {
+    "function": "invoice_meter",
+    "branch1": "max_value is not None",
+    "branch2": "new_value > max_value"
+  },
+  "shift_trust.py": {
+    "function": "shift_trust",
+    "branch1": "len(current) != len(target)",
+    "branch2": "not current"
+  },
+  "temperature_window_avg.py": {
+    "function": "temperature_window_avg",
+    "branch1": "window <= 0",
+    "branch2": "not values",
+    "branch3": "len(tail) < warmup_min"
+  },
+  "throughput_trendline.py": {
+    "function": "throughput_trendline",
+    "branch1": "x1 == x0",
+    "branch2": "clamp"
+  },
+  "rolling_requests.py": {
+    "function": "rolling_requests",
+    "branch1": "window <= 0",
+    "branch2": "not series",
+    "branch3": "len(tail) < warmup_min"
+  },
+  "estimate_temperature.py": {
+    "function": "estimate_temperature",
+    "branch1": "x1 == x0",
+    "branch2": "clamp"
+  },
+  "limit_sensor.py": {
+    "function": "limit_sensor",
+    "branch1": "len(active) > limit"
+  },
+  "tasks_allocator.py": {
+    "function": "tasks_allocator",
+    "branch1": "total < 0",
+    "branch2": "minimum < 0",
+    "branch3": "not weights",
+    "branch4": "not any(weights)"
+  },
+  "embedding_lookup_cache.py": {
+    "function": "embedding_lookup_cache",
+    "branch1": "item is None",
+    "branch2": "now > cached_at + ttl"
+  },
+  "cpu_allocator.py": {
+    "function": "cpu_allocator",
+    "branch1": "total < 0",
+    "branch2": "minimum < 0",
+    "branch3": "not weights",
+    "branch4": "not any(weights)"
+  },
+  "donation_share.py": {
+    "function": "donation_share",
+    "branch1": "not ratios",
+    "branch2": "sum(ratios) <= 0",
+    "branch3": "amount < 0"
+  },
+  "cache_entry_ttl.py": {
+    "function": "cache_entry_ttl",
+    "branch1": "key not in entries",
+    "branch2": "now > expires"
+  },
+  "bump_click.py": {
+    "function": "bump_click",
+    "branch1": "cap is not None and counters[key] > cap"
+  },
+  "memory_moving_mean.py": {
+    "function": "memory_moving_mean",
+    "branch1": "window <= 0",
+    "branch2": "not series",
+    "branch3": "len(tail) < warmup_min"
+  },
+  "shift_weight.py": {
+    "function": "shift_weight",
+    "branch1": "len(current) != len(target)",
+    "branch2": "not current"
+  },
+  "feature_flag_rollout.py": {
+    "function": "feature_flag_rollout",
+    "branch1": "not (0 <= percentage <= 1)"
+  },
+  "rolling_usage.py": {
+    "function": "rolling_usage",
+    "branch1": "window <= 0",
+    "branch2": "not series",
+    "branch3": "len(tail) < warmup_min"
+  },
+  "inspection_booking.py": {
+    "function": "inspection_booking",
+    "branch1": "candidate[0] >= candidate[1]",
+    "branch2": "overlaps(slot, candidate)"
+  },
+  "rolling_errors.py": {
+    "function": "rolling_errors",
+    "branch1": "window <= 0",
+    "branch2": "not values",
+    "branch3": "len(recent) < warmup_min"
+  },
+  "quota_for_inventory.py": {
+    "function": "quota_for_inventory",
+    "branch1": "total < 0",
+    "branch2": "minimum < 0",
+    "branch3": "not weights",
+    "branch4": "not any(weights)"
+  },
+  "schedule_demo.py": {
+    "function": "schedule_demo",
+    "branch1": "start >= end",
+    "branch2": "not (end <= s or start >= e)"
+  },
+  "adjust_supply.py": {
+    "function": "adjust_supply",
+    "branch1": "len(current) != len(target)",
+    "branch2": "not current"
+  },
+  "schedule_call.py": {
+    "function": "schedule_call",
+    "branch1": "candidate[0] >= candidate[1]",
+    "branch2": "overlaps(slot, candidate)"
+  },
+  "plan_upgrade_slot.py": {
+    "function": "plan_upgrade_slot",
+    "branch1": "a >= b",
+    "branch2": "any(not (b <= s or a >= e) for s, e in timeline)"
+  },
+  "view_tally.py": {
+    "function": "view_tally",
+    "branch1": "max_value is not None",
+    "branch2": "new_value > max_value"
+  },
+  "storage_mix.py": {
+    "function": "storage_mix",
+    "branch1": "len(current) != len(target)",
+    "branch2": "not current"
+  },
+  "email_send_quota.py": {
+    "function": "email_send_quota",
+    "branch1": "len(recent) > limit"
+  },
+  "heartbeat_throttle.py": {
+    "function": "heartbeat_throttle",
+    "branch1": "len(active) > limit"
+  },
+  "shift_feature.py": {
+    "function": "shift_feature",
+    "branch1": "len(current) != len(target)",
+    "branch2": "not current"
+  },
+  "allocate_pool_cut.py": {
+    "function": "allocate_pool_cut",
+    "branch1": "not ratios",
+    "branch2": "amount < 0",
+    "branch3": "total_ratio <= 0"
+  },
+  "lru_evictor.py": {
+    "function": "lru_evictor",
+    "branch1": "capacity < 0"
+  },
+  "login_throttle.py": {
+    "function": "login_throttle",
+    "branch1": "len(recent) > limit"
+  },
+  "event_gate.py": {
+    "function": "event_gate",
+    "branch1": "len(recent) > limit"
+  },
+  "cacheline_expiry.py": {
+    "function": "cacheline_expiry",
+    "branch1": "item is None",
+    "branch2": "now > ttl"
+  },
+  "latencies_merge.py": {
+    "function": "latencies_merge",
+    "branch1": "a < b",
+    "branch2": "merged and left and right and merged[-1] == left[-1] == right[-1]"
+  },
+  "backlog_rolling_avg.py": {
+    "function": "backlog_rolling_avg",
+    "branch1": "window <= 0",
+    "branch2": "not values",
+    "branch3": "len(recent) < warmup_min"
+  },
+  "schedule_car.py": {
+    "function": "schedule_car",
+    "branch1": "a >= b",
+    "branch2": "any(not (b <= s or a >= e) for s, e in timeline)"
+  },
+  "limit_job.py": {
+    "function": "limit_job",
+    "branch1": "len(recent) > limit"
+  },
+  "subsidy_payout.py": {
+    "function": "subsidy_payout",
+    "branch1": "not ratios",
+    "branch2": "amount < 0",
+    "branch3": "total_ratio <= 0"
+  },
+  "upload_gate.py": {
+    "function": "upload_gate",
+    "branch1": "len(active) > limit"
+  },
+  "payment_split_rebate.py": {
+    "function": "payment_split_rebate",
+    "branch1": "total < 0",
+    "branch2": "not ratios or sum(ratios) <= 0"
+  },
+  "schedule_window.py": {
+    "function": "schedule_window",
+    "branch1": "start >= end",
+    "branch2": "not (end <= s or start >= e)"
+  },
+  "error_meter.py": {
+    "function": "error_meter",
+    "branch1": "cap is not None and counters[key] > cap"
+  },
+  "model_confidence_clamp.py": {
+    "function": "model_confidence_clamp",
+    "branch1": "x0 == x1",
+    "branch2": "clamp"
+  },
+  "speed_trendline.py": {
+    "function": "speed_trendline",
+    "branch1": "x0 == x1",
+    "branch2": "clamp",
+    "branch3": "y < lo"
+  },
+  "realign_power.py": {
+    "function": "realign_power",
+    "branch1": "len(current) != len(target)",
+    "branch2": "not current"
+  },
+  "attention_mask_merge.py": {
+    "function": "attention_mask_merge",
+    "branch1": "len(mask_a) != len(mask_b)"
+  },
+  "task_throttle.py": {
+    "function": "task_throttle",
+    "branch1": "len(recent) > limit"
+  },
+  "load_rolling_avg.py": {
+    "function": "load_rolling_avg",
+    "branch1": "window <= 0",
+    "branch2": "not series",
+    "branch3": "len(tail) < warmup_min"
+  },
+  "budget_mix.py": {
+    "function": "budget_mix",
+    "branch1": "len(current) != len(target)",
+    "branch2": "not current"
+  },
+  "plan_memo.py": {
+    "function": "plan_memo",
+    "branch1": "key not in entries",
+    "branch2": "now > expires_at"
+  },
+  "weights_union.py": {
+    "function": "weights_union",
+    "branch1": "a < b",
+    "branch2": "merged and left and right and merged[-1] == left[-1] == right[-1]"
+  },
+  "estimate_supply.py": {
+    "function": "estimate_supply",
+    "branch1": "x1 == x0",
+    "branch2": "clamp",
+    "branch3": "y < lo",
+    "branch4": "y > hi"
+  },
+  "blend_orders.py": {
+    "function": "blend_orders",
+    "branch1": "a < b",
+    "branch2": "merged and left and right and merged[-1] == left[-1] == right[-1]"
+  },
+  "machine_booking.py": {
+    "function": "machine_booking",
+    "branch1": "a >= b",
+    "branch2": "any(not (b <= s or a >= e) for s, e in timeline)"
+  },
+  "quota_for_storage.py": {
+    "function": "quota_for_storage",
+    "branch1": "total < 0",
+    "branch2": "minimum < 0",
+    "branch3": "not weights",
+    "branch4": "not any(weights)"
+  },
+  "cached_metric.py": {
+    "function": "cached_metric",
+    "branch1": "item is None",
+    "branch2": "now > ttl"
+  },
+  "quota_for_fuel.py": {
+    "function": "quota_for_fuel",
+    "branch1": "total < 0",
+    "branch2": "minimum < 0",
+    "branch3": "not weights",
+    "branch4": "not any(weights)"
+  },
+  "track_api.py": {
+    "function": "track_api",
+    "branch1": "max_value is not None",
+    "branch2": "new_value > max_value"
+  },
+  "demand_forecast_curve.py": {
+    "function": "demand_forecast_curve",
+    "branch1": "x0 == x1",
+    "branch2": "clamp",
+    "branch3": "y < low"
+  },
+  "pages_union.py": {
+    "function": "pages_union",
+    "branch1": "a < b",
+    "branch2": "merged and left and right and merged[-1] == left[-1] == right[-1]"
+  },
+  "rebate_splitter.py": {
+    "function": "rebate_splitter",
+    "branch1": "len(ratios) == 0",
+    "branch2": "sum(ratios) <= 0",
+    "branch3": "amount < 0"
+  },
+  "room_reservation.py": {
+    "function": "room_reservation",
+    "branch1": "start >= end",
+    "branch2": "not (end <= s or start >= e)"
+  },
+  "signals_stream.py": {
+    "function": "signals_stream",
+    "branch1": "left[i] <= right[j]",
+    "branch2": "merged and left and right and merged[-1] == left[-1] == right[-1]"
+  },
+  "award_payout.py": {
+    "function": "award_payout",
+    "branch1": "not ratios",
+    "branch2": "amount < 0",
+    "branch3": "total_ratio <= 0"
+  },
+  "adjust_queue.py": {
+    "function": "adjust_queue",
+    "branch1": "len(current) != len(target)",
+    "branch2": "not current"
+  },
+  "reservation_booking.py": {
+    "function": "reservation_booking",
+    "branch1": "start >= end",
+    "branch2": "not (end <= s or start >= e)"
+  },
+  "realign_replica.py": {
+    "function": "realign_replica",
+    "branch1": "len(current) != len(target)",
+    "branch2": "not current"
+  },
+  "read_throttle.py": {
+    "function": "read_throttle",
+    "branch1": "len(active) > limit"
+  },
+  "gradient_clip_budget.py": {
+    "function": "gradient_clip_budget",
+    "branch1": "max_norm <= 0",
+    "branch2": "not gradients",
+    "branch3": "norm > max_norm"
+  },
+  "warning_meter.py": {
+    "function": "warning_meter",
+    "branch1": "cap is not None and counters[key] > cap"
+  },
+  "batchnorm_running_mean.py": {
+    "function": "batchnorm_running_mean",
+    "branch1": "not (0 <= momentum <= 1)"
+  },
+  "login_tally.py": {
+    "function": "login_tally",
+    "branch1": "cap is not None",
+    "branch2": "updated > cap"
+  },
+  "retry_tally.py": {
+    "function": "retry_tally",
+    "branch1": "cap is not None and counters[key] > cap"
+  },
+  "traffic_shaping_gate.py": {
+    "function": "traffic_shaping_gate",
+    "branch1": "len(active) > limit"
+  },
+  "reservation_overlap_check.py": {
+    "function": "reservation_overlap_check",
+    "branch1": "c_start >= c_end",
+    "branch2": "not (c_end <= start or c_start >= end)"
+  },
+  "tiers_stream.py": {
+    "function": "tiers_stream",
+    "branch1": "left[li] < right[ri]",
+    "branch2": "merged and left and right and merged[-1] == left[-1] == right[-1]"
+  },
+  "reserve_band.py": {
+    "function": "reserve_band",
+    "branch1": "candidate[0] >= candidate[1]",
+    "branch2": "overlaps(slot, candidate)"
+  },
+  "invoice_merge_stream.py": {
+    "function": "invoice_merge_stream",
+    "branch1": "left[i] < right[j]",
+    "branch2": "merged and left and right and merged[-1] == left[-1] == right[-1]"
+  },
+  "calibrate_loss.py": {
+    "function": "calibrate_loss",
+    "branch1": "x1 == x0",
+    "branch2": "clamp",
+    "branch3": "y < lo",
+    "branch4": "y > hi"
+  },
+  "ledger_balance_rollup.py": {
+    "function": "ledger_balance_rollup",
+    "branch1": "amount < 0",
+    "branch2": "kind == \"credit\""
+  },
+  "payment_payout.py": {
+    "function": "payment_payout",
+    "branch1": "not ratios",
+    "branch2": "amount < 0",
+    "branch3": "total_ratio <= 0"
+  },
+  "combine_scores.py": {
+    "function": "combine_scores",
+    "branch1": "left[i] <= right[j]",
+    "branch2": "merged and left and right and merged[-1] == left[-1] == right[-1]"
+  },
+  "fee_splitter.py": {
+    "function": "fee_splitter",
+    "branch1": "not ratios",
+    "branch2": "sum(ratios) <= 0",
+    "branch3": "amount < 0"
+  },
+  "message_counter.py": {
+    "function": "message_counter",
+    "branch1": "cap is not None and counters[key] > cap"
+  },
+  "plan_jobs_share.py": {
+    "function": "plan_jobs_share",
+    "branch1": "len(weights) == 0",
+    "branch2": "total < 0",
+    "branch3": "minimum < 0",
+    "branch4": "sum(weights) == 0",
+    "branch5": "floor_to_int"
+  },
+  "replica_sync_offsets.py": {
+    "function": "replica_sync_offsets",
+    "branch1": "primary[i] < replica[j]",
+    "branch2": "missing and replica and missing[-1] == replica[-1]"
+  },
+  "calendar_slot_insert.py": {
+    "function": "calendar_slot_insert",
+    "branch1": "start >= end",
+    "branch2": "not (end <= s or start >= e)"
+  },
+  "batch_rate.py": {
+    "function": "batch_rate",
+    "branch1": "len(recent) > limit"
+  },
+  "calibrate_pressure.py": {
+    "function": "calibrate_pressure",
+    "branch1": "x1 == x0",
+    "branch2": "clamp"
+  },
+  "track_logout.py": {
+    "function": "track_logout",
+    "branch1": "cap is not None",
+    "branch2": "updated > cap"
+  },
+  "schedule_shift_allocator.py": {
+    "function": "schedule_shift_allocator",
+    "branch1": "total < 0",
+    "branch2": "minimum < 0",
+    "branch3": "not weights or sum(weights) == 0"
+  },
+  "rent_splitter.py": {
+    "function": "rent_splitter",
+    "branch1": "len(ratios) == 0",
+    "branch2": "sum(ratios) <= 0",
+    "branch3": "amount < 0"
+  },
+  "ad_mix.py": {
+    "function": "ad_mix",
+    "branch1": "len(current) != len(target)",
+    "branch2": "not current"
+  },
+  "token_expiry_check.py": {
+    "function": "token_expiry_check",
+    "branch1": "record is None",
+    "branch2": "now > expires_at"
+  },
+  "rolling_retries.py": {
+    "function": "rolling_retries",
+    "branch1": "window <= 0",
+    "branch2": "not values",
+    "branch3": "len(tail) < warmup_min"
+  },
+  "session_memo.py": {
+    "function": "session_memo",
+    "branch1": "record is None",
+    "branch2": "now > deadline"
+  },
+  "versions_stream.py": {
+    "function": "versions_stream",
+    "branch1": "a < b",
+    "branch2": "merged and left and right and merged[-1] == left[-1] == right[-1]"
+  },
+  "bandwidth_rebalance.py": {
+    "function": "bandwidth_rebalance",
+    "branch1": "len(current) != len(target)",
+    "branch2": "not current"
+  },
+  "credits_allocator.py": {
+    "function": "credits_allocator",
+    "branch1": "total < 0",
+    "branch2": "minimum < 0",
+    "branch3": "not weights",
+    "branch4": "not any(weights)"
+  },
+  "log_sampling_decider.py": {
+    "function": "log_sampling_decider",
+    "branch1": "not (0 <= rate <= 1)"
+  },
+  "coverage_interp.py": {
+    "function": "coverage_interp",
+    "branch1": "x1 == x0",
+    "branch2": "clamp",
+    "branch3": "y < lo",
+    "branch4": "y > hi"
+  },
+  "plan_seats_share.py": {
+    "function": "plan_seats_share",
+    "branch1": "len(weights) == 0",
+    "branch2": "total < 0",
+    "branch3": "minimum < 0",
+    "branch4": "sum(weights) == 0",
+    "branch5": "floor_to_int"
+  },
+  "gain_trendline.py": {
+    "function": "gain_trendline",
+    "branch1": "x1 == x0",
+    "branch2": "clamp",
+    "branch3": "y < lo",
+    "branch4": "y > hi"
+  },
+  "billing_gate.py": {
+    "function": "billing_gate",
+    "branch1": "len(active) > limit"
+  },
+  "calibrate_latency.py": {
+    "function": "calibrate_latency",
+    "branch1": "x1 == x0",
+    "branch2": "clamp"
+  },
+  "grant_share.py": {
+    "function": "grant_share",
+    "branch1": "len(ratios) == 0",
+    "branch2": "sum(ratios) <= 0",
+    "branch3": "amount < 0"
+  },
+  "latency_rolling_avg.py": {
+    "function": "latency_rolling_avg",
+    "branch1": "window <= 0",
+    "branch2": "not series",
+    "branch3": "len(tail) < warmup_min"
+  },
+  "ttl_snapshot_store.py": {
+    "function": "ttl_snapshot_store",
+    "branch1": "key not in entries",
+    "branch2": "now > expires_at"
+  },
+  "reserve_slot.py": {
+    "function": "reserve_slot",
+    "branch1": "candidate[0] >= candidate[1]",
+    "branch2": "overlaps(slot, candidate)"
+  },
+  "lr_warmup_schedule.py": {
+    "function": "lr_warmup_schedule",
+    "branch1": "warmup_steps <= 0",
+    "branch2": "step < 0",
+    "branch3": "step >= warmup_steps"
+  },
+  "allocate_bounty_cut.py": {
+    "function": "allocate_bounty_cut",
+    "branch1": "len(ratios) == 0",
+    "branch2": "sum(ratios) <= 0",
+    "branch3": "amount < 0"
+  },
+  "limit_ping.py": {
+    "function": "limit_ping",
+    "branch1": "len(recent) > limit"
+  },
+  "cached_preference.py": {
+    "function": "cached_preference",
+    "branch1": "item is None",
+    "branch2": "now > ttl"
+  },
+  "royalty_payout.py": {
+    "function": "royalty_payout",
+    "branch1": "not ratios",
+    "branch2": "amount < 0",
+    "branch3": "total_ratio <= 0"
+  },
+  "ids_merge.py": {
+    "function": "ids_merge",
+    "branch1": "left[i] <= right[j]",
+    "branch2": "merged and left and right and merged[-1] == left[-1] == right[-1]"
+  },
+  "water_allocator.py": {
+    "function": "water_allocator",
+    "branch1": "len(weights) == 0",
+    "branch2": "total < 0",
+    "branch3": "minimum < 0",
+    "branch4": "sum(weights) == 0",
+    "branch5": "floor_to_int"
+  },
+  "summary_memo.py": {
+    "function": "summary_memo",
+    "branch1": "key not in entries",
+    "branch2": "now > expires_at"
+  },
+  "tensor_slice_pad.py": {
+    "function": "tensor_slice_pad",
+    "branch1": "start < 0 or end < start",
+    "branch2": "missing >= 0"
+  },
+  "quota_for_capacity.py": {
+    "function": "quota_for_capacity",
+    "branch1": "len(weights) == 0",
+    "branch2": "total < 0",
+    "branch3": "minimum < 0",
+    "branch4": "sum(weights) == 0",
+    "branch5": "floor_to_int"
+  },
+  "batch_tally.py": {
+    "function": "batch_tally",
+    "branch1": "max_value is not None",
+    "branch2": "new_value > max_value"
+  },
+  "bill_payout.py": {
+    "function": "bill_payout",
+    "branch1": "not ratios",
+    "branch2": "amount < 0",
+    "branch3": "total_ratio <= 0"
+  },
+  "track_delivery.py": {
+    "function": "track_delivery",
+    "branch1": "cap is not None",
+    "branch2": "updated > cap"
+  },
+  "combine_responses.py": {
+    "function": "combine_responses",
+    "branch1": "left[i] <= right[j]",
+    "branch2": "merged and left and right and merged[-1] == left[-1] == right[-1]"
+  },
+  "sales_window_avg.py": {
+    "function": "sales_window_avg",
+    "branch1": "window <= 0",
+    "branch2": "not values",
+    "branch3": "len(recent) < warmup_min"
+  },
+  "divide_coupon.py": {
+    "function": "divide_coupon",
+    "branch1": "not ratios",
+    "branch2": "sum(ratios) <= 0",
+    "branch3": "amount < 0"
+  },
+  "calibrate_score.py": {
+    "function": "calibrate_score",
+    "branch1": "x1 == x0",
+    "branch2": "clamp",
+    "branch3": "y < lo",
+    "branch4": "y > hi"
+  },
+  "demands_union.py": {
+    "function": "demands_union",
+    "branch1": "left[li] < right[ri]",
+    "branch2": "merged and left and right and merged[-1] == left[-1] == right[-1]"
+  },
+  "allocate_bonus_cut.py": {
+    "function": "allocate_bonus_cut",
+    "branch1": "not ratios",
+    "branch2": "amount < 0",
+    "branch3": "total_ratio <= 0"
+  },
+  "coupons_apportion.py": {
+    "function": "coupons_apportion",
+    "branch1": "len(weights) == 0",
+    "branch2": "total < 0",
+    "branch3": "minimum < 0",
+    "branch4": "sum(weights) == 0",
+    "branch5": "floor_to_int"
+  },
+  "credit_share.py": {
+    "function": "credit_share",
+    "branch1": "not ratios",
+    "branch2": "amount < 0",
+    "branch3": "total_ratio <= 0"
+  },
+  "histogram_bucket_merge.py": {
+    "function": "histogram_bucket_merge",
+    "branch1": "left[i] < right[j]",
+    "branch2": "merged and left and right and merged[-1] == left[-1] == right[-1]"
+  },
+  "bump_purchase.py": {
+    "function": "bump_purchase",
+    "branch1": "cap is not None",
+    "branch2": "updated > cap"
+  },
+  "blend_margins.py": {
+    "function": "blend_margins",
+    "branch1": "a < b",
+    "branch2": "merged and left and right and merged[-1] == left[-1] == right[-1]"
+  },
+  "guard_write.py": {
+    "function": "guard_write",
+    "branch1": "len(recent) > limit"
+  },
+  "shard_assignment.py": {
+    "function": "shard_assignment",
+    "branch1": "shards <= 0"
+  },
+  "plan_delivery_slot.py": {
+    "function": "plan_delivery_slot",
+    "branch1": "a >= b",
+    "branch2": "any(not (b <= s or a >= e) for s, e in timeline)"
+  },
+  "energy_window_avg.py": {
+    "function": "energy_window_avg",
+    "branch1": "window <= 0",
+    "branch2": "not values",
+    "branch3": "len(recent) < warmup_min"
+  },
+  "shift_demand.py": {
+    "function": "shift_demand",
+    "branch1": "len(current) != len(target)",
+    "branch2": "not current"
   }
 }
